@@ -1,39 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
     const charts = {};
+    let chartData = {};
 
     function createChart(ctx, type, data, options) {
         return new Chart(ctx, { type, data, options });
     }
 
     function getChartDataForYear(chartType, year) {
-        const data = {
-            '2021': {
-                dailySales: [80, 100, 120, 140, 160],
-                statistics: [30, 50, 70, 90, 110],
-                totalRevenue: [250, 300, 350],
-                avgSales: [80, 100, 120, 140, 160, 180, 200],
-                avgDiscount: [4, 5, 2, 7, 8, 9, 10],
-                totalSales: [200, 300, 400]
-            },
-            '2022': {
-                dailySales: [100, 200, 150, 300, 250],
-                statistics: [50, 75, 60, 80, 90],
-                totalRevenue: [130, 320, 380],
-                avgSales: [100, 80, 120, 130, 140, 150, 160],
-                avgDiscount: [2, 3, 4, 5, 4, 7, 8],
-                totalSales: [250, 150, 450]
-            },
-            '2023': {
-                dailySales: [90, 120, 180, 200, 220],
-                statistics: [40, 60, 80, 100, 120],
-                totalRevenue: [270, 320, 390],
-                avgSales: [110, 120, 130, 100, 150, 160, 170],
-                avgDiscount: [3, 4, 5, 6, 7, 8, 3],
-                totalSales: [300, 400, 500]
-            }
-        };
-
-        return data[year][chartType];
+        return chartData[year][chartType];
     }
 
     function updateChartData(chartId, year) {
@@ -88,7 +62,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
 
-
         charts.statistics = createChart(statisticsCtx, 'bar', {
             labels: ['Statistic 1', 'Statistic 2', 'Statistic 3', 'Statistic 4', 'Statistic 5'],
             datasets: [{ label: 'Statistics', data: getChartDataForYear('statistics', '2023'), backgroundColor: 'rgba(255, 99, 132, 0.2)', borderColor: 'rgba(255, 99, 132, 1)', borderWidth: 1 }]
@@ -133,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
 
-   charts.avgSales = createChart(avgSalesCtx, 'bar', {
+        charts.avgSales = createChart(avgSalesCtx, 'bar', {
             labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
             datasets: [{ label: 'Avg Sales', backgroundColor: '#77B0AA', data: getChartDataForYear('avgSales', '2023') }]
         }, {
@@ -209,7 +182,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    initCharts();
+    function fetchDataAndInitCharts() {
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                chartData = data;
+                initCharts();
+            })
+            .catch(error => console.error('Error fetching the data:', error));
+    }
+
+    fetchDataAndInitCharts();
 
     document.querySelectorAll('.year-filter').forEach(filter => {
         filter.addEventListener('change', function() {
