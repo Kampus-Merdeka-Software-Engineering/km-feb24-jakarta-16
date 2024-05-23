@@ -192,6 +192,27 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => console.error('Error fetching the data:', error));
     }
 
+    function validateSearchInput() {
+        const searchBar = document.getElementById('search-bar');
+        const errorMessage = document.createElement('span');
+        errorMessage.classList.add('error-message');
+        searchBar.parentNode.insertBefore(errorMessage, searchBar.nextSibling);
+
+        searchBar.addEventListener('input', function() {
+            const searchTerm = searchBar.value;
+            const regex = /^[a-zA-Z0-9\s]*$/; 
+            if (!regex.test(searchTerm)) {
+                errorMessage.textContent = 'Invalid input. Only letters, numbers, and spaces are allowed.';
+                searchBar.classList.add('invalid');
+            } else {
+                errorMessage.textContent = '';
+                searchBar.classList.remove('invalid');
+            }
+        });
+    }
+
+    validateSearchInput();
+
     fetchDataAndInitCharts();
 
     document.querySelectorAll('.year-filter').forEach(filter => {

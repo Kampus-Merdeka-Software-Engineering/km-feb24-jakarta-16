@@ -315,6 +315,17 @@ th, td {
     display: block;
 }
 
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.invalid {
+    border-color: red;
+}
+
+
 
 footer {
        background-color: #003c43;
