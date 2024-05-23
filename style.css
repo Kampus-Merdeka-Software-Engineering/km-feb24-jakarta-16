@@ -263,11 +263,12 @@ section,
 }
 
 .box-4 {
-    height: 470px;
-    width: 250px;
+    height: 100%;
+    width: 90%;
     padding: 20px;
     background-color: #e3fef7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: auto;
 }
 
 .message-box {
@@ -295,7 +296,7 @@ section,
 
 .box-4-1 {
     height: 100%;
-    width: 650px;
+    width: 90%;
     padding: 20px;
     background-color: #e3fef7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
