@@ -8,6 +8,12 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="icon" type="image/x-icon" href="./Assets/cart.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.7/css/dataTables.dataTables.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="//cdn.datatables.net/2.0.7/js/dataTables.min.js"></script>
     <title>Dashboard Superstore</title>
 </head>
 <body>
@@ -201,69 +207,20 @@
                     </table>
                 </div>
                 <div class="box-4-1">
-                    <table class="table-box4-1">
+                    <h1>DataTables</h1>
+                    <table id="example" class="display" style="width:100%">
                         <thead>
                             <tr>
-                                <th>No.</th>
-                                <th>Lorem 1</th>
-                                <th>Lorem 2</th>
-                                <th>Lorem 3</th>
-                                <th>Lorem 4</th>
-                                <th>Lorem 5</th>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Extn.</th>
+                                <th>Start date</th>
+                                <th>Salary</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                                <td>Lorem ipsum dolor sit amet.</td>
-                            </tr>
-                        </tbody>
                     </table>
-                     </div>
+                </div>
             </section>
         </main>
     </div>
@@ -321,5 +278,24 @@
     fetchDataAndInitCharts();
 });
 </script>
+
+<script>
+$(document).ready(function() {
+    $('#example').DataTable({
+        "ajax": {
+            "url": "data2.json",
+            "dataSrc": "data" 
+        },
+        "columns": [
+            { "data": 0 }, // (nama)
+            { "data": 1 }, // (posisi)
+            { "data": 2 }, // (kantor)
+            { "data": 3 }, // (extn.)
+            { "data": 4 }, // (tanggal mulai)
+            { "data": 5 }  // (gaji)
+        ]
+    });
+});
+    </script>
 </body>
 </html>

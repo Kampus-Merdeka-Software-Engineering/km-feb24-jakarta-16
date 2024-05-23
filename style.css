@@ -19,6 +19,7 @@ nav {
     position: fixed; 
     top: 0; 
     width: 100%;
+    z-index: 1000;
 }
 
 nav a {
@@ -99,6 +100,7 @@ aside {
     overflow-y: auto; 
     height: 100vh; 
     transition:all .1s ease-in;
+    z-index: 1000;
 }
 
 #sidebar a{
@@ -151,6 +153,7 @@ aside {
     left: 216px; 
     transform: translate(-50%, -50%);
     cursor: pointer;
+    z-index: 1000;
 }
 
 #sidebar.collapsed {
@@ -261,7 +264,7 @@ section,
 
 .box-4 {
     height: 470px;
-    width: 200px;
+    width: 250px;
     padding: 20px;
     background-color: #e3fef7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -291,8 +294,8 @@ section,
 }
 
 .box-4-1 {
-    height: 770px;
-    width: 450px;
+    height: 100%;
+    width: 650px;
     padding: 20px;
     background-color: #e3fef7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -336,6 +339,7 @@ footer {
     width: calc(100% - 200px); 
     transition: width 0.3s; 
     margin-left: 200px;
+    z-index: 1000;
 }
 
 @media (max-width: 576px) {
@@ -348,6 +352,10 @@ footer {
     .container{
         display: inline;
     }
+    .box-4-1 {
+        width: 90%;
+        overflow: auto;
+    }
 }
 @media (max-width: 768px) {
     .tulisan-dashboard{
@@ -359,9 +367,9 @@ footer {
     .container{
         display: inline;
     }
-
     .box-4-1 {
-        height: 900px;
+        width: 90%;
+        overflow: auto;
     }
     
 }
@@ -372,5 +380,8 @@ footer {
     .container{
         display: inline;
     }
-
+    .box-4-1 {
+        width: 90%;
+        overflow: auto;
+    }
 }
