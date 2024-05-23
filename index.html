@@ -207,19 +207,19 @@
                     </table>
                 </div>
                 <div class="box-4-1">
-                    <h1>DataTables</h1>
+                    <h1>CLV</h1>
                     <table id="example" class="display" style="width:100%">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Extn.</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>Customer ID</th>
+                                <th>Profit</th>
+                                <th>Order ID</th>
+                                <th>Average Profit per Order</th>
+                                <th>CLV</th>
                             </tr>
                         </thead>
                     </table>
+                    <h4>date_diff = 1.457</h4>
                 </div>
             </section>
         </main>
@@ -283,16 +283,15 @@
 $(document).ready(function() {
     $('#example').DataTable({
         "ajax": {
-            "url": "data2.json",
-            "dataSrc": "data" 
+            "url": "datatables.json",
+            "dataSrc": "" 
         },
         "columns": [
-            { "data": 0 }, // (nama)
-            { "data": 1 }, // (posisi)
-            { "data": 2 }, // (kantor)
-            { "data": 3 }, // (extn.)
-            { "data": 4 }, // (tanggal mulai)
-            { "data": 5 }  // (gaji)
+            { "data": "Customer ID" },
+            { "data": "Profit" },
+            { "data": "Order ID" },
+            { "data": "Average profit perorder" },
+            { "data": "CLV" }
         ]
     });
 });

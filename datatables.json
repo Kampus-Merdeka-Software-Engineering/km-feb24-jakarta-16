@@ -1,0 +1,5553 @@
+[
+  {
+   "Customer ID": "GT-14635",
+   "Profit": -41218448,
+   "Order ID": 3,
+   "Average profit perorder": -158820085,
+   "CLV": -12055074.935897436
+  },
+  {
+   "Customer ID": "LF-17185",
+   "Profit": -36252873,
+   "Order ID": 7,
+   "Average profit perorder": -290146495,
+   "CLV": -10740502.146915585
+  },
+  {
+   "Customer ID": "HG-14965",
+   "Profit": -28583913,
+   "Order ID": 12,
+   "Average profit perorder": -139615737,
+   "CLV": -8879258.080851063
+  },
+  {
+   "Customer ID": "NF-18385",
+   "Profit": -24677037,
+   "Order ID": 6,
+   "Average profit perorder": -42688245,
+   "CLV": -6993104.429347826
+  },
+  {
+   "Customer ID": "ZC-21910",
+   "Profit": -16586780,
+   "Order ID": 12,
+   "Average profit perorder": -57725209,
+   "CLV": -5400691.079393398
+  },
+  {
+   "Customer ID": "CP-12340",
+   "Profit": -14004159,
+   "Order ID": 8,
+   "Average profit perorder": -67311609,
+   "CLV": -4172667.783673469
+  },
+  {
+   "Customer ID": "DC-12850",
+   "Profit": -12567992,
+   "Order ID": 9,
+   "Average profit perorder": -73911172,
+   "CLV": -3705425.751211632
+  },
+  {
+   "Customer ID": "JA-15970",
+   "Profit": -9561907,
+   "Order ID": 8,
+   "Average profit perorder": -69856439,
+   "CLV": -3147065.8746618573
+  },
+  {
+   "Customer ID": "VP-21760",
+   "Profit": -9136172,
+   "Order ID": 7,
+   "Average profit perorder": -66101246,
+   "CLV": -2932896.0246262094
+  },
+  {
+   "Customer ID": "SS-20410",
+   "Profit": -8081003,
+   "Order ID": 5,
+   "Average profit perorder": -58410567,
+   "CLV": -2678988.2788374205
+  },
+  {
+   "Customer ID": "JH-15985",
+   "Profit": -6989520,
+   "Order ID": 6,
+   "Average profit perorder": -158553142,
+   "CLV": -2106667.877786953
+  },
+  {
+   "Customer ID": "Dp-13240",
+   "Profit": -6754449,
+   "Order ID": 10,
+   "Average profit perorder": -61065373,
+   "CLV": -2002740.767668562
+  },
+  {
+   "Customer ID": "CS-12505",
+   "Profit": -6645708,
+   "Order ID": 6,
+   "Average profit perorder": -32456970,
+   "CLV": -1840427.4810318665
+  },
+  {
+   "Customer ID": "MM-18055",
+   "Profit": -5680263,
+   "Order ID": 8,
+   "Average profit perorder": -40866380,
+   "CLV": -1596070.8198614318
+  },
+  {
+   "Customer ID": "TP-21415",
+   "Profit": -5238527,
+   "Order ID": 5,
+   "Average profit perorder": -23322349,
+   "CLV": -2897064.1742424243
+  },
+  {
+   "Customer ID": "MK-17905",
+   "Profit": -4051435,
+   "Order ID": 8,
+   "Average profit perorder": -37581259,
+   "CLV": -1331029.500450045
+  },
+  {
+   "Customer ID": "MF-17665",
+   "Profit": -4004756,
+   "Order ID": 5,
+   "Average profit perorder": -19596526,
+   "CLV": -2162331.2721893494
+  },
+  {
+   "Customer ID": "SC-20020",
+   "Profit": -3453719,
+   "Order ID": 5,
+   "Average profit perorder": -9240218,
+   "CLV": -2039817.855987055
+  },
+  {
+   "Customer ID": "BP-11290",
+   "Profit": -3351830,
+   "Order ID": 7,
+   "Average profit perorder": -11455820,
+   "CLV": -1042982.0545609548
+  },
+  {
+   "Customer ID": "AH-10465",
+   "Profit": -2889407,
+   "Order ID": 5,
+   "Average profit perorder": -34894609,
+   "CLV": -1222055.1042873696
+  },
+  {
+   "Customer ID": "SB-20290",
+   "Profit": -2880722,
+   "Order ID": 7,
+   "Average profit perorder": -16740314,
+   "CLV": -818259.5564202334
+  },
+  {
+   "Customer ID": "JB-15925",
+   "Profit": -2869808,
+   "Order ID": 3,
+   "Average profit perorder": -9953752,
+   "CLV": -2720727.064935065
+  },
+  {
+   "Customer ID": "JK-16090",
+   "Profit": -2845711,
+   "Order ID": 2,
+   "Average profit perorder": -20437777,
+   "CLV": -1159246.1104910714
+  },
+  {
+   "Customer ID": "LS-16945",
+   "Profit": -2827698,
+   "Order ID": 6,
+   "Average profit perorder": -30218580,
+   "CLV": -1285317.2727272727
+  },
+  {
+   "Customer ID": "GW-14605",
+   "Profit": -2657958,
+   "Order ID": 7,
+   "Average profit perorder": 2938438,
+   "CLV": -706594.8069919883
+  },
+  {
+   "Customer ID": "MC-17635",
+   "Profit": -2650525,
+   "Order ID": 4,
+   "Average profit perorder": -6497337,
+   "CLV": -1029193.2180851063
+  },
+  {
+   "Customer ID": "PG-18820",
+   "Profit": -2473994,
+   "Order ID": 13,
+   "Average profit perorder": -12679232,
+   "CLV": -696765.2854938272
+  },
+  {
+   "Customer ID": "JL-15130",
+   "Profit": -2272923,
+   "Order ID": 6,
+   "Average profit perorder": -14086835,
+   "CLV": -661576.471291866
+  },
+  {
+   "Customer ID": "AH-10195",
+   "Profit": -2207072,
+   "Order ID": 4,
+   "Average profit perorder": -11478945,
+   "CLV": -824545.8341862845
+  },
+  {
+   "Customer ID": "VS-21820",
+   "Profit": -2144565,
+   "Order ID": 4,
+   "Average profit perorder": -15192599,
+   "CLV": -634846.897810219
+  },
+  {
+   "Customer ID": "TS-21610",
+   "Profit": -2101063,
+   "Order ID": 6,
+   "Average profit perorder": -13080243,
+   "CLV": -651008.4847198641
+  },
+  {
+   "Customer ID": "AR-10405",
+   "Profit": -2029666,
+   "Order ID": 5,
+   "Average profit perorder": -18358040,
+   "CLV": -698894.4245283018
+  },
+  {
+   "Customer ID": "JM-15250",
+   "Profit": -1987169,
+   "Order ID": 6,
+   "Average profit perorder": -8814405,
+   "CLV": -1198870.5537190083
+  },
+  {
+   "Customer ID": "AR-10345",
+   "Profit": -1925559,
+   "Order ID": 4,
+   "Average profit perorder": -5664948,
+   "CLV": -712808.3519269776
+  },
+  {
+   "Customer ID": "JK-16120",
+   "Profit": -1915393,
+   "Order ID": 10,
+   "Average profit perorder": -2656547,
+   "CLV": -673524.5134874759
+  },
+  {
+   "Customer ID": "PC-19000",
+   "Profit": -1876628,
+   "Order ID": 2,
+   "Average profit perorder": -11496952,
+   "CLV": -1424052.4324324324
+  },
+  {
+   "Customer ID": "MD-17350",
+   "Profit": -1870068,
+   "Order ID": 7,
+   "Average profit perorder": -9170580,
+   "CLV": -659492.5797101449
+  },
+  {
+   "Customer ID": "NC-18415",
+   "Profit": -1743532,
+   "Order ID": 6,
+   "Average profit perorder": -12333850,
+   "CLV": -490662.4363916731
+  },
+  {
+   "Customer ID": "AB-10600",
+   "Profit": -1737896,
+   "Order ID": 4,
+   "Average profit perorder": -8172124,
+   "CLV": -582490.3948576676
+  },
+  {
+   "Customer ID": "LH-17020",
+   "Profit": -1700953,
+   "Order ID": 3,
+   "Average profit perorder": -4765827,
+   "CLV": -758982.695599022
+  },
+  {
+   "Customer ID": "TS-21505",
+   "Profit": -1667510,
+   "Order ID": 6,
+   "Average profit perorder": -11798310,
+   "CLV": -555329.5164233577
+  },
+  {
+   "Customer ID": "CD-11980",
+   "Profit": -1657729,
+   "Order ID": 3,
+   "Average profit perorder": 4005995,
+   "CLV": -1738710.014367816
+  },
+  {
+   "Customer ID": "GH-14410",
+   "Profit": -1636213,
+   "Order ID": 9,
+   "Average profit perorder": -5400352,
+   "CLV": -499345.94063545146
+  },
+  {
+   "Customer ID": "EM-13810",
+   "Profit": -1478846,
+   "Order ID": 5,
+   "Average profit perorder": -10823947,
+   "CLV": -669700.7320099255
+  },
+  {
+   "Customer ID": "SH-20395",
+   "Profit": -1278837,
+   "Order ID": 10,
+   "Average profit perorder": -14628735,
+   "CLV": -412345.8524734982
+  },
+  {
+   "Customer ID": "BG-11035",
+   "Profit": -1219850,
+   "Order ID": 8,
+   "Average profit perorder": -6995431,
+   "CLV": -396125.6672597865
+  },
+  {
+   "Customer ID": "LC-16870",
+   "Profit": -1218364,
+   "Order ID": 8,
+   "Average profit perorder": -7026929,
+   "CLV": -470087.58985200844
+  },
+  {
+   "Customer ID": "JW-15955",
+   "Profit": -1091917,
+   "Order ID": 7,
+   "Average profit perorder": -1728151,
+   "CLV": -461818.89339513326
+  },
+  {
+   "Customer ID": "CM-12160",
+   "Profit": -1021638,
+   "Order ID": 6,
+   "Average profit perorder": -3311728,
+   "CLV": -909507.0000000001
+  },
+  {
+   "Customer ID": "VF-21715",
+   "Profit": -962780,
+   "Order ID": 5,
+   "Average profit perorder": -7909160,
+   "CLV": -253180.6195965418
+  },
+  {
+   "Customer ID": "ED-13885",
+   "Profit": -957121,
+   "Order ID": 7,
+   "Average profit perorder": -3170882,
+   "CLV": -316153.0904977376
+  },
+  {
+   "Customer ID": "KT-16480",
+   "Profit": -902480,
+   "Order ID": 10,
+   "Average profit perorder": -1947770,
+   "CLV": -254957.5851393189
+  },
+  {
+   "Customer ID": "DL-12925",
+   "Profit": -869400,
+   "Order ID": 6,
+   "Average profit perorder": 4084668,
+   "CLV": -275460.9375
+  },
+  {
+   "Customer ID": "JH-16180",
+   "Profit": -859766,
+   "Order ID": 4,
+   "Average profit perorder": 4449646,
+   "CLV": -573701.2614259599
+  },
+  {
+   "Customer ID": "BS-11755",
+   "Profit": -770698,
+   "Order ID": 7,
+   "Average profit perorder": -172289,
+   "CLV": -212787.26928895613
+  },
+  {
+   "Customer ID": "RB-19330",
+   "Profit": -731579,
+   "Order ID": 2,
+   "Average profit perorder": -2820576,
+   "CLV": -249091.73041044775
+  },
+  {
+   "Customer ID": "ON-18715",
+   "Profit": -649758,
+   "Order ID": 8,
+   "Average profit perorder": -737636,
+   "CLV": -298316.56603773584
+  },
+  {
+   "Customer ID": "LR-17035",
+   "Profit": -630262,
+   "Order ID": 5,
+   "Average profit perorder": -2574410,
+   "CLV": -213202.62279888787
+  },
+  {
+   "Customer ID": "CS-11950",
+   "Profit": -570004,
+   "Order ID": 11,
+   "Average profit perorder": -1386234,
+   "CLV": -162922.05168363353
+  },
+  {
+   "Customer ID": "EB-13705",
+   "Profit": -569232,
+   "Order ID": 9,
+   "Average profit perorder": -2216386,
+   "CLV": -169746.4705882353
+  },
+  {
+   "Customer ID": "CM-11935",
+   "Profit": -567707,
+   "Order ID": 2,
+   "Average profit perorder": -2102198,
+   "CLV": -1712504.5867768594
+  },
+  {
+   "Customer ID": "RO-19780",
+   "Profit": -556328,
+   "Order ID": 6,
+   "Average profit perorder": -4201830,
+   "CLV": -218578.81593110872
+  },
+  {
+   "Customer ID": "AC-10660",
+   "Profit": -545709,
+   "Order ID": 5,
+   "Average profit perorder": -1026834,
+   "CLV": -223550.82491582492
+  },
+  {
+   "Customer ID": "LM-17065",
+   "Profit": -528178,
+   "Order ID": 5,
+   "Average profit perorder": -9288436,
+   "CLV": -216126.64798206277
+  },
+  {
+   "Customer ID": "HZ-14950",
+   "Profit": -524137,
+   "Order ID": 4,
+   "Average profit perorder": -2030489,
+   "CLV": -309563.1148867314
+  },
+  {
+   "Customer ID": "AG-10765",
+   "Profit": -437878,
+   "Order ID": 3,
+   "Average profit perorder": -3855610,
+   "CLV": -142193.47864768683
+  },
+  {
+   "Customer ID": "GM-14680",
+   "Profit": -427754,
+   "Order ID": 5,
+   "Average profit perorder": 725564,
+   "CLV": -178230.83333333334
+  },
+  {
+   "Customer ID": "RB-19705",
+   "Profit": -423748,
+   "Order ID": 4,
+   "Average profit perorder": -1034162,
+   "CLV": -191420.8168316832
+  },
+  {
+   "Customer ID": "CV-12805",
+   "Profit": -410533,
+   "Order ID": 9,
+   "Average profit perorder": -3827485,
+   "CLV": -251417.02181208052
+  },
+  {
+   "Customer ID": "MH-17290",
+   "Profit": -388576,
+   "Order ID": 6,
+   "Average profit perorder": -349876,
+   "CLV": -115685.35073409461
+  },
+  {
+   "Customer ID": "OT-18730",
+   "Profit": -364063,
+   "Order ID": 5,
+   "Average profit perorder": -2448283,
+   "CLV": -144281.21064060804
+  },
+  {
+   "Customer ID": "SM-20905",
+   "Profit": -348155,
+   "Order ID": 1,
+   "Average profit perorder": -540730,
+   "CLV": -127076575
+  },
+  {
+   "Customer ID": "PL-18925",
+   "Profit": -343227,
+   "Order ID": 5,
+   "Average profit perorder": -1508031,
+   "CLV": -109796.54250657318
+  },
+  {
+   "Customer ID": "PO-19195",
+   "Profit": -324778,
+   "Order ID": 5,
+   "Average profit perorder": -1607755,
+   "CLV": -86465.33187454412
+  },
+  {
+   "Customer ID": "MO-17500",
+   "Profit": -319428,
+   "Order ID": 4,
+   "Average profit perorder": 1097843,
+   "CLV": -110303.89782403027
+  },
+  {
+   "Customer ID": "AW-10930",
+   "Profit": -313498,
+   "Order ID": 7,
+   "Average profit perorder": 763087,
+   "CLV": -93792.4344262295
+  },
+  {
+   "Customer ID": "SJ-20215",
+   "Profit": -307047,
+   "Order ID": 6,
+   "Average profit perorder": -372617,
+   "CLV": -109125.75949367088
+  },
+  {
+   "Customer ID": "MT-18070",
+   "Profit": -300348,
+   "Order ID": 4,
+   "Average profit perorder": 836694,
+   "CLV": -110734.36363636363
+  },
+  {
+   "Customer ID": "SM-20005",
+   "Profit": -293953,
+   "Order ID": 4,
+   "Average profit perorder": 197377,
+   "CLV": -150480.84852734924
+  },
+  {
+   "Customer ID": "GG-14650",
+   "Profit": -285388,
+   "Order ID": 9,
+   "Average profit perorder": 6640533,
+   "CLV": -93506.84021543985
+  },
+  {
+   "Customer ID": "TB-21595",
+   "Profit": -267541,
+   "Order ID": 4,
+   "Average profit perorder": -1113445,
+   "CLV": -86648.14995563444
+  },
+  {
+   "Customer ID": "SP-20620",
+   "Profit": -227311,
+   "Order ID": 9,
+   "Average profit perorder": 1193922,
+   "CLV": -71340.08168529664
+  },
+  {
+   "Customer ID": "NS-18505",
+   "Profit": -225478,
+   "Order ID": 4,
+   "Average profit perorder": 1523625,
+   "CLV": -207826.94444444447
+  },
+  {
+   "Customer ID": "JH-15430",
+   "Profit": -220818,
+   "Order ID": 4,
+   "Average profit perorder": -2280834,
+   "CLV": -57529.3147751606
+  },
+  {
+   "Customer ID": "JS-15595",
+   "Profit": -215680,
+   "Order ID": 4,
+   "Average profit perorder": -1480456,
+   "CLV": -61502.5
+  },
+  {
+   "Customer ID": "NR-18550",
+   "Profit": -165626,
+   "Order ID": 4,
+   "Average profit perorder": -1395771,
+   "CLV": -61002.51261352169
+  },
+  {
+   "Customer ID": "MG-17875",
+   "Profit": -151443,
+   "Order ID": 4,
+   "Average profit perorder": -363699,
+   "CLV": -42816.9597211464
+  },
+  {
+   "Customer ID": "GT-14755",
+   "Profit": -145956,
+   "Order ID": 4,
+   "Average profit perorder": -3430620,
+   "CLV": -52590.26653504442
+  },
+  {
+   "Customer ID": "MS-17770",
+   "Profit": -133732,
+   "Order ID": 9,
+   "Average profit perorder": 913742,
+   "CLV": -42261.6277056277
+  },
+  {
+   "Customer ID": "NS-18640",
+   "Profit": -98191,
+   "Order ID": 13,
+   "Average profit perorder": 2184530,
+   "CLV": -32258.969396939694
+  },
+  {
+   "Customer ID": "DV-13045",
+   "Profit": -89075,
+   "Order ID": 5,
+   "Average profit perorder": -636629,
+   "CLV": -59329.151459854016
+  },
+  {
+   "Customer ID": "RR-19315",
+   "Profit": -77730,
+   "Order ID": 2,
+   "Average profit perorder": -155460,
+   "CLV": -72191.98473282442
+  },
+  {
+   "Customer ID": "TN-21040",
+   "Profit": -77425,
+   "Order ID": 7,
+   "Average profit perorder": 968061,
+   "CLV": -25974.379595588234
+  },
+  {
+   "Customer ID": "PK-18910",
+   "Profit": -67026,
+   "Order ID": 2,
+   "Average profit perorder": -326058,
+   "CLV": -27674.76244343891
+  },
+  {
+   "Customer ID": "SG-20890",
+   "Profit": -66179,
+   "Order ID": 3,
+   "Average profit perorder": -631277,
+   "CLV": -21077.9537521815
+  },
+  {
+   "Customer ID": "AW-10840",
+   "Profit": -60007,
+   "Order ID": 4,
+   "Average profit perorder": -390578,
+   "CLV": -22510.33401849949
+  },
+  {
+   "Customer ID": "PM-18940",
+   "Profit": -56487,
+   "Order ID": 3,
+   "Average profit perorder": 644757,
+   "CLV": -21680.078864353312
+  },
+  {
+   "Customer ID": "MG-18205",
+   "Profit": -29085,
+   "Order ID": 1,
+   "Average profit perorder": -83559,
+   "CLV": -10616025
+  },
+  {
+   "Customer ID": "JC-15340",
+   "Profit": -25129,
+   "Order ID": 4,
+   "Average profit perorder": -248411,
+   "CLV": -6953.817285822593
+  },
+  {
+   "Customer ID": "TS-21085",
+   "Profit": -19791,
+   "Order ID": 2,
+   "Average profit perorder": -59103,
+   "CLV": -13402.068645640074
+  },
+  {
+   "Customer ID": "AC-10615",
+   "Profit": -16047,
+   "Order ID": 5,
+   "Average profit perorder": 2381001,
+   "CLV": -7039.849759615385
+  },
+  {
+   "Customer ID": "SS-20875",
+   "Profit": -15484,
+   "Order ID": 5,
+   "Average profit perorder": -55652,
+   "CLV": -5691.500503524673
+  },
+  {
+   "Customer ID": "TH-21115",
+   "Profit": -11185,
+   "Order ID": 4,
+   "Average profit perorder": -1007863,
+   "CLV": -3590.6112576956907
+  },
+  {
+   "Customer ID": "LB-16735",
+   "Profit": -3987,
+   "Order ID": 3,
+   "Average profit perorder": 38791,
+   "CLV": -3057.2584033613443
+  },
+  {
+   "Customer ID": "PT-19090",
+   "Profit": -3066,
+   "Order ID": 4,
+   "Average profit perorder": 70580,
+   "CLV": -985.9823788546256
+  },
+  {
+   "Customer ID": "KS-16300",
+   "Profit": 1110,
+   "Order ID": 3,
+   "Average profit perorder": -218336,
+   "CLV": 514.1497461928934
+  },
+  {
+   "Customer ID": "CJ-11875",
+   "Profit": 1652,
+   "Order ID": 1,
+   "Average profit perorder": 8260,
+   "CLV": 602980
+  },
+  {
+   "Customer ID": "RH-19555",
+   "Profit": 3057,
+   "Order ID": 2,
+   "Average profit perorder": 537741,
+   "CLV": 4668.640167364017
+  },
+  {
+   "Customer ID": "MO-17950",
+   "Profit": 3651,
+   "Order ID": 2,
+   "Average profit perorder": -6032,
+   "CLV": 1617.251213592233
+  },
+  {
+   "Customer ID": "LD-16855",
+   "Profit": 4641,
+   "Order ID": 1,
+   "Average profit perorder": 13923,
+   "CLV": 1693965
+  },
+  {
+   "Customer ID": "RE-19405",
+   "Profit": 6045,
+   "Order ID": 1,
+   "Average profit perorder": 30225,
+   "CLV": 2206425
+  },
+  {
+   "Customer ID": "MM-17260",
+   "Profit": 11992,
+   "Order ID": 4,
+   "Average profit perorder": -62392,
+   "CLV": 3822.7772925764193
+  },
+  {
+   "Customer ID": "AO-10810",
+   "Profit": 12096,
+   "Order ID": 1,
+   "Average profit perorder": 24192,
+   "CLV": 4415040
+  },
+  {
+   "Customer ID": "JR-15670",
+   "Profit": 15795,
+   "Order ID": 2,
+   "Average profit perorder": 47385,
+   "CLV": 39759.8275862069
+  },
+  {
+   "Customer ID": "JS-15940",
+   "Profit": 18101,
+   "Order ID": 4,
+   "Average profit perorder": 62012,
+   "CLV": 7550.702857142857
+  },
+  {
+   "Customer ID": "GH-14665",
+   "Profit": 18641,
+   "Order ID": 2,
+   "Average profit perorder": 46489,
+   "CLV": 8802.024579560155
+  },
+  {
+   "Customer ID": "AR-10570",
+   "Profit": 32633,
+   "Order ID": 1,
+   "Average profit perorder": 101065,
+   "CLV": 11911045
+  },
+  {
+   "Customer ID": "LP-17095",
+   "Profit": 40765,
+   "Order ID": 7,
+   "Average profit perorder": -750940,
+   "CLV": 26381.604609929076
+  },
+  {
+   "Customer ID": "AC-10420",
+   "Profit": 47948,
+   "Order ID": 3,
+   "Average profit perorder": 112690,
+   "CLV": 16892.876447876446
+  },
+  {
+   "Customer ID": "BF-11275",
+   "Profit": 49587,
+   "Order ID": 3,
+   "Average profit perorder": -122271,
+   "CLV": 13680.464852607709
+  },
+  {
+   "Customer ID": "Co-12640",
+   "Profit": 51559,
+   "Order ID": 5,
+   "Average profit perorder": 71962,
+   "CLV": 25396.808367071524
+  },
+  {
+   "Customer ID": "VT-21700",
+   "Profit": 58401,
+   "Order ID": 2,
+   "Average profit perorder": 654836,
+   "CLV": 70119.62171052632
+  },
+  {
+   "Customer ID": "SR-20425",
+   "Profit": 65909,
+   "Order ID": 5,
+   "Average profit perorder": 571186,
+   "CLV": 18677.62810559006
+  },
+  {
+   "Customer ID": "TS-21160",
+   "Profit": 68587,
+   "Order ID": 6,
+   "Average profit perorder": -1782452,
+   "CLV": 29661.439573459713
+  },
+  {
+   "Customer ID": "RS-19870",
+   "Profit": 72510,
+   "Order ID": 2,
+   "Average profit perorder": 252564,
+   "CLV": 47859.22242314648
+  },
+  {
+   "Customer ID": "BO-11425",
+   "Profit": 78057,
+   "Order ID": 2,
+   "Average profit perorder": 328269,
+   "CLV": 37097.40234375
+  },
+  {
+   "Customer ID": "TM-21490",
+   "Profit": 80052,
+   "Order ID": 2,
+   "Average profit perorder": 175238,
+   "CLV": 1082184.4444444443
+  },
+  {
+   "Customer ID": "AH-10585",
+   "Profit": 83963,
+   "Order ID": 4,
+   "Average profit perorder": 305938,
+   "CLV": 26859.329535495177
+  },
+  {
+   "Customer ID": "MS-17830",
+   "Profit": 87275,
+   "Order ID": 4,
+   "Average profit perorder": 787741,
+   "CLV": 31855.375000000004
+  },
+  {
+   "Customer ID": "EK-13795",
+   "Profit": 88328,
+   "Order ID": 4,
+   "Average profit perorder": 354520,
+   "CLV": 24059.492537313432
+  },
+  {
+   "Customer ID": "AS-10135",
+   "Profit": 93108,
+   "Order ID": 2,
+   "Average profit perorder": 226896,
+   "CLV": 91355.96774193548
+  },
+  {
+   "Customer ID": "PH-18790",
+   "Profit": 94155,
+   "Order ID": 1,
+   "Average profit perorder": 282465,
+   "CLV": 34366575
+  },
+  {
+   "Customer ID": "BB-10990",
+   "Profit": 104040,
+   "Order ID": 5,
+   "Average profit perorder": -1857420,
+   "CLV": 33078.919860627175
+  },
+  {
+   "Customer ID": "PA-19060",
+   "Profit": 106643,
+   "Order ID": 6,
+   "Average profit perorder": 420920,
+   "CLV": 31879.35708435708
+  },
+  {
+   "Customer ID": "JR-15700",
+   "Profit": 107985,
+   "Order ID": 1,
+   "Average profit perorder": 323955,
+   "CLV": 39414525
+  },
+  {
+   "Customer ID": "WB-21850",
+   "Profit": 110903,
+   "Order ID": 11,
+   "Average profit perorder": 4982478,
+   "CLV": 35727.79788172992
+  },
+  {
+   "Customer ID": "GP-14740",
+   "Profit": 112996,
+   "Order ID": 2,
+   "Average profit perorder": 284608,
+   "CLV": 68739.23333333332
+  },
+  {
+   "Customer ID": "JJ-15760",
+   "Profit": 120104,
+   "Order ID": 2,
+   "Average profit perorder": 302068,
+   "CLV": 674430.1538461539
+  },
+  {
+   "Customer ID": "NM-18520",
+   "Profit": 124658,
+   "Order ID": 10,
+   "Average profit perorder": 961065,
+   "CLV": 75707.43760399334
+  },
+  {
+   "Customer ID": "AB-10015",
+   "Profit": 124785,
+   "Order ID": 2,
+   "Average profit perorder": 290001,
+   "CLV": 2530362.5
+  },
+  {
+   "Customer ID": "FW-14395",
+   "Profit": 125041,
+   "Order ID": 3,
+   "Average profit perorder": 325969,
+   "CLV": 69892.74885145483
+  },
+  {
+   "Customer ID": "MB-18085",
+   "Profit": 125471,
+   "Order ID": 7,
+   "Average profit perorder": -2736551,
+   "CLV": 32434.07577903683
+  },
+  {
+   "Customer ID": "MH-17620",
+   "Profit": 130229,
+   "Order ID": 4,
+   "Average profit perorder": 355838,
+   "CLV": 78959.44352159469
+  },
+  {
+   "Customer ID": "EB-13930",
+   "Profit": 131286,
+   "Order ID": 5,
+   "Average profit perorder": 469810,
+   "CLV": 37821.144435674825
+  },
+  {
+   "Customer ID": "PB-19105",
+   "Profit": 140883,
+   "Order ID": 3,
+   "Average profit perorder": 342453,
+   "CLV": 86569.5202020202
+  },
+  {
+   "Customer ID": "CS-12490",
+   "Profit": 146152,
+   "Order ID": 3,
+   "Average profit perorder": 782672,
+   "CLV": 80826.48484848485
+  },
+  {
+   "Customer ID": "PW-19240",
+   "Profit": 147480,
+   "Order ID": 7,
+   "Average profit perorder": 1199174,
+   "CLV": 79748.44444444444
+  },
+  {
+   "Customer ID": "TB-21190",
+   "Profit": 149304,
+   "Order ID": 2,
+   "Average profit perorder": 536064,
+   "CLV": 76111.67597765363
+  },
+  {
+   "Customer ID": "AG-10300",
+   "Profit": 149832,
+   "Order ID": 4,
+   "Average profit perorder": 492899,
+   "CLV": 44571.051344743275
+  },
+  {
+   "Customer ID": "LS-17230",
+   "Profit": 152111,
+   "Order ID": 3,
+   "Average profit perorder": 616285,
+   "CLV": 81888.66519174041
+  },
+  {
+   "Customer ID": "JL-15835",
+   "Profit": 152177,
+   "Order ID": 11,
+   "Average profit perorder": -9496299,
+   "CLV": 41700.153903903905
+  },
+  {
+   "Customer ID": "PS-18760",
+   "Profit": 156221,
+   "Order ID": 6,
+   "Average profit perorder": 5951575,
+   "CLV": 47997.192760942766
+  },
+  {
+   "Customer ID": "AS-10045",
+   "Profit": 159508,
+   "Order ID": 7,
+   "Average profit perorder": 2613173,
+   "CLV": 49974.60944206009
+  },
+  {
+   "Customer ID": "MC-17590",
+   "Profit": 167929,
+   "Order ID": 6,
+   "Average profit perorder": -3531711,
+   "CLV": 48263.059055118116
+  },
+  {
+   "Customer ID": "MG-18145",
+   "Profit": 171141,
+   "Order ID": 3,
+   "Average profit perorder": 14652558,
+   "CLV": 81548.90992167102
+  },
+  {
+   "Customer ID": "LH-16750",
+   "Profit": 171610,
+   "Order ID": 3,
+   "Average profit perorder": 861452,
+   "CLV": 59883.03059273423
+  },
+  {
+   "Customer ID": "DD-13570",
+   "Profit": 172574,
+   "Order ID": 6,
+   "Average profit perorder": 652132,
+   "CLV": 47360.53383458647
+  },
+  {
+   "Customer ID": "MS-17530",
+   "Profit": 178158,
+   "Order ID": 4,
+   "Average profit perorder": -142200,
+   "CLV": 90441.82197496523
+  },
+  {
+   "Customer ID": "GB-14530",
+   "Profit": 181384,
+   "Order ID": 10,
+   "Average profit perorder": 1769327,
+   "CLV": 51682.4043715847
+  },
+  {
+   "Customer ID": "CS-12175",
+   "Profit": 182652,
+   "Order ID": 5,
+   "Average profit perorder": 637870,
+   "CLV": 66336.29850746269
+  },
+  {
+   "Customer ID": "DL-13495",
+   "Profit": 187101,
+   "Order ID": 8,
+   "Average profit perorder": -749843,
+   "CLV": 103315.98335854764
+  },
+  {
+   "Customer ID": "BW-11065",
+   "Profit": 188401,
+   "Order ID": 2,
+   "Average profit perorder": 497951,
+   "CLV": 154879.20045045047
+  },
+  {
+   "Customer ID": "Dl-13600",
+   "Profit": 190564,
+   "Order ID": 5,
+   "Average profit perorder": 590102,
+   "CLV": 55511.460494812454
+  },
+  {
+   "Customer ID": "EL-13735",
+   "Profit": 193196,
+   "Order ID": 2,
+   "Average profit perorder": 1309062,
+   "CLV": 130344.80591497227
+  },
+  {
+   "Customer ID": "SW-20350",
+   "Profit": 194094,
+   "Order ID": 3,
+   "Average profit perorder": 445527,
+   "CLV": 151053.96588486142
+  },
+  {
+   "Customer ID": "JG-15310",
+   "Profit": 194729,
+   "Order ID": 6,
+   "Average profit perorder": -194233,
+   "CLV": 106720.84834834836
+  },
+  {
+   "Customer ID": "SM-20320",
+   "Profit": 196866,
+   "Order ID": 5,
+   "Average profit perorder": 126572,
+   "CLV": 55062.13793103448
+  },
+  {
+   "Customer ID": "EM-14200",
+   "Profit": 205877,
+   "Order ID": 3,
+   "Average profit perorder": 449077,
+   "CLV": 128673.12499999999
+  },
+  {
+   "Customer ID": "PB-19210",
+   "Profit": 218970,
+   "Order ID": 2,
+   "Average profit perorder": 684882,
+   "CLV": 179201.9058295964
+  },
+  {
+   "Customer ID": "SC-20845",
+   "Profit": 222603,
+   "Order ID": 2,
+   "Average profit perorder": 700683,
+   "CLV": 286091.8838028169
+  },
+  {
+   "Customer ID": "VG-21805",
+   "Profit": 222626,
+   "Order ID": 5,
+   "Average profit perorder": 358698,
+   "CLV": 89295.04395604396
+  },
+  {
+   "Customer ID": "CM-12445",
+   "Profit": 228388,
+   "Order ID": 3,
+   "Average profit perorder": 1656897,
+   "CLV": 96371.81502890172
+  },
+  {
+   "Customer ID": "CS-11860",
+   "Profit": 239392,
+   "Order ID": 6,
+   "Average profit perorder": 747157,
+   "CLV": 74237.96091758709
+  },
+  {
+   "Customer ID": "JG-15805",
+   "Profit": 245611,
+   "Order ID": 6,
+   "Average profit perorder": 1103647,
+   "CLV": 78432.20909886264
+  },
+  {
+   "Customer ID": "AJ-10960",
+   "Profit": 246803,
+   "Order ID": 3,
+   "Average profit perorder": 1300035,
+   "CLV": 79719.55309734514
+  },
+  {
+   "Customer ID": "NB-18580",
+   "Profit": 247888,
+   "Order ID": 2,
+   "Average profit perorder": 847600,
+   "CLV": 3351078.518518518
+  },
+  {
+   "Customer ID": "JS-15685",
+   "Profit": 249761,
+   "Order ID": 3,
+   "Average profit perorder": 596870,
+   "CLV": 212997.11448598132
+  },
+  {
+   "Customer ID": "ML-18040",
+   "Profit": 252541,
+   "Order ID": 3,
+   "Average profit perorder": 721307,
+   "CLV": 458594.3532338308
+  },
+  {
+   "Customer ID": "LC-17050",
+   "Profit": 256177,
+   "Order ID": 4,
+   "Average profit perorder": 1876805,
+   "CLV": 70944.31335356602
+  },
+  {
+   "Customer ID": "JO-15280",
+   "Profit": 257677,
+   "Order ID": 6,
+   "Average profit perorder": 681584,
+   "CLV": 73535.65676309617
+  },
+  {
+   "Customer ID": "RP-19270",
+   "Profit": 258091,
+   "Order ID": 4,
+   "Average profit perorder": 967581,
+   "CLV": 139975.05943536403
+  },
+  {
+   "Customer ID": "BC-11125",
+   "Profit": 258924,
+   "Order ID": 7,
+   "Average profit perorder": 650316,
+   "CLV": 88159.75746268657
+  },
+  {
+   "Customer ID": "CR-12820",
+   "Profit": 270815,
+   "Order ID": 3,
+   "Average profit perorder": 1590337,
+   "CLV": 100149.41742654509
+  },
+  {
+   "Customer ID": "ER-13855",
+   "Profit": 273503,
+   "Order ID": 3,
+   "Average profit perorder": 1655736,
+   "CLV": 311964.359375
+  },
+  {
+   "Customer ID": "HG-14845",
+   "Profit": 275410,
+   "Order ID": 5,
+   "Average profit perorder": 1061705,
+   "CLV": 78047.08850931677
+  },
+  {
+   "Customer ID": "AT-10435",
+   "Profit": 277383,
+   "Order ID": 6,
+   "Average profit perorder": 2262344,
+   "CLV": 91047.47751798561
+  },
+  {
+   "Customer ID": "EH-14185",
+   "Profit": 282365,
+   "Order ID": 6,
+   "Average profit perorder": 1080339,
+   "CLV": 84895.57248764415
+  },
+  {
+   "Customer ID": "JD-16015",
+   "Profit": 282932,
+   "Order ID": 6,
+   "Average profit perorder": 908888,
+   "CLV": 96334.12313432836
+  },
+  {
+   "Customer ID": "RM-19750",
+   "Profit": 286879,
+   "Order ID": 1,
+   "Average profit perorder": 617941,
+   "CLV": 104710835
+  },
+  {
+   "Customer ID": "SP-20920",
+   "Profit": 289678,
+   "Order ID": 5,
+   "Average profit perorder": 246121,
+   "CLV": 124979.27895981088
+  },
+  {
+   "Customer ID": "CR-12580",
+   "Profit": 295006,
+   "Order ID": 4,
+   "Average profit perorder": 2899704,
+   "CLV": 190579.09734513276
+  },
+  {
+   "Customer ID": "JH-15820",
+   "Profit": 299060,
+   "Order ID": 6,
+   "Average profit perorder": 2672662,
+   "CLV": 95084.40766550523
+  },
+  {
+   "Customer ID": "JD-15790",
+   "Profit": 312116,
+   "Order ID": 5,
+   "Average profit perorder": -454734,
+   "CLV": 128435.55806087937
+  },
+  {
+   "Customer ID": "MM-17920",
+   "Profit": 316359,
+   "Order ID": 11,
+   "Average profit perorder": -6060268,
+   "CLV": 80132.57113115893
+  },
+  {
+   "Customer ID": "PG-18895",
+   "Profit": 319939,
+   "Order ID": 9,
+   "Average profit perorder": 2453482,
+   "CLV": 91734.27729772191
+  },
+  {
+   "Customer ID": "BD-11635",
+   "Profit": 321543,
+   "Order ID": 3,
+   "Average profit perorder": 1015434,
+   "CLV": 99968.64991482113
+  },
+  {
+   "Customer ID": "VP-21730",
+   "Profit": 327301,
+   "Order ID": 3,
+   "Average profit perorder": 1000401,
+   "CLV": 135755.5284090909
+  },
+  {
+   "Customer ID": "CA-12775",
+   "Profit": 328847,
+   "Order ID": 7,
+   "Average profit perorder": 11494256,
+   "CLV": 103295.31411359724
+  },
+  {
+   "Customer ID": "MG-17695",
+   "Profit": 331380,
+   "Order ID": 3,
+   "Average profit perorder": 1481820,
+   "CLV": 221526.92307692306
+  },
+  {
+   "Customer ID": "MS-17980",
+   "Profit": 335387,
+   "Order ID": 6,
+   "Average profit perorder": 2504039,
+   "CLV": 97620.61802232856
+  },
+  {
+   "Customer ID": "CC-12550",
+   "Profit": 338706,
+   "Order ID": 3,
+   "Average profit perorder": 1814028,
+   "CLV": 718765.6395348838
+  },
+  {
+   "Customer ID": "EM-14065",
+   "Profit": 339500,
+   "Order ID": 4,
+   "Average profit perorder": -515978,
+   "CLV": 102326.58959537571
+  },
+  {
+   "Customer ID": "BG-11695",
+   "Profit": 342731,
+   "Order ID": 5,
+   "Average profit perorder": 136237,
+   "CLV": 96674.50927357032
+  },
+  {
+   "Customer ID": "RH-19600",
+   "Profit": 344581,
+   "Order ID": 3,
+   "Average profit perorder": -1159660,
+   "CLV": 331852.4142480211
+  },
+  {
+   "Customer ID": "EH-13990",
+   "Profit": 346416,
+   "Order ID": 6,
+   "Average profit perorder": 1155994,
+   "CLV": 121461.90201729107
+  },
+  {
+   "Customer ID": "JB-16000",
+   "Profit": 358289,
+   "Order ID": 5,
+   "Average profit perorder": 1701793,
+   "CLV": 197248.09200603317
+  },
+  {
+   "Customer ID": "BN-11470",
+   "Profit": 366131,
+   "Order ID": 4,
+   "Average profit perorder": 1325431,
+   "CLV": 113060.75719120135
+  },
+  {
+   "Customer ID": "NK-18490",
+   "Profit": 366168,
+   "Order ID": 7,
+   "Average profit perorder": 1957944,
+   "CLV": 152222.46013667426
+  },
+  {
+   "Customer ID": "BP-11230",
+   "Profit": 378888,
+   "Order ID": 3,
+   "Average profit perorder": 1248588,
+   "CLV": 142424.42842430482
+  },
+  {
+   "Customer ID": "LT-16765",
+   "Profit": 381245,
+   "Order ID": 3,
+   "Average profit perorder": 942151,
+   "CLV": 116838.30814441646
+  },
+  {
+   "Customer ID": "DO-13435",
+   "Profit": 381422,
+   "Order ID": 9,
+   "Average profit perorder": 1402956,
+   "CLV": 132337.48098859316
+  },
+  {
+   "Customer ID": "SB-20170",
+   "Profit": 381971,
+   "Order ID": 3,
+   "Average profit perorder": 1241807,
+   "CLV": 126400.19492293744
+  },
+  {
+   "Customer ID": "HD-14785",
+   "Profit": 386016,
+   "Order ID": 3,
+   "Average profit perorder": 1213632,
+   "CLV": 251151.22994652408
+  },
+  {
+   "Customer ID": "TT-21265",
+   "Profit": 386661,
+   "Order ID": 3,
+   "Average profit perorder": 1098594,
+   "CLV": 304819.1468682505
+  },
+  {
+   "Customer ID": "DW-13195",
+   "Profit": 386942,
+   "Order ID": 6,
+   "Average profit perorder": 1829910,
+   "CLV": 102790.269286754
+  },
+  {
+   "Customer ID": "RD-19930",
+   "Profit": 387546,
+   "Order ID": 4,
+   "Average profit perorder": 2202588,
+   "CLV": 123757.0341207349
+  },
+  {
+   "Customer ID": "AG-10390",
+   "Profit": 388953,
+   "Order ID": 5,
+   "Average profit perorder": 4016271,
+   "CLV": 114675.15751211632
+  },
+  {
+   "Customer ID": "AR-10510",
+   "Profit": 390039,
+   "Order ID": 5,
+   "Average profit perorder": 3130419,
+   "CLV": 107444.70566037735
+  },
+  {
+   "Customer ID": "KL-16555",
+   "Profit": 407226,
+   "Order ID": 8,
+   "Average profit perorder": 9141775,
+   "CLV": 116213.83111806099
+  },
+  {
+   "Customer ID": "BF-11080",
+   "Profit": 412591,
+   "Order ID": 3,
+   "Average profit perorder": 2416603,
+   "CLV": 136409.16213768118
+  },
+  {
+   "Customer ID": "CR-12625",
+   "Profit": 418777,
+   "Order ID": 3,
+   "Average profit perorder": 1477490,
+   "CLV": 182185.46483909414
+  },
+  {
+   "Customer ID": "JE-15715",
+   "Profit": 426300,
+   "Order ID": 9,
+   "Average profit perorder": 3680428,
+   "CLV": 132087.86078098472
+  },
+  {
+   "Customer ID": "ML-18265",
+   "Profit": 426648,
+   "Order ID": 2,
+   "Average profit perorder": 864852,
+   "CLV": 184291.73964497042
+  },
+  {
+   "Customer ID": "LT-17110",
+   "Profit": 429740,
+   "Order ID": 8,
+   "Average profit perorder": 747588,
+   "CLV": 123023.60784313726
+  },
+  {
+   "Customer ID": "MM-18280",
+   "Profit": 433396,
+   "Order ID": 8,
+   "Average profit perorder": 1525072,
+   "CLV": 182666.9053117783
+  },
+  {
+   "Customer ID": "JL-15175",
+   "Profit": 435962,
+   "Order ID": 5,
+   "Average profit perorder": 2281937,
+   "CLV": 145987.2752293578
+  },
+  {
+   "Customer ID": "JK-15325",
+   "Profit": 437645,
+   "Order ID": 3,
+   "Average profit perorder": 2689677,
+   "CLV": 188151.26619552416
+  },
+  {
+   "Customer ID": "SC-20800",
+   "Profit": 440681,
+   "Order ID": 4,
+   "Average profit perorder": 918859,
+   "CLV": 223090.9361997226
+  },
+  {
+   "Customer ID": "HJ-14875",
+   "Profit": 445801,
+   "Order ID": 5,
+   "Average profit perorder": 1822998,
+   "CLV": 187678.6216839677
+  },
+  {
+   "Customer ID": "SC-20575",
+   "Profit": 446205,
+   "Order ID": 4,
+   "Average profit perorder": 1902069,
+   "CLV": 225574.54986149582
+  },
+  {
+   "Customer ID": "ME-18010",
+   "Profit": 448158,
+   "Order ID": 4,
+   "Average profit perorder": 858044,
+   "CLV": 140169.38303341903
+  },
+  {
+   "Customer ID": "CK-12325",
+   "Profit": 455990,
+   "Order ID": 5,
+   "Average profit perorder": 1358912,
+   "CLV": 131258.95110410094
+  },
+  {
+   "Customer ID": "ND-18370",
+   "Profit": 468055,
+   "Order ID": 9,
+   "Average profit perorder": 1124095,
+   "CLV": 120225.24630541872
+  },
+  {
+   "Customer ID": "AS-10090",
+   "Profit": 472799,
+   "Order ID": 9,
+   "Average profit perorder": 16743551,
+   "CLV": 147749.6875
+  },
+  {
+   "Customer ID": "DM-12955",
+   "Profit": 486491,
+   "Order ID": 6,
+   "Average profit perorder": 1492195,
+   "CLV": 176861.76792828683
+  },
+  {
+   "Customer ID": "EC-14050",
+   "Profit": 491396,
+   "Order ID": 5,
+   "Average profit perorder": 2056536,
+   "CLV": 169687.3604541154
+  },
+  {
+   "Customer ID": "HR-14770",
+   "Profit": 495098,
+   "Order ID": 4,
+   "Average profit perorder": 1197480,
+   "CLV": 130195.07925072046
+  },
+  {
+   "Customer ID": "AS-10240",
+   "Profit": 498159,
+   "Order ID": 7,
+   "Average profit perorder": 1021383,
+   "CLV": 152157.35146443514
+  },
+  {
+   "Customer ID": "KW-16570",
+   "Profit": 507779,
+   "Order ID": 3,
+   "Average profit perorder": 1998434,
+   "CLV": 594036.3301282051
+  },
+  {
+   "Customer ID": "EB-13975",
+   "Profit": 517569,
+   "Order ID": 4,
+   "Average profit perorder": 2444782,
+   "CLV": 259852.38651994496
+  },
+  {
+   "Customer ID": "ST-20530",
+   "Profit": 518383,
+   "Order ID": 7,
+   "Average profit perorder": 1932775,
+   "CLV": 146560.64678543765
+  },
+  {
+   "Customer ID": "BF-10975",
+   "Profit": 523924,
+   "Order ID": 7,
+   "Average profit perorder": 1840228,
+   "CLV": 162750.85957446808
+  },
+  {
+   "Customer ID": "AG-10525",
+   "Profit": 525512,
+   "Order ID": 3,
+   "Average profit perorder": 2844592,
+   "CLV": 485599.69620253163
+  },
+  {
+   "Customer ID": "KB-16600",
+   "Profit": 531021,
+   "Order ID": 7,
+   "Average profit perorder": 2325497,
+   "CLV": 176845.49726277374
+  },
+  {
+   "Customer ID": "AG-10330",
+   "Profit": 531064,
+   "Order ID": 5,
+   "Average profit perorder": 3769107,
+   "CLV": 382324.18145956605
+  },
+  {
+   "Customer ID": "DP-13165",
+   "Profit": 533545,
+   "Order ID": 2,
+   "Average profit perorder": 2185201,
+   "CLV": 622185.0638977635
+  },
+  {
+   "Customer ID": "MD-17860",
+   "Profit": 537459,
+   "Order ID": 5,
+   "Average profit perorder": 1942617,
+   "CLV": 180140.06887052342
+  },
+  {
+   "Customer ID": "MH-17440",
+   "Profit": 538254,
+   "Order ID": 4,
+   "Average profit perorder": 1332294,
+   "CLV": 187107.34285714285
+  },
+  {
+   "Customer ID": "DK-12985",
+   "Profit": 540111,
+   "Order ID": 5,
+   "Average profit perorder": 1696608,
+   "CLV": 175080.3863232682
+  },
+  {
+   "Customer ID": "KN-16390",
+   "Profit": 540785,
+   "Order ID": 9,
+   "Average profit perorder": 3179019,
+   "CLV": 178468.82911392406
+  },
+  {
+   "Customer ID": "AF-10885",
+   "Profit": 542631,
+   "Order ID": 4,
+   "Average profit perorder": 694431,
+   "CLV": 216223.05131004364
+  },
+  {
+   "Customer ID": "MY-18295",
+   "Profit": 546309,
+   "Order ID": 11,
+   "Average profit perorder": 8055515,
+   "CLV": 156763.195754717
+  },
+  {
+   "Customer ID": "SW-20245",
+   "Profit": 546369,
+   "Order ID": 6,
+   "Average profit perorder": 4817452,
+   "CLV": 209479.7111344538
+  },
+  {
+   "Customer ID": "GD-14590",
+   "Profit": 548991,
+   "Order ID": 4,
+   "Average profit perorder": 3820116,
+   "CLV": 150549.7483095417
+  },
+  {
+   "Customer ID": "TB-21520",
+   "Profit": 551636,
+   "Order ID": 9,
+   "Average profit perorder": 4207477,
+   "CLV": 189236.03383458644
+  },
+  {
+   "Customer ID": "KB-16315",
+   "Profit": 557177,
+   "Order ID": 9,
+   "Average profit perorder": 1763009,
+   "CLV": 219384.68716289106
+  },
+  {
+   "Customer ID": "SW-20755",
+   "Profit": 557964,
+   "Order ID": 2,
+   "Average profit perorder": 1929768,
+   "CLV": 327949.85507246375
+  },
+  {
+   "Customer ID": "DA-13450",
+   "Profit": 562990,
+   "Order ID": 4,
+   "Average profit perorder": 2168222,
+   "CLV": 206731.74044265592
+  },
+  {
+   "Customer ID": "EM-13960",
+   "Profit": 567164,
+   "Order ID": 5,
+   "Average profit perorder": 1705588,
+   "CLV": 308516.9299552906
+  },
+  {
+   "Customer ID": "BO-11350",
+   "Profit": 568915,
+   "Order ID": 5,
+   "Average profit perorder": 2980403,
+   "CLV": 351360.3637901861
+  },
+  {
+   "Customer ID": "TR-21325",
+   "Profit": 572439,
+   "Order ID": 5,
+   "Average profit perorder": 1943923,
+   "CLV": 223944.51768488745
+  },
+  {
+   "Customer ID": "MC-18100",
+   "Profit": 578497,
+   "Order ID": 10,
+   "Average profit perorder": 7415379,
+   "CLV": 168786.0951239009
+  },
+  {
+   "Customer ID": "KH-16330",
+   "Profit": 593604,
+   "Order ID": 8,
+   "Average profit perorder": -6824,
+   "CLV": 162906.36090225563
+  },
+  {
+   "Customer ID": "AF-10870",
+   "Profit": 597817,
+   "Order ID": 6,
+   "Average profit perorder": 1511307,
+   "CLV": 305179.3076923077
+  },
+  {
+   "Customer ID": "JF-15490",
+   "Profit": 598679,
+   "Order ID": 11,
+   "Average profit perorder": 1656091,
+   "CLV": 208509.38454198473
+  },
+  {
+   "Customer ID": "FO-14305",
+   "Profit": 609075,
+   "Order ID": 10,
+   "Average profit perorder": 5719653,
+   "CLV": 176019.29928741095
+  },
+  {
+   "Customer ID": "TC-21475",
+   "Profit": 609239,
+   "Order ID": 7,
+   "Average profit perorder": 2166838,
+   "CLV": 257673.5052143685
+  },
+  {
+   "Customer ID": "PB-19150",
+   "Profit": 609580,
+   "Order ID": 8,
+   "Average profit perorder": 2434152,
+   "CLV": 190330.79555175363
+  },
+  {
+   "Customer ID": "BT-11440",
+   "Profit": 610526,
+   "Order ID": 3,
+   "Average profit perorder": 1369446,
+   "CLV": 298715.80428954423
+  },
+  {
+   "Customer ID": "NP-18685",
+   "Profit": 612869,
+   "Order ID": 6,
+   "Average profit perorder": 1522765,
+   "CLV": 226185.22244691607
+  },
+  {
+   "Customer ID": "SV-20815",
+   "Profit": 613778,
+   "Order ID": 4,
+   "Average profit perorder": 3443282,
+   "CLV": 250032.33258928574
+  },
+  {
+   "Customer ID": "MH-18115",
+   "Profit": 622083,
+   "Order ID": 9,
+   "Average profit perorder": 2222349,
+   "CLV": 463388.35714285716
+  },
+  {
+   "Customer ID": "FC-14335",
+   "Profit": 622372,
+   "Order ID": 7,
+   "Average profit perorder": 3406538,
+   "CLV": 228537.00201207245
+  },
+  {
+   "Customer ID": "SJ-20500",
+   "Profit": 624605,
+   "Order ID": 5,
+   "Average profit perorder": 3386381,
+   "CLV": 236249.55958549224
+  },
+  {
+   "Customer ID": "PN-18775",
+   "Profit": 625206,
+   "Order ID": 8,
+   "Average profit perorder": 3331806,
+   "CLV": 269421.7119244392
+  },
+  {
+   "Customer ID": "DB-13555",
+   "Profit": 632148,
+   "Order ID": 7,
+   "Average profit perorder": -2118848,
+   "CLV": 185626.72566371682
+  },
+  {
+   "Customer ID": "CK-12760",
+   "Profit": 644668,
+   "Order ID": 8,
+   "Average profit perorder": 1572256,
+   "CLV": 205326.19546247818
+  },
+  {
+   "Customer ID": "SF-20065",
+   "Profit": 651246,
+   "Order ID": 7,
+   "Average profit perorder": 2434550,
+   "CLV": 206879.7127937337
+  },
+  {
+   "Customer ID": "CG-12520",
+   "Profit": 659238,
+   "Order ID": 3,
+   "Average profit perorder": 1519354,
+   "CLV": 511961.42553191487
+  },
+  {
+   "Customer ID": "DW-13540",
+   "Profit": 665181,
+   "Order ID": 5,
+   "Average profit perorder": 1965861,
+   "CLV": 422245.3304347826
+  },
+  {
+   "Customer ID": "DB-13120",
+   "Profit": 675193,
+   "Order ID": 7,
+   "Average profit perorder": 1983944,
+   "CLV": 265852.69147788564
+  },
+  {
+   "Customer ID": "BM-11140",
+   "Profit": 679432,
+   "Order ID": 4,
+   "Average profit perorder": -708796,
+   "CLV": 274631.98228128464
+  },
+  {
+   "Customer ID": "GM-14500",
+   "Profit": 681601,
+   "Order ID": 9,
+   "Average profit perorder": 3890528,
+   "CLV": 219386.56525573193
+  },
+  {
+   "Customer ID": "AJ-10945",
+   "Profit": 683667,
+   "Order ID": 6,
+   "Average profit perorder": 2408264,
+   "CLV": 189907.5
+  },
+  {
+   "Customer ID": "RK-19300",
+   "Profit": 685191,
+   "Order ID": 3,
+   "Average profit perorder": 1729207,
+   "CLV": 322287.0038659794
+  },
+  {
+   "Customer ID": "BM-11575",
+   "Profit": 686248,
+   "Order ID": 6,
+   "Average profit perorder": 764830,
+   "CLV": 339404.4986449864
+  },
+  {
+   "Customer ID": "KM-16660",
+   "Profit": 686481,
+   "Order ID": 5,
+   "Average profit perorder": 2832779,
+   "CLV": 229876.66513761468
+  },
+  {
+   "Customer ID": "FP-14320",
+   "Profit": 686942,
+   "Order ID": 8,
+   "Average profit perorder": 3804504,
+   "CLV": 228563.19963536918
+  },
+  {
+   "Customer ID": "RB-19645",
+   "Profit": 694786,
+   "Order ID": 5,
+   "Average profit perorder": 2892368,
+   "CLV": 438748.9446366782
+  },
+  {
+   "Customer ID": "RA-19945",
+   "Profit": 699837,
+   "Order ID": 5,
+   "Average profit perorder": 2153793,
+   "CLV": 220397.32959447798
+  },
+  {
+   "Customer ID": "HM-14980",
+   "Profit": 703612,
+   "Order ID": 4,
+   "Average profit perorder": 4080660,
+   "CLV": 447418.78048780485
+  },
+  {
+   "Customer ID": "MA-17995",
+   "Profit": 705521,
+   "Order ID": 6,
+   "Average profit perorder": 2241175,
+   "CLV": 254461.62549407117
+  },
+  {
+   "Customer ID": "CR-12730",
+   "Profit": 713399,
+   "Order ID": 4,
+   "Average profit perorder": 2212057,
+   "CLV": 226229.91746307557
+  },
+  {
+   "Customer ID": "HH-15010",
+   "Profit": 717654,
+   "Order ID": 2,
+   "Average profit perorder": 1447404,
+   "CLV": 228173.96341463414
+  },
+  {
+   "Customer ID": "TH-21100",
+   "Profit": 744189,
+   "Order ID": 5,
+   "Average profit perorder": 2659937,
+   "CLV": 320695.3778040142
+  },
+  {
+   "Customer ID": "CM-12190",
+   "Profit": 745893,
+   "Order ID": 6,
+   "Average profit perorder": 1734493,
+   "CLV": 329203.07738815
+  },
+  {
+   "Customer ID": "MG-17680",
+   "Profit": 747928,
+   "Order ID": 4,
+   "Average profit perorder": 2771816,
+   "CLV": 254184.0968342644
+  },
+  {
+   "Customer ID": "BE-11455",
+   "Profit": 752319,
+   "Order ID": 6,
+   "Average profit perorder": 1366172,
+   "CLV": 437255.46974522294
+  },
+  {
+   "Customer ID": "SP-20545",
+   "Profit": 753069,
+   "Order ID": 6,
+   "Average profit perorder": 4234793,
+   "CLV": 324139.3691037736
+  },
+  {
+   "Customer ID": "RD-19810",
+   "Profit": 757667,
+   "Order ID": 8,
+   "Average profit perorder": 2250738,
+   "CLV": 241105.88927637314
+  },
+  {
+   "Customer ID": "DW-13585",
+   "Profit": 759062,
+   "Order ID": 7,
+   "Average profit perorder": 969058,
+   "CLV": 281849.0640895219
+  },
+  {
+   "Customer ID": "AZ-10750",
+   "Profit": 760711,
+   "Order ID": 5,
+   "Average profit perorder": 2006185,
+   "CLV": 226660.82857142854
+  },
+  {
+   "Customer ID": "TH-21235",
+   "Profit": 765938,
+   "Order ID": 8,
+   "Average profit perorder": 4452092,
+   "CLV": 269852.6737451737
+  },
+  {
+   "Customer ID": "MZ-17335",
+   "Profit": 772674,
+   "Order ID": 4,
+   "Average profit perorder": 2302908,
+   "CLV": 374039.80106100795
+  },
+  {
+   "Customer ID": "MZ-17515",
+   "Profit": 775495,
+   "Order ID": 6,
+   "Average profit perorder": 1892326,
+   "CLV": 260880.8064516129
+  },
+  {
+   "Customer ID": "EH-13945",
+   "Profit": 783078,
+   "Order ID": 7,
+   "Average profit perorder": 2808570,
+   "CLV": 269390.6409048068
+  },
+  {
+   "Customer ID": "MG-17890",
+   "Profit": 783469,
+   "Order ID": 9,
+   "Average profit perorder": 1459981,
+   "CLV": 286252.4374374374
+  },
+  {
+   "Customer ID": "DE-13255",
+   "Profit": 783642,
+   "Order ID": 5,
+   "Average profit perorder": 5811360,
+   "CLV": 563049.8622047245
+  },
+  {
+   "Customer ID": "BK-11260",
+   "Profit": 784821,
+   "Order ID": 6,
+   "Average profit perorder": 3030654,
+   "CLV": 245046.76218990592
+  },
+  {
+   "Customer ID": "RC-19825",
+   "Profit": 795740,
+   "Order ID": 5,
+   "Average profit perorder": 3502108,
+   "CLV": 385717.26427622844
+  },
+  {
+   "Customer ID": "JH-15910",
+   "Profit": 800698,
+   "Order ID": 7,
+   "Average profit perorder": 4450250,
+   "CLV": 327639.8766816143
+  },
+  {
+   "Customer ID": "LP-17080",
+   "Profit": 806655,
+   "Order ID": 4,
+   "Average profit perorder": 4232275,
+   "CLV": 236299.4181380417
+  },
+  {
+   "Customer ID": "SV-20785",
+   "Profit": 806704,
+   "Order ID": 9,
+   "Average profit perorder": -172068,
+   "CLV": 283394.5717035611
+  },
+  {
+   "Customer ID": "BG-11740",
+   "Profit": 811024,
+   "Order ID": 6,
+   "Average profit perorder": 2875856,
+   "CLV": 223921.14977307108
+  },
+  {
+   "Customer ID": "NC-18625",
+   "Profit": 822162,
+   "Order ID": 5,
+   "Average profit perorder": 1979331,
+   "CLV": 314229.4554973822
+  },
+  {
+   "Customer ID": "RB-19570",
+   "Profit": 833187,
+   "Order ID": 4,
+   "Average profit perorder": 3041933,
+   "CLV": 662556.1111111111
+  },
+  {
+   "Customer ID": "AY-10555",
+   "Profit": 836705,
+   "Order ID": 4,
+   "Average profit perorder": 2516589,
+   "CLV": 226052.7942264989
+  },
+  {
+   "Customer ID": "JP-15460",
+   "Profit": 839698,
+   "Order ID": 7,
+   "Average profit perorder": 3882188,
+   "CLV": 257988.02188552186
+  },
+  {
+   "Customer ID": "BD-11770",
+   "Profit": 846784,
+   "Order ID": 6,
+   "Average profit perorder": 1884862,
+   "CLV": 925377.7245508983
+  },
+  {
+   "Customer ID": "VM-21835",
+   "Profit": 859077,
+   "Order ID": 5,
+   "Average profit perorder": 1921985,
+   "CLV": 248268.4916864608
+  },
+  {
+   "Customer ID": "JF-15295",
+   "Profit": 862379,
+   "Order ID": 5,
+   "Average profit perorder": 2017609,
+   "CLV": 270652.0507308685
+  },
+  {
+   "Customer ID": "SV-20935",
+   "Profit": 865053,
+   "Order ID": 7,
+   "Average profit perorder": 6491083,
+   "CLV": 485760.53076923074
+  },
+  {
+   "Customer ID": "DH-13675",
+   "Profit": 866682,
+   "Order ID": 4,
+   "Average profit perorder": 4947386,
+   "CLV": 686201.5835140997
+  },
+  {
+   "Customer ID": "IG-15085",
+   "Profit": 880426,
+   "Order ID": 3,
+   "Average profit perorder": 2049004,
+   "CLV": 292407.1792538672
+  },
+  {
+   "Customer ID": "JM-15580",
+   "Profit": 889095,
+   "Order ID": 5,
+   "Average profit perorder": 3755543,
+   "CLV": 518402.03674121405
+  },
+  {
+   "Customer ID": "DC-13285",
+   "Profit": 896873,
+   "Order ID": 4,
+   "Average profit perorder": 4987681,
+   "CLV": 304519.66976744187
+  },
+  {
+   "Customer ID": "AS-10630",
+   "Profit": 898986,
+   "Order ID": 7,
+   "Average profit perorder": 5575805,
+   "CLV": 283849.3858131488
+  },
+  {
+   "Customer ID": "TS-21340",
+   "Profit": 908990,
+   "Order ID": 5,
+   "Average profit perorder": 5763317,
+   "CLV": 272846.5049342105
+  },
+  {
+   "Customer ID": "SC-20770",
+   "Profit": 909815,
+   "Order ID": 7,
+   "Average profit perorder": 2942730,
+   "CLV": 375658.9083710407
+  },
+  {
+   "Customer ID": "TD-20995",
+   "Profit": 912662,
+   "Order ID": 9,
+   "Average profit perorder": 6316330,
+   "CLV": 259238.6225680934
+  },
+  {
+   "Customer ID": "EM-14095",
+   "Profit": 913870,
+   "Order ID": 4,
+   "Average profit perorder": 3646252,
+   "CLV": 436600.1963350785
+  },
+  {
+   "Customer ID": "GM-14455",
+   "Profit": 919328,
+   "Order ID": 5,
+   "Average profit perorder": 4706236,
+   "CLV": 310698.8148148148
+  },
+  {
+   "Customer ID": "AG-10675",
+   "Profit": 931146,
+   "Order ID": 7,
+   "Average profit perorder": 5276758,
+   "CLV": 389757.2133027523
+  },
+  {
+   "Customer ID": "TZ-21580",
+   "Profit": 943554,
+   "Order ID": 4,
+   "Average profit perorder": 2346692,
+   "CLV": 309988.4878487849
+  },
+  {
+   "Customer ID": "EN-13780",
+   "Profit": 947419,
+   "Order ID": 4,
+   "Average profit perorder": 2580607,
+   "CLV": 524746.4871016692
+  },
+  {
+   "Customer ID": "BF-11005",
+   "Profit": 964217,
+   "Order ID": 4,
+   "Average profit perorder": 2591919,
+   "CLV": 304973.3145580589
+  },
+  {
+   "Customer ID": "PC-18745",
+   "Profit": 966477,
+   "Order ID": 4,
+   "Average profit perorder": 5369130,
+   "CLV": 322453.4780621572
+  },
+  {
+   "Customer ID": "MH-17785",
+   "Profit": 969932,
+   "Order ID": 7,
+   "Average profit perorder": 2587020,
+   "CLV": 291139.1282894737
+  },
+  {
+   "Customer ID": "KB-16405",
+   "Profit": 991930,
+   "Order ID": 3,
+   "Average profit perorder": 3698576,
+   "CLV": 552754.8854961832
+  },
+  {
+   "Customer ID": "DP-13390",
+   "Profit": 994615,
+   "Order ID": 8,
+   "Average profit perorder": 4512195,
+   "CLV": 395893.6477644493
+  },
+  {
+   "Customer ID": "LC-16930",
+   "Profit": 1004792,
+   "Order ID": 7,
+   "Average profit perorder": 1787862,
+   "CLV": 267895.60262965667
+  },
+  {
+   "Customer ID": "CG-12040",
+   "Profit": 1007033,
+   "Order ID": 6,
+   "Average profit perorder": 3919967,
+   "CLV": 410689.4357541899
+  },
+  {
+   "Customer ID": "BS-11590",
+   "Profit": 1012729,
+   "Order ID": 6,
+   "Average profit perorder": -13555,
+   "CLV": 261789.01203966007
+  },
+  {
+   "Customer ID": "JL-15505",
+   "Profit": 1017704,
+   "Order ID": 6,
+   "Average profit perorder": 3251610,
+   "CLV": 339544.7531992688
+  },
+  {
+   "Customer ID": "CJ-12010",
+   "Profit": 1017841,
+   "Order ID": 7,
+   "Average profit perorder": 8773345,
+   "CLV": 787101.6207627119
+  },
+  {
+   "Customer ID": "EB-13750",
+   "Profit": 1030062,
+   "Order ID": 9,
+   "Average profit perorder": 3762178,
+   "CLV": 379770.3333333334
+  },
+  {
+   "Customer ID": "SP-20650",
+   "Profit": 1030888,
+   "Order ID": 9,
+   "Average profit perorder": 5355634,
+   "CLV": 388311.7853457173
+  },
+  {
+   "Customer ID": "TC-21145",
+   "Profit": 1031340,
+   "Order ID": 1,
+   "Average profit perorder": 6186144,
+   "CLV": 376439100
+  },
+  {
+   "Customer ID": "ES-14020",
+   "Profit": 1032080,
+   "Order ID": 5,
+   "Average profit perorder": 8222252,
+   "CLV": 325310.18998272886
+  },
+  {
+   "Customer ID": "JR-16210",
+   "Profit": 1035222,
+   "Order ID": 5,
+   "Average profit perorder": 10609911,
+   "CLV": 471142.18204488774
+  },
+  {
+   "Customer ID": "CM-12115",
+   "Profit": 1046606,
+   "Order ID": 4,
+   "Average profit perorder": 7751242,
+   "CLV": 382011.19
+  },
+  {
+   "Customer ID": "JM-15655",
+   "Profit": 1046940,
+   "Order ID": 5,
+   "Average profit perorder": 5441194,
+   "CLV": 282017.0479704797
+  },
+  {
+   "Customer ID": "BT-11485",
+   "Profit": 1047393,
+   "Order ID": 2,
+   "Average profit perorder": 2139165,
+   "CLV": 5030242.697368421
+  },
+  {
+   "Customer ID": "NF-18475",
+   "Profit": 1047642,
+   "Order ID": 3,
+   "Average profit perorder": 3370068,
+   "CLV": 808434.1014799154
+  },
+  {
+   "Customer ID": "KC-16675",
+   "Profit": 1049622,
+   "Order ID": 4,
+   "Average profit perorder": 6111640,
+   "CLV": 362452.25165562914
+  },
+  {
+   "Customer ID": "HP-14815",
+   "Profit": 1051359,
+   "Order ID": 7,
+   "Average profit perorder": 6711047,
+   "CLV": 294058.2643678161
+  },
+  {
+   "Customer ID": "BM-11785",
+   "Profit": 1063924,
+   "Order ID": 10,
+   "Average profit perorder": 7544523,
+   "CLV": 357580.34990791895
+  },
+  {
+   "Customer ID": "TA-21385",
+   "Profit": 1064028,
+   "Order ID": 3,
+   "Average profit perorder": 6241510,
+   "CLV": 341574.5118733509
+  },
+  {
+   "Customer ID": "DK-13375",
+   "Profit": 1075231,
+   "Order ID": 7,
+   "Average profit perorder": 5010495,
+   "CLV": 532509.2469470828
+  },
+  {
+   "Customer ID": "CK-12205",
+   "Profit": 1075440,
+   "Order ID": 13,
+   "Average profit perorder": 5966746,
+   "CLV": 290336.9822485207
+  },
+  {
+   "Customer ID": "DB-13210",
+   "Profit": 1083893,
+   "Order ID": 10,
+   "Average profit perorder": 4168128,
+   "CLV": 393261.3767395626
+  },
+  {
+   "Customer ID": "AA-10315",
+   "Profit": 1084289,
+   "Order ID": 5,
+   "Average profit perorder": 2932562,
+   "CLV": 333416.5838247683
+  },
+  {
+   "Customer ID": "JD-16060",
+   "Profit": 1088389,
+   "Order ID": 3,
+   "Average profit perorder": 3587959,
+   "CLV": 444364.6364653244
+  },
+  {
+   "Customer ID": "JW-16075",
+   "Profit": 1092155,
+   "Order ID": 3,
+   "Average profit perorder": 14059883,
+   "CLV": 718264.099099099
+  },
+  {
+   "Customer ID": "DS-13180",
+   "Profit": 1092952,
+   "Order ID": 8,
+   "Average profit perorder": 3287448,
+   "CLV": 302217.7878787879
+  },
+  {
+   "Customer ID": "RW-19690",
+   "Profit": 1103877,
+   "Order ID": 5,
+   "Average profit perorder": 6337777,
+   "CLV": 804221.7664670659
+  },
+  {
+   "Customer ID": "BD-11560",
+   "Profit": 1108037,
+   "Order ID": 2,
+   "Average profit perorder": 2946079,
+   "CLV": 605439.378742515
+  },
+  {
+   "Customer ID": "BS-11800",
+   "Profit": 1112804,
+   "Order ID": 2,
+   "Average profit perorder": 2735092,
+   "CLV": 722728.5765124555
+  },
+  {
+   "Customer ID": "TB-21625",
+   "Profit": 1120810,
+   "Order ID": 9,
+   "Average profit perorder": 2477476,
+   "CLV": 337259.3981863149
+  },
+  {
+   "Customer ID": "JE-15745",
+   "Profit": 1122001,
+   "Order ID": 10,
+   "Average profit perorder": -2838839,
+   "CLV": 440829.2411194833
+  },
+  {
+   "Customer ID": "RB-19795",
+   "Profit": 1125963,
+   "Order ID": 8,
+   "Average profit perorder": 5220783,
+   "CLV": 322334.50588235294
+  },
+  {
+   "Customer ID": "CM-12235",
+   "Profit": 1136525,
+   "Order ID": 4,
+   "Average profit perorder": 3222087,
+   "CLV": 1851926.8973214286
+  },
+  {
+   "Customer ID": "MC-17275",
+   "Profit": 1162795,
+   "Order ID": 8,
+   "Average profit perorder": 5299198,
+   "CLV": 374268.23192239855
+  },
+  {
+   "Customer ID": "JK-15625",
+   "Profit": 1163945,
+   "Order ID": 7,
+   "Average profit perorder": 1424893,
+   "CLV": 340144.0552441954
+  },
+  {
+   "Customer ID": "MY-17380",
+   "Profit": 1164573,
+   "Order ID": 7,
+   "Average profit perorder": 6696653,
+   "CLV": 553475.44921875
+  },
+  {
+   "Customer ID": "BW-11200",
+   "Profit": 1165833,
+   "Order ID": 6,
+   "Average profit perorder": 2515251,
+   "CLV": 411536.7940038685
+  },
+  {
+   "Customer ID": "RD-19720",
+   "Profit": 1166356,
+   "Order ID": 10,
+   "Average profit perorder": 5242960,
+   "CLV": 343599.6287328491
+  },
+  {
+   "Customer ID": "MC-18130",
+   "Profit": 1168200,
+   "Order ID": 5,
+   "Average profit perorder": 3796547,
+   "CLV": 513726.5060240964
+  },
+  {
+   "Customer ID": "LW-17125",
+   "Profit": 1177080,
+   "Order ID": 3,
+   "Average profit perorder": 2783316,
+   "CLV": 428776.6467065869
+  },
+  {
+   "Customer ID": "LO-17170",
+   "Profit": 1179962,
+   "Order ID": 5,
+   "Average profit perorder": 8845987,
+   "CLV": 407460.8609271523
+  },
+  {
+   "Customer ID": "EH-14125",
+   "Profit": 1181559,
+   "Order ID": 10,
+   "Average profit perorder": 7022210,
+   "CLV": 424060.0147492626
+  },
+  {
+   "Customer ID": "CM-12715",
+   "Profit": 1190538,
+   "Order ID": 4,
+   "Average profit perorder": 5223980,
+   "CLV": 1207073.25
+  },
+  {
+   "Customer ID": "AB-10165",
+   "Profit": 1208113,
+   "Order ID": 8,
+   "Average profit perorder": 5044447,
+   "CLV": 395126.5636200717
+  },
+  {
+   "Customer ID": "GH-14485",
+   "Profit": 1234737,
+   "Order ID": 1,
+   "Average profit perorder": 8643159,
+   "CLV": 450679005
+  },
+  {
+   "Customer ID": "HA-14920",
+   "Profit": 1260149,
+   "Order ID": 8,
+   "Average profit perorder": 7327032,
+   "CLV": 397540.5229040622
+  },
+  {
+   "Customer ID": "PB-18805",
+   "Profit": 1260839,
+   "Order ID": 3,
+   "Average profit perorder": 7584235,
+   "CLV": 616072.6037483267
+  },
+  {
+   "Customer ID": "NG-18430",
+   "Profit": 1262073,
+   "Order ID": 5,
+   "Average profit perorder": 5564463,
+   "CLV": 424568.33640552993
+  },
+  {
+   "Customer ID": "SS-20590",
+   "Profit": 1262431,
+   "Order ID": 6,
+   "Average profit perorder": 1745625,
+   "CLV": 567472.0628078819
+  },
+  {
+   "Customer ID": "DK-13150",
+   "Profit": 1265088,
+   "Order ID": 2,
+   "Average profit perorder": 7116534,
+   "CLV": 415249.2086330935
+  },
+  {
+   "Customer ID": "CS-12130",
+   "Profit": 1268986,
+   "Order ID": 4,
+   "Average profit perorder": 4797292,
+   "CLV": 613483.2980132451
+  },
+  {
+   "Customer ID": "GA-14725",
+   "Profit": 1273083,
+   "Order ID": 11,
+   "Average profit perorder": 4368107,
+   "CLV": 328624.67821782175
+  },
+  {
+   "Customer ID": "CH-12070",
+   "Profit": 1276736,
+   "Order ID": 3,
+   "Average profit perorder": 4257901,
+   "CLV": 2034972.227074236
+  },
+  {
+   "Customer ID": "MC-17605",
+   "Profit": 1283272,
+   "Order ID": 8,
+   "Average profit perorder": 4351597,
+   "CLV": 368524.21715184895
+  },
+  {
+   "Customer ID": "CS-12460",
+   "Profit": 1284637,
+   "Order ID": 2,
+   "Average profit perorder": 3008347,
+   "CLV": 3044756.525974026
+  },
+  {
+   "Customer ID": "CC-12475",
+   "Profit": 1288338,
+   "Order ID": 9,
+   "Average profit perorder": 3957210,
+   "CLV": 365663.5847589425
+  },
+  {
+   "Customer ID": "RE-19450",
+   "Profit": 1292095,
+   "Order ID": 5,
+   "Average profit perorder": 5214118,
+   "CLV": 469268.3333333334
+  },
+  {
+   "Customer ID": "BF-11020",
+   "Profit": 1296302,
+   "Order ID": 8,
+   "Average profit perorder": 2226878,
+   "CLV": 352833.87770320656
+  },
+  {
+   "Customer ID": "GZ-14545",
+   "Profit": 1308118,
+   "Order ID": 4,
+   "Average profit perorder": 8344046,
+   "CLV": 462210.13552758953
+  },
+  {
+   "Customer ID": "TP-21565",
+   "Profit": 1345217,
+   "Order ID": 4,
+   "Average profit perorder": 15723757,
+   "CLV": 715749.5699708455
+  },
+  {
+   "Customer ID": "FA-14230",
+   "Profit": 1345756,
+   "Order ID": 7,
+   "Average profit perorder": 5453508,
+   "CLV": 445735.88021778583
+  },
+  {
+   "Customer ID": "DF-13135",
+   "Profit": 1351395,
+   "Order ID": 3,
+   "Average profit perorder": 6877383,
+   "CLV": 1019130.5268595042
+  },
+  {
+   "Customer ID": "SK-19990",
+   "Profit": 1356616,
+   "Order ID": 3,
+   "Average profit perorder": 7635110,
+   "CLV": 1269653.435897436
+  },
+  {
+   "Customer ID": "MV-17485",
+   "Profit": 1365435,
+   "Order ID": 8,
+   "Average profit perorder": 1685022,
+   "CLV": 354721.54804270464
+  },
+  {
+   "Customer ID": "BP-11050",
+   "Profit": 1377767,
+   "Order ID": 5,
+   "Average profit perorder": 9920129,
+   "CLV": 460096.02470265323
+  },
+  {
+   "Customer ID": "DS-13030",
+   "Profit": 1388686,
+   "Order ID": 4,
+   "Average profit perorder": 3989740,
+   "CLV": 430280.466893039
+  },
+  {
+   "Customer ID": "JO-15550",
+   "Profit": 1390887,
+   "Order ID": 5,
+   "Average profit perorder": 8003719,
+   "CLV": 632221.3636363636
+  },
+  {
+   "Customer ID": "JF-15565",
+   "Profit": 1395283,
+   "Order ID": 8,
+   "Average profit perorder": 3578420,
+   "CLV": 453498.03650934994
+  },
+  {
+   "Customer ID": "HM-14860",
+   "Profit": 1402348,
+   "Order ID": 10,
+   "Average profit perorder": -1053068,
+   "CLV": 407205.26650755765
+  },
+  {
+   "Customer ID": "DB-13270",
+   "Profit": 1415904,
+   "Order ID": 8,
+   "Average profit perorder": 9235970,
+   "CLV": 376405.6518572469
+  },
+  {
+   "Customer ID": "DJ-13420",
+   "Profit": 1425884,
+   "Order ID": 4,
+   "Average profit perorder": 5793448,
+   "CLV": 1079766.929460581
+  },
+  {
+   "Customer ID": "BP-11185",
+   "Profit": 1427157,
+   "Order ID": 8,
+   "Average profit perorder": 8102552,
+   "CLV": 514735.4792490119
+  },
+  {
+   "Customer ID": "JB-16045",
+   "Profit": 1429350,
+   "Order ID": 5,
+   "Average profit perorder": 8235786,
+   "CLV": 540075.3105590062
+  },
+  {
+   "Customer ID": "ME-17725",
+   "Profit": 1432590,
+   "Order ID": 8,
+   "Average profit perorder": 4648606,
+   "CLV": 421689.79838709673
+  },
+  {
+   "Customer ID": "RA-19915",
+   "Profit": 1432953,
+   "Order ID": 9,
+   "Average profit perorder": 3397611,
+   "CLV": 412482.5276025236
+  },
+  {
+   "Customer ID": "DB-13660",
+   "Profit": 1433844,
+   "Order ID": 7,
+   "Average profit perorder": 7626942,
+   "CLV": 408550.3981264637
+  },
+  {
+   "Customer ID": "VG-21790",
+   "Profit": 1436268,
+   "Order ID": 6,
+   "Average profit perorder": 7467826,
+   "CLV": 482279.5032198712
+  },
+  {
+   "Customer ID": "LS-16975",
+   "Profit": 1442480,
+   "Order ID": 9,
+   "Average profit perorder": 5438291,
+   "CLV": 458628.22299651563
+  },
+  {
+   "Customer ID": "RF-19345",
+   "Profit": 1445938,
+   "Order ID": 8,
+   "Average profit perorder": 8362969,
+   "CLV": 566882.2448979592
+  },
+  {
+   "Customer ID": "MR-17545",
+   "Profit": 1449318,
+   "Order ID": 4,
+   "Average profit perorder": 5009793,
+   "CLV": 485322.08256880735
+  },
+  {
+   "Customer ID": "TW-21025",
+   "Profit": 1455910,
+   "Order ID": 7,
+   "Average profit perorder": 14130958,
+   "CLV": 510477.5696445725
+  },
+  {
+   "Customer ID": "TG-21310",
+   "Profit": 1456876,
+   "Order ID": 5,
+   "Average profit perorder": 3692575,
+   "CLV": 769550.9985528219
+  },
+  {
+   "Customer ID": "CA-12055",
+   "Profit": 1477141,
+   "Order ID": 5,
+   "Average profit perorder": 9714755,
+   "CLV": 1206166.5883668903
+  },
+  {
+   "Customer ID": "JK-15205",
+   "Profit": 1481772,
+   "Order ID": 4,
+   "Average profit perorder": 16043776,
+   "CLV": 706989.2549019608
+  },
+  {
+   "Customer ID": "CC-12670",
+   "Profit": 1488294,
+   "Order ID": 7,
+   "Average profit perorder": 8995990,
+   "CLV": 505327.7302325581
+  },
+  {
+   "Customer ID": "TB-21055",
+   "Profit": 1488898,
+   "Order ID": 5,
+   "Average profit perorder": 5040867,
+   "CLV": 1226744.401805869
+  },
+  {
+   "Customer ID": "PF-19120",
+   "Profit": 1492676,
+   "Order ID": 4,
+   "Average profit perorder": 4578822,
+   "CLV": 1087478.5229540917
+  },
+  {
+   "Customer ID": "CC-12220",
+   "Profit": 1493996,
+   "Order ID": 11,
+   "Average profit perorder": 9573019,
+   "CLV": 458627.8721614802
+  },
+  {
+   "Customer ID": "KN-16450",
+   "Profit": 1498250,
+   "Order ID": 5,
+   "Average profit perorder": 16478788,
+   "CLV": 418409.5256312166
+  },
+  {
+   "Customer ID": "KH-16360",
+   "Profit": 1504485,
+   "Order ID": 6,
+   "Average profit perorder": 2306616,
+   "CLV": 409498.1543624161
+  },
+  {
+   "Customer ID": "RD-19480",
+   "Profit": 1506114,
+   "Order ID": 7,
+   "Average profit perorder": 9193956,
+   "CLV": 446936.26829268294
+  },
+  {
+   "Customer ID": "SP-20860",
+   "Profit": 1580281,
+   "Order ID": 9,
+   "Average profit perorder": 13102460,
+   "CLV": 566047.6594700688
+  },
+  {
+   "Customer ID": "BS-11665",
+   "Profit": 1586206,
+   "Order ID": 3,
+   "Average profit perorder": 13148270,
+   "CLV": 821227.219858156
+  },
+  {
+   "Customer ID": "CT-11995",
+   "Profit": 1588401,
+   "Order ID": 8,
+   "Average profit perorder": 16712515,
+   "CLV": 468308.8570274636
+  },
+  {
+   "Customer ID": "SC-20695",
+   "Profit": 1610992,
+   "Order ID": 10,
+   "Average profit perorder": 8161171,
+   "CLV": 575354.2857142857
+  },
+  {
+   "Customer ID": "EG-13900",
+   "Profit": 1618235,
+   "Order ID": 4,
+   "Average profit perorder": 6733249,
+   "CLV": 769083.0403645833
+  },
+  {
+   "Customer ID": "CS-12400",
+   "Profit": 1625919,
+   "Order ID": 7,
+   "Average profit perorder": 12204637,
+   "CLV": 498706.2478991597
+  },
+  {
+   "Customer ID": "SO-20335",
+   "Profit": 1630284,
+   "Order ID": 6,
+   "Average profit perorder": 3957059,
+   "CLV": 759966.3601532567
+  },
+  {
+   "Customer ID": "RW-19630",
+   "Profit": 1633829,
+   "Order ID": 9,
+   "Average profit perorder": 6807552,
+   "CLV": 499872.2422464375
+  },
+  {
+   "Customer ID": "KE-16420",
+   "Profit": 1641826,
+   "Order ID": 8,
+   "Average profit perorder": 6091604,
+   "CLV": 446547.30998509686
+  },
+  {
+   "Customer ID": "SG-20470",
+   "Profit": 1642798,
+   "Order ID": 6,
+   "Average profit perorder": 13692778,
+   "CLV": 1381615.8294930877
+  },
+  {
+   "Customer ID": "MH-17455",
+   "Profit": 1645942,
+   "Order ID": 8,
+   "Average profit perorder": 8675223,
+   "CLV": 507406.10641891893
+  },
+  {
+   "Customer ID": "SC-20230",
+   "Profit": 1648364,
+   "Order ID": 4,
+   "Average profit perorder": 6022660,
+   "CLV": 1418992.5943396227
+  },
+  {
+   "Customer ID": "DO-13645",
+   "Profit": 1658743,
+   "Order ID": 7,
+   "Average profit perorder": 11416663,
+   "CLV": 797682.7338603426
+  },
+  {
+   "Customer ID": "PS-18970",
+   "Profit": 1659929,
+   "Order ID": 8,
+   "Average profit perorder": 6038537,
+   "CLV": 470764.6348096348
+  },
+  {
+   "Customer ID": "SF-20965",
+   "Profit": 1661734,
+   "Order ID": 9,
+   "Average profit perorder": 7016099,
+   "CLV": 542031.1974977659
+  },
+  {
+   "Customer ID": "TB-21355",
+   "Profit": 1664777,
+   "Order ID": 5,
+   "Average profit perorder": 6731209,
+   "CLV": 1085077.8660714286
+  },
+  {
+   "Customer ID": "BV-11245",
+   "Profit": 1673874,
+   "Order ID": 5,
+   "Average profit perorder": 6277034,
+   "CLV": 902457.9172821271
+  },
+  {
+   "Customer ID": "EB-14170",
+   "Profit": 1673895,
+   "Order ID": 6,
+   "Average profit perorder": 8256689,
+   "CLV": 551916.5989159892
+  },
+  {
+   "Customer ID": "HE-14800",
+   "Profit": 1675089,
+   "Order ID": 4,
+   "Average profit perorder": 8224575,
+   "CLV": 887383.8679245282
+  },
+  {
+   "Customer ID": "AB-10255",
+   "Profit": 1677986,
+   "Order ID": 9,
+   "Average profit perorder": 5732359,
+   "CLV": 560865.283882784
+  },
+  {
+   "Customer ID": "AR-10825",
+   "Profit": 1697372,
+   "Order ID": 8,
+   "Average profit perorder": 14470086,
+   "CLV": 506989.1816693944
+  },
+  {
+   "Customer ID": "MC-17575",
+   "Profit": 1697723,
+   "Order ID": 8,
+   "Average profit perorder": 7610205,
+   "CLV": 564361.4708561021
+  },
+  {
+   "Customer ID": "JJ-15445",
+   "Profit": 1700845,
+   "Order ID": 5,
+   "Average profit perorder": 6576275,
+   "CLV": 1130798.5883424408
+  },
+  {
+   "Customer ID": "CP-12085",
+   "Profit": 1710316,
+   "Order ID": 8,
+   "Average profit perorder": 6731807,
+   "CLV": 599678.520653218
+  },
+  {
+   "Customer ID": "CL-12700",
+   "Profit": 1710562,
+   "Order ID": 5,
+   "Average profit perorder": 14423858,
+   "CLV": 1221830
+  },
+  {
+   "Customer ID": "SJ-20125",
+   "Profit": 1724986,
+   "Order ID": 12,
+   "Average profit perorder": 23357166,
+   "CLV": 855461.8070652174
+  },
+  {
+   "Customer ID": "JC-16105",
+   "Profit": 1733937,
+   "Order ID": 5,
+   "Average profit perorder": 9542894,
+   "CLV": 584923.2948243993
+  },
+  {
+   "Customer ID": "JK-15640",
+   "Profit": 1746589,
+   "Order ID": 9,
+   "Average profit perorder": 6011307,
+   "CLV": 625618.2384690873
+  },
+  {
+   "Customer ID": "MB-17305",
+   "Profit": 1749751,
+   "Order ID": 10,
+   "Average profit perorder": 4439719,
+   "CLV": 535338.7384744341
+  },
+  {
+   "Customer ID": "TM-21010",
+   "Profit": 1757080,
+   "Order ID": 8,
+   "Average profit perorder": 13956195,
+   "CLV": 491067.5344563553
+  },
+  {
+   "Customer ID": "DJ-13510",
+   "Profit": 1761934,
+   "Order ID": 8,
+   "Average profit perorder": 7428996,
+   "CLV": 543163.7753378379
+  },
+  {
+   "Customer ID": "CC-12100",
+   "Profit": 1766457,
+   "Order ID": 6,
+   "Average profit perorder": 5659173,
+   "CLV": 985866.6743119266
+  },
+  {
+   "Customer ID": "AM-10360",
+   "Profit": 1767655,
+   "Order ID": 5,
+   "Average profit perorder": 11870587,
+   "CLV": 559093.6525129982
+  },
+  {
+   "Customer ID": "AH-10030",
+   "Profit": 1776741,
+   "Order ID": 7,
+   "Average profit perorder": 12600346,
+   "CLV": 485048.9640987285
+  },
+  {
+   "Customer ID": "JP-15520",
+   "Profit": 1785450,
+   "Order ID": 7,
+   "Average profit perorder": 6753370,
+   "CLV": 534609.7210828548
+  },
+  {
+   "Customer ID": "LB-16795",
+   "Profit": 1791111,
+   "Order ID": 8,
+   "Average profit perorder": 5153401,
+   "CLV": 546618.3235785953
+  },
+  {
+   "Customer ID": "RC-19960",
+   "Profit": 1798803,
+   "Order ID": 6,
+   "Average profit perorder": 8251911,
+   "CLV": 589374.4120287254
+  },
+  {
+   "Customer ID": "JK-15370",
+   "Profit": 1807897,
+   "Order ID": 7,
+   "Average profit perorder": 7816801,
+   "CLV": 501430.39893617027
+  },
+  {
+   "Customer ID": "EH-14005",
+   "Profit": 1810000,
+   "Order ID": 7,
+   "Average profit perorder": 6992138,
+   "CLV": 498227.75263951736
+  },
+  {
+   "Customer ID": "BN-11515",
+   "Profit": 1814360,
+   "Order ID": 5,
+   "Average profit perorder": 7700912,
+   "CLV": 481280.0872093023
+  },
+  {
+   "Customer ID": "KC-16255",
+   "Profit": 1821404,
+   "Order ID": 6,
+   "Average profit perorder": 8253554,
+   "CLV": 827910.9090909091
+  },
+  {
+   "Customer ID": "LW-16825",
+   "Profit": 1826762,
+   "Order ID": 5,
+   "Average profit perorder": 8676907,
+   "CLV": 545190.621422731
+  },
+  {
+   "Customer ID": "TC-21535",
+   "Profit": 1840353,
+   "Order ID": 6,
+   "Average profit perorder": 5179012,
+   "CLV": 584112.0391304347
+  },
+  {
+   "Customer ID": "GM-14440",
+   "Profit": 1844290,
+   "Order ID": 7,
+   "Average profit perorder": 8638518,
+   "CLV": 518617.75808936823
+  },
+  {
+   "Customer ID": "LE-16810",
+   "Profit": 1846897,
+   "Order ID": 6,
+   "Average profit perorder": 4890368,
+   "CLV": 521359.1686001547
+  },
+  {
+   "Customer ID": "CA-11965",
+   "Profit": 1849006,
+   "Order ID": 6,
+   "Average profit perorder": 6611296,
+   "CLV": 504023.2935026139
+  },
+  {
+   "Customer ID": "CM-11815",
+   "Profit": 1863749,
+   "Order ID": 6,
+   "Average profit perorder": 8428198,
+   "CLV": 672201.9614624506
+  },
+  {
+   "Customer ID": "AH-10075",
+   "Profit": 1871600,
+   "Order ID": 10,
+   "Average profit perorder": 4273705,
+   "CLV": 617103.8843721771
+  },
+  {
+   "Customer ID": "SN-20560",
+   "Profit": 1871899,
+   "Order ID": 6,
+   "Average profit perorder": 17970101,
+   "CLV": 837307.7634803922
+  },
+  {
+   "Customer ID": "PS-19045",
+   "Profit": 1876686,
+   "Order ID": 7,
+   "Average profit perorder": 8750042,
+   "CLV": 786441.3203214696
+  },
+  {
+   "Customer ID": "DL-13315",
+   "Profit": 1878059,
+   "Order ID": 7,
+   "Average profit perorder": 10006903,
+   "CLV": 481722.7933942375
+  },
+  {
+   "Customer ID": "HF-14995",
+   "Profit": 1888278,
+   "Order ID": 6,
+   "Average profit perorder": 7245684,
+   "CLV": 532628.6476043276
+  },
+  {
+   "Customer ID": "CB-12025",
+   "Profit": 1895603,
+   "Order ID": 10,
+   "Average profit perorder": 9425808,
+   "CLV": 518661.9902548726
+  },
+  {
+   "Customer ID": "CK-12595",
+   "Profit": 1897906,
+   "Order ID": 10,
+   "Average profit perorder": 8262714,
+   "CLV": 654759.6313799622
+  },
+  {
+   "Customer ID": "AG-10495",
+   "Profit": 1902651,
+   "Order ID": 8,
+   "Average profit perorder": 15161094,
+   "CLV": 684879.3047337278
+  },
+  {
+   "Customer ID": "AH-10120",
+   "Profit": 1910191,
+   "Order ID": 7,
+   "Average profit perorder": 8899349,
+   "CLV": 580049.6797004992
+  },
+  {
+   "Customer ID": "DM-13525",
+   "Profit": 1915347,
+   "Order ID": 3,
+   "Average profit perorder": 6411295,
+   "CLV": 880480.6738035266
+  },
+  {
+   "Customer ID": "KN-16705",
+   "Profit": 1918474,
+   "Order ID": 8,
+   "Average profit perorder": 7944492,
+   "CLV": 537821.0522273426
+  },
+  {
+   "Customer ID": "VB-21745",
+   "Profit": 1925950,
+   "Order ID": 5,
+   "Average profit perorder": 14276360,
+   "CLV": 832904.9170616114
+  },
+  {
+   "Customer ID": "DL-13330",
+   "Profit": 1932494,
+   "Order ID": 4,
+   "Average profit perorder": 5897941,
+   "CLV": 573463.6666666667
+  },
+  {
+   "Customer ID": "EB-14110",
+   "Profit": 1959587,
+   "Order ID": 4,
+   "Average profit perorder": 7495003,
+   "CLV": 1938344.8644986448
+  },
+  {
+   "Customer ID": "AP-10720",
+   "Profit": 1964494,
+   "Order ID": 8,
+   "Average profit perorder": 22629038,
+   "CLV": 528012.0103092784
+  },
+  {
+   "Customer ID": "AS-10225",
+   "Profit": 1966925,
+   "Order ID": 5,
+   "Average profit perorder": 5705356,
+   "CLV": 625372.4956445993
+  },
+  {
+   "Customer ID": "SH-20635",
+   "Profit": 1974494,
+   "Order ID": 2,
+   "Average profit perorder": 21298258,
+   "CLV": 2082919.9710982658
+  },
+  {
+   "Customer ID": "JL-15235",
+   "Profit": 1980383,
+   "Order ID": 4,
+   "Average profit perorder": 5019206,
+   "CLV": 1124167.6438569208
+  },
+  {
+   "Customer ID": "LS-17200",
+   "Profit": 1984311,
+   "Order ID": 6,
+   "Average profit perorder": 10789277,
+   "CLV": 674370.1256983241
+  },
+  {
+   "Customer ID": "AH-10690",
+   "Profit": 1986300,
+   "Order ID": 12,
+   "Average profit perorder": 7000217,
+   "CLV": 755995.307612096
+  },
+  {
+   "Customer ID": "GM-14695",
+   "Profit": 1987198,
+   "Order ID": 2,
+   "Average profit perorder": 7033870,
+   "CLV": 805919.1888888888
+  },
+  {
+   "Customer ID": "SA-20830",
+   "Profit": 1990404,
+   "Order ID": 10,
+   "Average profit perorder": 10191280,
+   "CLV": 540146.8104089219
+  },
+  {
+   "Customer ID": "DB-12970",
+   "Profit": 1996013,
+   "Order ID": 5,
+   "Average profit perorder": 9389118,
+   "CLV": 805912.3285398231
+  },
+  {
+   "Customer ID": "SS-20515",
+   "Profit": 1999345,
+   "Order ID": 3,
+   "Average profit perorder": 17828717,
+   "CLV": 941627.0000000001
+  },
+  {
+   "Customer ID": "RB-19465",
+   "Profit": 2039570,
+   "Order ID": 11,
+   "Average profit perorder": 7800391,
+   "CLV": 539842.6758520667
+  },
+  {
+   "Customer ID": "AD-10180",
+   "Profit": 2083559,
+   "Order ID": 8,
+   "Average profit perorder": 7867253,
+   "CLV": 685752.0604147881
+  },
+  {
+   "Customer ID": "PR-18880",
+   "Profit": 2089874,
+   "Order ID": 5,
+   "Average profit perorder": 9334923,
+   "CLV": 648091.7672047578
+  },
+  {
+   "Customer ID": "CS-11845",
+   "Profit": 2102446,
+   "Order ID": 5,
+   "Average profit perorder": 7313014,
+   "CLV": 750873.5714285715
+  },
+  {
+   "Customer ID": "MO-17800",
+   "Profit": 2104965,
+   "Order ID": 8,
+   "Average profit perorder": 9369792,
+   "CLV": 1049606.8647540985
+  },
+  {
+   "Customer ID": "QJ-19255",
+   "Profit": 2126565,
+   "Order ID": 8,
+   "Average profit perorder": 11729133,
+   "CLV": 570732.5183823529
+  },
+  {
+   "Customer ID": "VM-21685",
+   "Profit": 2131519,
+   "Order ID": 7,
+   "Average profit perorder": 8770422,
+   "CLV": 593896.5152671755
+  },
+  {
+   "Customer ID": "SZ-20035",
+   "Profit": 2131671,
+   "Order ID": 11,
+   "Average profit perorder": 8905226,
+   "CLV": 661615.5739795918
+  },
+  {
+   "Customer ID": "CB-12415",
+   "Profit": 2147919,
+   "Order ID": 8,
+   "Average profit perorder": 9325155,
+   "CLV": 1030210.8212877793
+  },
+  {
+   "Customer ID": "AA-10645",
+   "Profit": 2154130,
+   "Order ID": 6,
+   "Average profit perorder": 9071329,
+   "CLV": 637678.3860502839
+  },
+  {
+   "Customer ID": "AA-10375",
+   "Profit": 2189580,
+   "Order ID": 9,
+   "Average profit perorder": 5171751,
+   "CLV": 600448.309541698
+  },
+  {
+   "Customer ID": "ZD-21925",
+   "Profit": 2189690,
+   "Order ID": 5,
+   "Average profit perorder": 9051553,
+   "CLV": 783565.5392156864
+  },
+  {
+   "Customer ID": "SC-20380",
+   "Profit": 2200439,
+   "Order ID": 9,
+   "Average profit perorder": 6622699,
+   "CLV": 585820.7403355215
+  },
+  {
+   "Customer ID": "CW-11905",
+   "Profit": 2213929,
+   "Order ID": 6,
+   "Average profit perorder": 11824967,
+   "CLV": 631809.29241595
+  },
+  {
+   "Customer ID": "BD-11620",
+   "Profit": 2224775,
+   "Order ID": 5,
+   "Average profit perorder": 10370891,
+   "CLV": 670555.6358381503
+  },
+  {
+   "Customer ID": "LS-17245",
+   "Profit": 2229497,
+   "Order ID": 6,
+   "Average profit perorder": 7888355,
+   "CLV": 715084.7144112479
+  },
+  {
+   "Customer ID": "MV-18190",
+   "Profit": 2238798,
+   "Order ID": 6,
+   "Average profit perorder": 12695724,
+   "CLV": 578726.111898017
+  },
+  {
+   "Customer ID": "JS-16030",
+   "Profit": 2260830,
+   "Order ID": 6,
+   "Average profit perorder": 10708896,
+   "CLV": 600147.6
+  },
+  {
+   "Customer ID": "BW-11110",
+   "Profit": 2265590,
+   "Order ID": 7,
+   "Average profit perorder": 11325736,
+   "CLV": 922924.497767857
+  },
+  {
+   "Customer ID": "KT-16465",
+   "Profit": 2266567,
+   "Order ID": 7,
+   "Average profit perorder": 9698071,
+   "CLV": 1010130.5921855922
+  },
+  {
+   "Customer ID": "SW-20455",
+   "Profit": 2268834,
+   "Order ID": 6,
+   "Average profit perorder": 4490352,
+   "CLV": 1088205.532194481
+  },
+  {
+   "Customer ID": "RF-19840",
+   "Profit": 2272339,
+   "Order ID": 8,
+   "Average profit perorder": 11268453,
+   "CLV": 728185.895522388
+  },
+  {
+   "Customer ID": "DL-12865",
+   "Profit": 2277413,
+   "Order ID": 8,
+   "Average profit perorder": 7372784,
+   "CLV": 703857.5317527519
+  },
+  {
+   "Customer ID": "SC-20260",
+   "Profit": 2283997,
+   "Order ID": 7,
+   "Average profit perorder": 7719677,
+   "CLV": 707690.0721561969
+  },
+  {
+   "Customer ID": "CA-12310",
+   "Profit": 2288894,
+   "Order ID": 4,
+   "Average profit perorder": 7166150,
+   "CLV": 669428.1330128205
+  },
+  {
+   "Customer ID": "JF-15355",
+   "Profit": 2293072,
+   "Order ID": 6,
+   "Average profit perorder": 10464000,
+   "CLV": 1204275.2230215827
+  },
+  {
+   "Customer ID": "KA-16525",
+   "Profit": 2295526,
+   "Order ID": 7,
+   "Average profit perorder": 11559088,
+   "CLV": 618352.0221402214
+  },
+  {
+   "Customer ID": "PO-18865",
+   "Profit": 2298705,
+   "Order ID": 7,
+   "Average profit perorder": 8428004,
+   "CLV": 608431.7077592459
+  },
+  {
+   "Customer ID": "MC-17425",
+   "Profit": 2310314,
+   "Order ID": 5,
+   "Average profit perorder": 9887128,
+   "CLV": 924632.2478070176
+  },
+  {
+   "Customer ID": "JE-15475",
+   "Profit": 2318038,
+   "Order ID": 6,
+   "Average profit perorder": 6469596,
+   "CLV": 1021840.422705314
+  },
+  {
+   "Customer ID": "MK-18160",
+   "Profit": 2324220,
+   "Order ID": 4,
+   "Average profit perorder": 9832712,
+   "CLV": 977350.5760368664
+  },
+  {
+   "Customer ID": "TT-21220",
+   "Profit": 2330738,
+   "Order ID": 8,
+   "Average profit perorder": 10605685,
+   "CLV": 840631.7885375494
+  },
+  {
+   "Customer ID": "BP-11155",
+   "Profit": 2335071,
+   "Order ID": 6,
+   "Average profit perorder": 8020539,
+   "CLV": 1000353.1866197182
+  },
+  {
+   "Customer ID": "BS-11380",
+   "Profit": 2375596,
+   "Order ID": 5,
+   "Average profit perorder": 12989405,
+   "CLV": 788265.9454545454
+  },
+  {
+   "Customer ID": "DJ-13630",
+   "Profit": 2377029,
+   "Order ID": 3,
+   "Average profit perorder": 21022512,
+   "CLV": 1178825.5230978262
+  },
+  {
+   "Customer ID": "NM-18445",
+   "Profit": 2384667,
+   "Order ID": 7,
+   "Average profit perorder": 9195541,
+   "CLV": 689701.6283676703
+  },
+  {
+   "Customer ID": "SC-20305",
+   "Profit": 2385523,
+   "Order ID": 7,
+   "Average profit perorder": 11597347,
+   "CLV": 804728.1839186691
+  },
+  {
+   "Customer ID": "LW-17215",
+   "Profit": 2406485,
+   "Order ID": 6,
+   "Average profit perorder": 7442853,
+   "CLV": 1535606.687062937
+  },
+  {
+   "Customer ID": "RM-19375",
+   "Profit": 2407231,
+   "Order ID": 6,
+   "Average profit perorder": 7723059,
+   "CLV": 892019.6091370559
+  },
+  {
+   "Customer ID": "JK-15730",
+   "Profit": 2408263,
+   "Order ID": 10,
+   "Average profit perorder": 9595413,
+   "CLV": 833190.5165876776
+  },
+  {
+   "Customer ID": "BP-11095",
+   "Profit": 2416577,
+   "Order ID": 11,
+   "Average profit perorder": 6704857,
+   "CLV": 759079.6944922548
+  },
+  {
+   "Customer ID": "LC-17140",
+   "Profit": 2424265,
+   "Order ID": 8,
+   "Average profit perorder": 12952944,
+   "CLV": 739846.7600334449
+  },
+  {
+   "Customer ID": "TB-21250",
+   "Profit": 2461462,
+   "Order ID": 7,
+   "Average profit perorder": 9780126,
+   "CLV": 1166796.9220779222
+  },
+  {
+   "Customer ID": "GR-14560",
+   "Profit": 2467656,
+   "Order ID": 2,
+   "Average profit perorder": 14373840,
+   "CLV": 300231480
+  },
+  {
+   "Customer ID": "ML-17755",
+   "Profit": 2491750,
+   "Order ID": 6,
+   "Average profit perorder": 17107578,
+   "CLV": 1875234.5360824743
+  },
+  {
+   "Customer ID": "FM-14380",
+   "Profit": 2498518,
+   "Order ID": 9,
+   "Average profit perorder": 10977056,
+   "CLV": 1203112.2295514513
+  },
+  {
+   "Customer ID": "HA-14905",
+   "Profit": 2513769,
+   "Order ID": 7,
+   "Average profit perorder": 13509379,
+   "CLV": 757659.5251857968
+  },
+  {
+   "Customer ID": "NC-18340",
+   "Profit": 2560636,
+   "Order ID": 5,
+   "Average profit perorder": 9163145,
+   "CLV": 814139.4947735191
+  },
+  {
+   "Customer ID": "RL-19615",
+   "Profit": 2562011,
+   "Order ID": 8,
+   "Average profit perorder": 16306270,
+   "CLV": 934199.8151848152
+  },
+  {
+   "Customer ID": "CD-12280",
+   "Profit": 2563140,
+   "Order ID": 2,
+   "Average profit perorder": 10356838,
+   "CLV": 66824721.42857143
+  },
+  {
+   "Customer ID": "JM-15535",
+   "Profit": 2563614,
+   "Order ID": 7,
+   "Average profit perorder": 22342458,
+   "CLV": 848340.0815956483
+  },
+  {
+   "Customer ID": "BT-11395",
+   "Profit": 2579163,
+   "Order ID": 6,
+   "Average profit perorder": 13140149,
+   "CLV": 1097196.3811188813
+  },
+  {
+   "Customer ID": "MF-18250",
+   "Profit": 2602504,
+   "Order ID": 5,
+   "Average profit perorder": 8299584,
+   "CLV": 794242.4414715719
+  },
+  {
+   "Customer ID": "JE-16165",
+   "Profit": 2608526,
+   "Order ID": 3,
+   "Average profit perorder": 20703052,
+   "CLV": 2566339.5956873316
+  },
+  {
+   "Customer ID": "CC-12610",
+   "Profit": 2626200,
+   "Order ID": 7,
+   "Average profit perorder": 12302368,
+   "CLV": 806871.212121212
+  },
+  {
+   "Customer ID": "NP-18325",
+   "Profit": 2634714,
+   "Order ID": 6,
+   "Average profit perorder": -3358283,
+   "CLV": 738043.4458940906
+  },
+  {
+   "Customer ID": "NB-18655",
+   "Profit": 2635809,
+   "Order ID": 8,
+   "Average profit perorder": 15504899,
+   "CLV": 872230.5394378966
+  },
+  {
+   "Customer ID": "RR-19525",
+   "Profit": 2650955,
+   "Order ID": 6,
+   "Average profit perorder": 7862569,
+   "CLV": 931278.7054860442
+  },
+  {
+   "Customer ID": "SD-20485",
+   "Profit": 2672404,
+   "Order ID": 9,
+   "Average profit perorder": 6653597,
+   "CLV": 789819.8056680161
+  },
+  {
+   "Customer ID": "FM-14215",
+   "Profit": 2681587,
+   "Order ID": 10,
+   "Average profit perorder": 9207310,
+   "CLV": 707210.4443641619
+  },
+  {
+   "Customer ID": "MN-17935",
+   "Profit": 2692072,
+   "Order ID": 6,
+   "Average profit perorder": 13377850,
+   "CLV": 712033.536231884
+  },
+  {
+   "Customer ID": "SW-20275",
+   "Profit": 2695017,
+   "Order ID": 6,
+   "Average profit perorder": 17816215,
+   "CLV": 722232.896475771
+  },
+  {
+   "Customer ID": "DV-13465",
+   "Profit": 2707331,
+   "Order ID": 6,
+   "Average profit perorder": 7501865,
+   "CLV": 784889.447974583
+  },
+  {
+   "Customer ID": "ES-14080",
+   "Profit": 2707614,
+   "Order ID": 8,
+   "Average profit perorder": 12309646,
+   "CLV": 853436.1917098446
+  },
+  {
+   "Customer ID": "RB-19435",
+   "Profit": 2730308,
+   "Order ID": 7,
+   "Average profit perorder": 13908165,
+   "CLV": 726357.4489795918
+  },
+  {
+   "Customer ID": "DB-13360",
+   "Profit": 2737339,
+   "Order ID": 5,
+   "Average profit perorder": 9816095,
+   "CLV": 1143167.8890160182
+  },
+  {
+   "Customer ID": "JC-15775",
+   "Profit": 2761507,
+   "Order ID": 9,
+   "Average profit perorder": 13529924,
+   "CLV": 963623.379541109
+  },
+  {
+   "Customer ID": "KD-16615",
+   "Profit": 2772585,
+   "Order ID": 5,
+   "Average profit perorder": 11291595,
+   "CLV": 1836648.8656987296
+  },
+  {
+   "Customer ID": "BT-11305",
+   "Profit": 2782538,
+   "Order ID": 5,
+   "Average profit perorder": 9948096,
+   "CLV": 1005570.6633663366
+  },
+  {
+   "Customer ID": "BD-11320",
+   "Profit": 2805820,
+   "Order ID": 10,
+   "Average profit perorder": 14962902,
+   "CLV": 1122943.3114035088
+  },
+  {
+   "Customer ID": "KB-16240",
+   "Profit": 2811017,
+   "Order ID": 7,
+   "Average profit perorder": 13987382,
+   "CLV": 750564.1587417702
+  },
+  {
+   "Customer ID": "PO-18850",
+   "Profit": 2832307,
+   "Order ID": 11,
+   "Average profit perorder": 39823670,
+   "CLV": 898168.5968722849
+  },
+  {
+   "Customer ID": "TH-21550",
+   "Profit": 2834017,
+   "Order ID": 6,
+   "Average profit perorder": 8612759,
+   "CLV": 837583.971659919
+  },
+  {
+   "Customer ID": "NF-18595",
+   "Profit": 2838176,
+   "Order ID": 7,
+   "Average profit perorder": 16174455,
+   "CLV": 836780.4846526656
+  },
+  {
+   "Customer ID": "NP-18670",
+   "Profit": 2857257,
+   "Order ID": 4,
+   "Average profit perorder": 18073634,
+   "CLV": 2204860.0528541226
+  },
+  {
+   "Customer ID": "BD-11725",
+   "Profit": 2870741,
+   "Order ID": 6,
+   "Average profit perorder": 8244607,
+   "CLV": 1279390.067155067
+  },
+  {
+   "Customer ID": "CY-12745",
+   "Profit": 2882542,
+   "Order ID": 7,
+   "Average profit perorder": 18742868,
+   "CLV": 1180839.315375982
+  },
+  {
+   "Customer ID": "LH-17155",
+   "Profit": 2889577,
+   "Order ID": 9,
+   "Average profit perorder": 7070487,
+   "CLV": 1444788.5
+  },
+  {
+   "Customer ID": "JP-16135",
+   "Profit": 2904206,
+   "Order ID": 9,
+   "Average profit perorder": 11047950,
+   "CLV": 969840.064043916
+  },
+  {
+   "Customer ID": "CC-12430",
+   "Profit": 2916797,
+   "Order ID": 10,
+   "Average profit perorder": 11073846,
+   "CLV": 1256943.2172373082
+  },
+  {
+   "Customer ID": "ML-17410",
+   "Profit": 2921126,
+   "Order ID": 6,
+   "Average profit perorder": 15621594,
+   "CLV": 979073.4527089072
+  },
+  {
+   "Customer ID": "SG-20080",
+   "Profit": 2933325,
+   "Order ID": 3,
+   "Average profit perorder": 8220131,
+   "CLV": 1365642.3788265307
+  },
+  {
+   "Customer ID": "LC-16960",
+   "Profit": 2987341,
+   "Order ID": 4,
+   "Average profit perorder": 25016327,
+   "CLV": 1799306.0478547853
+  },
+  {
+   "Customer ID": "TS-21430",
+   "Profit": 2992425,
+   "Order ID": 5,
+   "Average profit perorder": 22334553,
+   "CLV": 1013205.125231911
+  },
+  {
+   "Customer ID": "BD-11605",
+   "Profit": 3012631,
+   "Order ID": 7,
+   "Average profit perorder": 10617174,
+   "CLV": 813923.253145818
+  },
+  {
+   "Customer ID": "NL-18310",
+   "Profit": 3019294,
+   "Order ID": 4,
+   "Average profit perorder": 16867456,
+   "CLV": 1002768.2529572339
+  },
+  {
+   "Customer ID": "KW-16435",
+   "Profit": 3029201,
+   "Order ID": 5,
+   "Average profit perorder": 10188005,
+   "CLV": 1447196.812827225
+  },
+  {
+   "Customer ID": "TS-21655",
+   "Profit": 3055104,
+   "Order ID": 5,
+   "Average profit perorder": 7902930,
+   "CLV": 1358237.466504263
+  },
+  {
+   "Customer ID": "DP-13000",
+   "Profit": 3074107,
+   "Order ID": 9,
+   "Average profit perorder": 20418111,
+   "CLV": 842379.1704204204
+  },
+  {
+   "Customer ID": "MS-17710",
+   "Profit": 3082523,
+   "Order ID": 6,
+   "Average profit perorder": 13646828,
+   "CLV": 1165928.3886010363
+  },
+  {
+   "Customer ID": "CL-11890",
+   "Profit": 3087131,
+   "Order ID": 4,
+   "Average profit perorder": 13680067,
+   "CLV": 981535.5531358885
+  },
+  {
+   "Customer ID": "SE-20110",
+   "Profit": 3104465,
+   "Order ID": 11,
+   "Average profit perorder": 21503863,
+   "CLV": 838734.0673575129
+  },
+  {
+   "Customer ID": "SR-20740",
+   "Profit": 3125454,
+   "Order ID": 8,
+   "Average profit perorder": 15806550,
+   "CLV": 939695.8072487644
+  },
+  {
+   "Customer ID": "AG-10900",
+   "Profit": 3125520,
+   "Order ID": 9,
+   "Average profit perorder": 12617932,
+   "CLV": 982613.953488372
+  },
+  {
+   "Customer ID": "BT-11530",
+   "Profit": 3156661,
+   "Order ID": 5,
+   "Average profit perorder": 14568697,
+   "CLV": 937494.9267697316
+  },
+  {
+   "Customer ID": "MC-17845",
+   "Profit": 3163287,
+   "Order ID": 7,
+   "Average profit perorder": 11234446,
+   "CLV": 906279.242543171
+  },
+  {
+   "Customer ID": "DB-13405",
+   "Profit": 3173894,
+   "Order ID": 4,
+   "Average profit perorder": 19125776,
+   "CLV": 1681380.7111756168
+  },
+  {
+   "Customer ID": "AS-10285",
+   "Profit": 3174980,
+   "Order ID": 5,
+   "Average profit perorder": 17917148,
+   "CLV": 2033101.2280701753
+  },
+  {
+   "Customer ID": "CV-12295",
+   "Profit": 3187471,
+   "Order ID": 5,
+   "Average profit perorder": 13856669,
+   "CLV": 1038774.0312500001
+  },
+  {
+   "Customer ID": "AB-10150",
+   "Profit": 3210262,
+   "Order ID": 5,
+   "Average profit perorder": 10106243,
+   "CLV": 864119.1961651917
+  },
+  {
+   "Customer ID": "AM-10705",
+   "Profit": 3211187,
+   "Order ID": 8,
+   "Average profit perorder": 11298588,
+   "CLV": 1177973.1206030152
+  },
+  {
+   "Customer ID": "NG-18355",
+   "Profit": 3241761,
+   "Order ID": 4,
+   "Average profit perorder": 8317219,
+   "CLV": 1184427.1921921922
+  },
+  {
+   "Customer ID": "LH-16900",
+   "Profit": 3251828,
+   "Order ID": 9,
+   "Average profit perorder": 24805930,
+   "CLV": 981734.6732837056
+  },
+  {
+   "Customer ID": "EJ-14155",
+   "Profit": 3268133,
+   "Order ID": 4,
+   "Average profit perorder": 11228422,
+   "CLV": 3529196.878698225
+  },
+  {
+   "Customer ID": "DN-13690",
+   "Profit": 3268310,
+   "Order ID": 7,
+   "Average profit perorder": 19767058,
+   "CLV": 1216037.869520897
+  },
+  {
+   "Customer ID": "BF-11215",
+   "Profit": 3270967,
+   "Order ID": 3,
+   "Average profit perorder": 20420099,
+   "CLV": 1102403.4672206833
+  },
+  {
+   "Customer ID": "RA-19285",
+   "Profit": 3282180,
+   "Order ID": 9,
+   "Average profit perorder": 16235757,
+   "CLV": 1080248.6023444545
+  },
+  {
+   "Customer ID": "MG-17650",
+   "Profit": 3289801,
+   "Order ID": 6,
+   "Average profit perorder": 18939138,
+   "CLV": 991558.5177539225
+  },
+  {
+   "Customer ID": "VW-21775",
+   "Profit": 3316823,
+   "Order ID": 9,
+   "Average profit perorder": 20752888,
+   "CLV": 978690.6992724333
+  },
+  {
+   "Customer ID": "SC-20680",
+   "Profit": 3362323,
+   "Order ID": 6,
+   "Average profit perorder": 15757865,
+   "CLV": 1215096.9257425743
+  },
+  {
+   "Customer ID": "JW-15220",
+   "Profit": 3372216,
+   "Order ID": 6,
+   "Average profit perorder": 20211094,
+   "CLV": 1317836.017130621
+  },
+  {
+   "Customer ID": "CS-12355",
+   "Profit": 3372996,
+   "Order ID": 11,
+   "Average profit perorder": 14111864,
+   "CLV": 1002559.8859934852
+  },
+  {
+   "Customer ID": "AA-10480",
+   "Profit": 3373026,
+   "Order ID": 4,
+   "Average profit perorder": 10204174,
+   "CLV": 1142072.810760668
+  },
+  {
+   "Customer ID": "CD-12790",
+   "Profit": 3374807,
+   "Order ID": 5,
+   "Average profit perorder": 10933739,
+   "CLV": 1197088.9747327503
+  },
+  {
+   "Customer ID": "SH-19975",
+   "Profit": 3376671,
+   "Order ID": 13,
+   "Average profit perorder": 15281253,
+   "CLV": 1132798.6351102942
+  },
+  {
+   "Customer ID": "TG-21640",
+   "Profit": 3385612,
+   "Order ID": 4,
+   "Average profit perorder": 24290561,
+   "CLV": 983093.3810660302
+  },
+  {
+   "Customer ID": "MP-17470",
+   "Profit": 3396779,
+   "Order ID": 7,
+   "Average profit perorder": 18541907,
+   "CLV": 1898659.0122511485
+  },
+  {
+   "Customer ID": "RH-19510",
+   "Profit": 3425671,
+   "Order ID": 5,
+   "Average profit perorder": 15569917,
+   "CLV": 3239300.297927461
+  },
+  {
+   "Customer ID": "CC-12145",
+   "Profit": 3427105,
+   "Order ID": 7,
+   "Average profit perorder": 13406231,
+   "CLV": 1083963.0199306759
+  },
+  {
+   "Customer ID": "LC-16885",
+   "Profit": 3447467,
+   "Order ID": 11,
+   "Average profit perorder": 22781888,
+   "CLV": 946109.3646616542
+  },
+  {
+   "Customer ID": "CM-12385",
+   "Profit": 3473708,
+   "Order ID": 4,
+   "Average profit perorder": 16603650,
+   "CLV": 1288519.7357723576
+  },
+  {
+   "Customer ID": "CA-12265",
+   "Profit": 3486060,
+   "Order ID": 9,
+   "Average profit perorder": 16865376,
+   "CLV": 963218.6979560938
+  },
+  {
+   "Customer ID": "EB-13870",
+   "Profit": 3493952,
+   "Order ID": 9,
+   "Average profit perorder": 13379648,
+   "CLV": 1031790.0323624596
+  },
+  {
+   "Customer ID": "RS-19420",
+   "Profit": 3498686,
+   "Order ID": 5,
+   "Average profit perorder": 10225870,
+   "CLV": 1093339.375
+  },
+  {
+   "Customer ID": "HR-14830",
+   "Profit": 3514742,
+   "Order ID": 7,
+   "Average profit perorder": 9523124,
+   "CLV": 1317126.1088295688
+  },
+  {
+   "Customer ID": "FG-14260",
+   "Profit": 3539535,
+   "Order ID": 7,
+   "Average profit perorder": 23387263,
+   "CLV": 1004611.4113530327
+  },
+  {
+   "Customer ID": "RP-19390",
+   "Profit": 3540868,
+   "Order ID": 12,
+   "Average profit perorder": 24004557,
+   "CLV": 1006555.15576324
+  },
+  {
+   "Customer ID": "SS-20140",
+   "Profit": 3550827,
+   "Order ID": 8,
+   "Average profit perorder": 14430985,
+   "CLV": 1158223.2841823057
+  },
+  {
+   "Customer ID": "TT-21070",
+   "Profit": 3626266,
+   "Order ID": 7,
+   "Average profit perorder": 27006476,
+   "CLV": 1024448.2120743035
+  },
+  {
+   "Customer ID": "CS-12250",
+   "Profit": 3627260,
+   "Order ID": 12,
+   "Average profit perorder": 15673240,
+   "CLV": 931047.7496483825
+  },
+  {
+   "Customer ID": "CC-12685",
+   "Profit": 3659002,
+   "Order ID": 4,
+   "Average profit perorder": 12807746,
+   "CLV": 2298684.5611015493
+  },
+  {
+   "Customer ID": "GB-14575",
+   "Profit": 3659267,
+   "Order ID": 5,
+   "Average profit perorder": 12637248,
+   "CLV": 1451774.4076086956
+  },
+  {
+   "Customer ID": "SC-20440",
+   "Profit": 3689529,
+   "Order ID": 7,
+   "Average profit perorder": 15119781,
+   "CLV": 1620551.2454873647
+  },
+  {
+   "Customer ID": "PJ-18835",
+   "Profit": 3693426,
+   "Order ID": 8,
+   "Average profit perorder": 11518050,
+   "CLV": 1058163.649921507
+  },
+  {
+   "Customer ID": "NZ-18565",
+   "Profit": 3710172,
+   "Order ID": 9,
+   "Average profit perorder": 8862116,
+   "CLV": 1165415.473321859
+  },
+  {
+   "Customer ID": "AR-10540",
+   "Profit": 3718186,
+   "Order ID": 6,
+   "Average profit perorder": 13898834,
+   "CLV": 1205273.4369449378
+  },
+  {
+   "Customer ID": "SF-20200",
+   "Profit": 3720563,
+   "Order ID": 9,
+   "Average profit perorder": 32824295,
+   "CLV": 1299526.7894736843
+  },
+  {
+   "Customer ID": "KM-16225",
+   "Profit": 3721917,
+   "Order ID": 6,
+   "Average profit perorder": 12055673,
+   "CLV": 1517876.7653631284
+  },
+  {
+   "Customer ID": "JB-15400",
+   "Profit": 3740442,
+   "Order ID": 10,
+   "Average profit perorder": 6360533,
+   "CLV": 1140569.1979949875
+  },
+  {
+   "Customer ID": "DK-13090",
+   "Profit": 3755914,
+   "Order ID": 6,
+   "Average profit perorder": 8751398,
+   "CLV": 1775788.3549222797
+  },
+  {
+   "Customer ID": "RP-19855",
+   "Profit": 3756492,
+   "Order ID": 8,
+   "Average profit perorder": 12401966,
+   "CLV": 1024753.0493273543
+  },
+  {
+   "Customer ID": "XP-21865",
+   "Profit": 3775361,
+   "Order ID": 11,
+   "Average profit perorder": 13072129,
+   "CLV": 985698.6874105865
+  },
+  {
+   "Customer ID": "RD-19900",
+   "Profit": 3781454,
+   "Order ID": 9,
+   "Average profit perorder": 22903400,
+   "CLV": 1102420.694888179
+  },
+  {
+   "Customer ID": "JG-15160",
+   "Profit": 3800538,
+   "Order ID": 10,
+   "Average profit perorder": 14592827,
+   "CLV": 1058928.526717557
+  },
+  {
+   "Customer ID": "AP-10915",
+   "Profit": 3820329,
+   "Order ID": 10,
+   "Average profit perorder": 12043483,
+   "CLV": 1236188.0186170214
+  },
+  {
+   "Customer ID": "KD-16345",
+   "Profit": 3823779,
+   "Order ID": 6,
+   "Average profit perorder": 15632667,
+   "CLV": 1187812.2000000002
+  },
+  {
+   "Customer ID": "GZ-14470",
+   "Profit": 3905252,
+   "Order ID": 9,
+   "Average profit perorder": 12543052,
+   "CLV": 1152317.6879547292
+  },
+  {
+   "Customer ID": "JC-15385",
+   "Profit": 3941972,
+   "Order ID": 1,
+   "Average profit perorder": 31006456,
+   "CLV": 1438819780
+  },
+  {
+   "Customer ID": "MP-18175",
+   "Profit": 3947223,
+   "Order ID": 9,
+   "Average profit perorder": 24520385,
+   "CLV": 1060925.1804123712
+  },
+  {
+   "Customer ID": "JM-16195",
+   "Profit": 3962579,
+   "Order ID": 10,
+   "Average profit perorder": 17074888,
+   "CLV": 1126434.06152648
+  },
+  {
+   "Customer ID": "PV-18985",
+   "Profit": 3966879,
+   "Order ID": 5,
+   "Average profit perorder": 28404277,
+   "CLV": 1228083.8295165394
+  },
+  {
+   "Customer ID": "ND-18460",
+   "Profit": 3985935,
+   "Order ID": 5,
+   "Average profit perorder": 23976749,
+   "CLV": 1172333.8235294118
+  },
+  {
+   "Customer ID": "CD-11920",
+   "Profit": 4001578,
+   "Order ID": 5,
+   "Average profit perorder": 13642394,
+   "CLV": 1091611.3378176382
+  },
+  {
+   "Customer ID": "MT-17815",
+   "Profit": 4030210,
+   "Order ID": 6,
+   "Average profit perorder": 31449735,
+   "CLV": 1995965.603799186
+  },
+  {
+   "Customer ID": "EJ-13720",
+   "Profit": 4036676,
+   "Order ID": 4,
+   "Average profit perorder": 35239928,
+   "CLV": 1301578.3922261484
+  },
+  {
+   "Customer ID": "LL-16840",
+   "Profit": 4151258,
+   "Order ID": 6,
+   "Average profit perorder": 28674836,
+   "CLV": 1386284.693504117
+  },
+  {
+   "Customer ID": "MH-18025",
+   "Profit": 4161442,
+   "Order ID": 5,
+   "Average profit perorder": 16106155,
+   "CLV": 1241967.5633687654
+  },
+  {
+   "Customer ID": "DB-12910",
+   "Profit": 4169820,
+   "Order ID": 7,
+   "Average profit perorder": 23781954,
+   "CLV": 1339774.911971831
+  },
+  {
+   "Customer ID": "JF-15190",
+   "Profit": 4372090,
+   "Order ID": 7,
+   "Average profit perorder": 18188658,
+   "CLV": 1481720.3806870938
+  },
+  {
+   "Customer ID": "SG-20605",
+   "Profit": 4442592,
+   "Order ID": 6,
+   "Average profit perorder": 22493050,
+   "CLV": 1219207.5789473683
+  },
+  {
+   "Customer ID": "LA-16780",
+   "Profit": 4454238,
+   "Order ID": 11,
+   "Average profit perorder": 17868507,
+   "CLV": 1368515.8838383837
+  },
+  {
+   "Customer ID": "MS-17365",
+   "Profit": 4481460,
+   "Order ID": 10,
+   "Average profit perorder": 27855625,
+   "CLV": 1747577.8846153845
+  },
+  {
+   "Customer ID": "EA-14035",
+   "Profit": 4487328,
+   "Order ID": 12,
+   "Average profit perorder": 9919631,
+   "CLV": 1555436.5811965812
+  },
+  {
+   "Customer ID": "FM-14290",
+   "Profit": 4501971,
+   "Order ID": 9,
+   "Average profit perorder": 47884357,
+   "CLV": 1384346.600673968
+  },
+  {
+   "Customer ID": "EM-14140",
+   "Profit": 4508133,
+   "Order ID": 6,
+   "Average profit perorder": 14993281,
+   "CLV": 1356528.066776587
+  },
+  {
+   "Customer ID": "TB-21280",
+   "Profit": 4533853,
+   "Order ID": 6,
+   "Average profit perorder": 18631827,
+   "CLV": 2343989.157223796
+  },
+  {
+   "Customer ID": "JO-15145",
+   "Profit": 4548189,
+   "Order ID": 9,
+   "Average profit perorder": 26818267,
+   "CLV": 1187474.238197425
+  },
+  {
+   "Customer ID": "DP-13105",
+   "Profit": 4571849,
+   "Order ID": 7,
+   "Average profit perorder": 35080470,
+   "CLV": 3017585.68716094
+  },
+  {
+   "Customer ID": "BB-11545",
+   "Profit": 4574107,
+   "Order ID": 8,
+   "Average profit perorder": 37623427,
+   "CLV": 1830645.8936403508
+  },
+  {
+   "Customer ID": "PW-19030",
+   "Profit": 4578651,
+   "Order ID": 10,
+   "Average profit perorder": 21462049,
+   "CLV": 1306651.7709147772
+  },
+  {
+   "Customer ID": "SB-20185",
+   "Profit": 4587384,
+   "Order ID": 6,
+   "Average profit perorder": 29797339,
+   "CLV": 1657816.99009901
+  },
+  {
+   "Customer ID": "KM-16375",
+   "Profit": 4635442,
+   "Order ID": 8,
+   "Average profit perorder": 14935266,
+   "CLV": 1405262.7325581396
+  },
+  {
+   "Customer ID": "SL-20155",
+   "Profit": 4645647,
+   "Order ID": 7,
+   "Average profit perorder": 33176711,
+   "CLV": 1504579.5519077196
+  },
+  {
+   "Customer ID": "DK-13225",
+   "Profit": 4649045,
+   "Order ID": 9,
+   "Average profit perorder": 20133049,
+   "CLV": 1231423.385341074
+  },
+  {
+   "Customer ID": "DB-13615",
+   "Profit": 4659758,
+   "Order ID": 6,
+   "Average profit perorder": 10530615,
+   "CLV": 1472564.2164502165
+  },
+  {
+   "Customer ID": "SC-20050",
+   "Profit": 4687395,
+   "Order ID": 9,
+   "Average profit perorder": 27189764,
+   "CLV": 1272990.4575892857
+  },
+  {
+   "Customer ID": "RA-19885",
+   "Profit": 4722464,
+   "Order ID": 6,
+   "Average profit perorder": 13894720,
+   "CLV": 1578479.2673992675
+  },
+  {
+   "Customer ID": "PM-19135",
+   "Profit": 4764464,
+   "Order ID": 4,
+   "Average profit perorder": 44978540,
+   "CLV": 2513048.2080924856
+  },
+  {
+   "Customer ID": "JE-15610",
+   "Profit": 4817357,
+   "Order ID": 7,
+   "Average profit perorder": 18765311,
+   "CLV": 1561576.6474245114
+  },
+  {
+   "Customer ID": "JM-15265",
+   "Profit": 4825107,
+   "Order ID": 5,
+   "Average profit perorder": 28058031,
+   "CLV": 1483710.2401010953
+  },
+  {
+   "Customer ID": "EM-13825",
+   "Profit": 4885394,
+   "Order ID": 8,
+   "Average profit perorder": 18871868,
+   "CLV": 1666512.906542056
+  },
+  {
+   "Customer ID": "TS-21205",
+   "Profit": 4910578,
+   "Order ID": 7,
+   "Average profit perorder": 27038978,
+   "CLV": 1515098.0304311074
+  },
+  {
+   "Customer ID": "MJ-17740",
+   "Profit": 4927212,
+   "Order ID": 7,
+   "Average profit perorder": 19735356,
+   "CLV": 1967650.306345733
+  },
+  {
+   "Customer ID": "NH-18610",
+   "Profit": 4934525,
+   "Order ID": 7,
+   "Average profit perorder": 30504649,
+   "CLV": 1487284.5788604459
+  },
+  {
+   "Customer ID": "NP-18700",
+   "Profit": 4970012,
+   "Order ID": 6,
+   "Average profit perorder": 41036416,
+   "CLV": 1687492.4465116279
+  },
+  {
+   "Customer ID": "PF-19165",
+   "Profit": 5033608,
+   "Order ID": 5,
+   "Average profit perorder": 26750046,
+   "CLV": 2779526.3540090774
+  },
+  {
+   "Customer ID": "DB-13060",
+   "Profit": 5103883,
+   "Order ID": 6,
+   "Average profit perorder": 29888939,
+   "CLV": 1345066.6389891696
+  },
+  {
+   "Customer ID": "SN-20710",
+   "Profit": 5105832,
+   "Order ID": 7,
+   "Average profit perorder": 30641795,
+   "CLV": 1483780.796178344
+  },
+  {
+   "Customer ID": "EH-13765",
+   "Profit": 5136181,
+   "Order ID": 12,
+   "Average profit perorder": 17247147,
+   "CLV": 1531622.602124183
+  },
+  {
+   "Customer ID": "PO-19180",
+   "Profit": 5157140,
+   "Order ID": 9,
+   "Average profit perorder": 22765198,
+   "CLV": 2640050.631136045
+  },
+  {
+   "Customer ID": "SM-20950",
+   "Profit": 5218250,
+   "Order ID": 12,
+   "Average profit perorder": 36896143,
+   "CLV": 1636306.91580756
+  },
+  {
+   "Customer ID": "AG-10270",
+   "Profit": 5237131,
+   "Order ID": 5,
+   "Average profit perorder": 61404623,
+   "CLV": 1820526.4904761903
+  },
+  {
+   "Customer ID": "EP-13915",
+   "Profit": 5258365,
+   "Order ID": 15,
+   "Average profit perorder": 4885611,
+   "CLV": 1520842.4920760698
+  },
+  {
+   "Customer ID": "HK-14890",
+   "Profit": 5264870,
+   "Order ID": 8,
+   "Average profit perorder": 18594872,
+   "CLV": 1672478.2854656223
+  },
+  {
+   "Customer ID": "LD-17005",
+   "Profit": 5346750,
+   "Order ID": 4,
+   "Average profit perorder": 36844956,
+   "CLV": 2518146.7741935486
+  },
+  {
+   "Customer ID": "KB-16585",
+   "Profit": 5382914,
+   "Order ID": 11,
+   "Average profit perorder": 37691620,
+   "CLV": 1728024.2832014074
+  },
+  {
+   "Customer ID": "KH-16510",
+   "Profit": 5399793,
+   "Order ID": 6,
+   "Average profit perorder": 14660605,
+   "CLV": 1697609.3410852712
+  },
+  {
+   "Customer ID": "KM-16720",
+   "Profit": 5457309,
+   "Order ID": 8,
+   "Average profit perorder": 28044571,
+   "CLV": 1482081.685267857
+  },
+  {
+   "Customer ID": "MP-17965",
+   "Profit": 5505021,
+   "Order ID": 7,
+   "Average profit perorder": 16691310,
+   "CLV": 2193594.612445415
+  },
+  {
+   "Customer ID": "TB-21175",
+   "Profit": 5537662,
+   "Order ID": 4,
+   "Average profit perorder": 48129844,
+   "CLV": 1905039.2365692742
+  },
+  {
+   "Customer ID": "DG-13300",
+   "Profit": 5576811,
+   "Order ID": 5,
+   "Average profit perorder": 58007883,
+   "CLV": 1810975.1023131674
+  },
+  {
+   "Customer ID": "RH-19495",
+   "Profit": 5637877,
+   "Order ID": 5,
+   "Average profit perorder": 36272451,
+   "CLV": 1723471.6122278057
+  },
+  {
+   "Customer ID": "AJ-10795",
+   "Profit": 5657414,
+   "Order ID": 7,
+   "Average profit perorder": 30047074,
+   "CLV": 1778601.3006029283
+  },
+  {
+   "Customer ID": "AI-10855",
+   "Profit": 5674349,
+   "Order ID": 10,
+   "Average profit perorder": 31236283,
+   "CLV": 1557246.1541353385
+  },
+  {
+   "Customer ID": "RD-19585",
+   "Profit": 5686155,
+   "Order ID": 10,
+   "Average profit perorder": 31483933,
+   "CLV": 1745539.5920941967
+  },
+  {
+   "Customer ID": "JS-15880",
+   "Profit": 5689467,
+   "Order ID": 4,
+   "Average profit perorder": 58715877,
+   "CLV": 10032151.956521738
+  },
+  {
+   "Customer ID": "BT-11680",
+   "Profit": 5747780,
+   "Order ID": 7,
+   "Average profit perorder": 25098931,
+   "CLV": 1891740.0360685303
+  },
+  {
+   "Customer ID": "FH-14350",
+   "Profit": 5764024,
+   "Order ID": 4,
+   "Average profit perorder": 24074369,
+   "CLV": 3241708.412942989
+  },
+  {
+   "Customer ID": "TC-21295",
+   "Profit": 5817235,
+   "Order ID": 8,
+   "Average profit perorder": 36937395,
+   "CLV": 1851168.9407149085
+  },
+  {
+   "Customer ID": "ML-17395",
+   "Profit": 5839841,
+   "Order ID": 9,
+   "Average profit perorder": 35294024,
+   "CLV": 1582436.4996288046
+  },
+  {
+   "Customer ID": "MA-17560",
+   "Profit": 5892089,
+   "Order ID": 11,
+   "Average profit perorder": 23497067,
+   "CLV": 1827198.372982158
+  },
+  {
+   "Customer ID": "PF-19225",
+   "Profit": 5913118,
+   "Order ID": 5,
+   "Average profit perorder": 23636248,
+   "CLV": 4916373.735763098
+  },
+  {
+   "Customer ID": "DK-12835",
+   "Profit": 5954048,
+   "Order ID": 11,
+   "Average profit perorder": 43368253,
+   "CLV": 1603857.9483394835
+  },
+  {
+   "Customer ID": "LW-16990",
+   "Profit": 5980411,
+   "Order ID": 6,
+   "Average profit perorder": 32403275,
+   "CLV": 3816171.354895105
+  },
+  {
+   "Customer ID": "JF-15415",
+   "Profit": 5991039,
+   "Order ID": 6,
+   "Average profit perorder": 31293635,
+   "CLV": 1693825.8985282728
+  },
+  {
+   "Customer ID": "KH-16630",
+   "Profit": 5996686,
+   "Order ID": 9,
+   "Average profit perorder": 30720948,
+   "CLV": 1993433.8706739529
+  },
+  {
+   "Customer ID": "RF-19735",
+   "Profit": 6043368,
+   "Order ID": 7,
+   "Average profit perorder": 23873654,
+   "CLV": 1911463.8821490468
+  },
+  {
+   "Customer ID": "AB-10105",
+   "Profit": 6063471,
+   "Order ID": 9,
+   "Average profit perorder": 24115232,
+   "CLV": 2076141.571294559
+  },
+  {
+   "Customer ID": "AJ-10780",
+   "Profit": 6141888,
+   "Order ID": 5,
+   "Average profit perorder": 33547620,
+   "CLV": 1836027.1253071255
+  },
+  {
+   "Customer ID": "SU-20665",
+   "Profit": 6462010,
+   "Order ID": 7,
+   "Average profit perorder": 17175530,
+   "CLV": 3200317.028493894
+  },
+  {
+   "Customer ID": "PJ-19015",
+   "Profit": 6558029,
+   "Order ID": 6,
+   "Average profit perorder": 42953397,
+   "CLV": 1946081.7764227642
+  },
+  {
+   "Customer ID": "BE-11410",
+   "Profit": 6567081,
+   "Order ID": 5,
+   "Average profit perorder": 31434117,
+   "CLV": 4028545.4873949583
+  },
+  {
+   "Customer ID": "LR-16915",
+   "Profit": 6680284,
+   "Order ID": 6,
+   "Average profit perorder": 26198731,
+   "CLV": 2006834.2880658435
+  },
+  {
+   "Customer ID": "EB-13840",
+   "Profit": 6931753,
+   "Order ID": 4,
+   "Average profit perorder": 54683147,
+   "CLV": 2072145.655200655
+  },
+  {
+   "Customer ID": "JL-15850",
+   "Profit": 7071081,
+   "Order ID": 6,
+   "Average profit perorder": 21360512,
+   "CLV": 4007677.895962733
+  },
+  {
+   "Customer ID": "KC-16540",
+   "Profit": 7094219,
+   "Order ID": 4,
+   "Average profit perorder": 87806523,
+   "CLV": 3736493.412698413
+  },
+  {
+   "Customer ID": "GA-14515",
+   "Profit": 7224842,
+   "Order ID": 8,
+   "Average profit perorder": 33273586,
+   "CLV": 2246224.30153322
+  },
+  {
+   "Customer ID": "DK-12895",
+   "Profit": 7312940,
+   "Order ID": 5,
+   "Average profit perorder": 38068354,
+   "CLV": 2712625.101626016
+  },
+  {
+   "Customer ID": "HG-15025",
+   "Profit": 7351421,
+   "Order ID": 7,
+   "Average profit perorder": 33716489,
+   "CLV": 2297319.0625
+  },
+  {
+   "Customer ID": "JG-15115",
+   "Profit": 7493592,
+   "Order ID": 3,
+   "Average profit perorder": 21962886,
+   "CLV": 6230435.261958998
+  },
+  {
+   "Customer ID": "FH-14275",
+   "Profit": 7506309,
+   "Order ID": 10,
+   "Average profit perorder": 25495780,
+   "CLV": 2063104.5067771084
+  },
+  {
+   "Customer ID": "IM-15070",
+   "Profit": 7751719,
+   "Order ID": 7,
+   "Average profit perorder": 45325777,
+   "CLV": 3940637.0961002787
+  },
+  {
+   "Customer ID": "BH-11710",
+   "Profit": 7889856,
+   "Order ID": 8,
+   "Average profit perorder": 45545148,
+   "CLV": 2253362.629107981
+  },
+  {
+   "Customer ID": "IL-15100",
+   "Profit": 7919916,
+   "Order ID": 7,
+   "Average profit perorder": 64198539,
+   "CLV": 2613715.4972875225
+  },
+  {
+   "Customer ID": "TT-21460",
+   "Profit": 8035641,
+   "Order ID": 7,
+   "Average profit perorder": 39479811,
+   "CLV": 3952842.270889488
+  },
+  {
+   "Customer ID": "KD-16495",
+   "Profit": 8039167,
+   "Order ID": 12,
+   "Average profit perorder": 24777151,
+   "CLV": 2721981.405380334
+  },
+  {
+   "Customer ID": "DH-13075",
+   "Profit": 8148395,
+   "Order ID": 5,
+   "Average profit perorder": 43639381,
+   "CLV": 3462356.4318975555
+  },
+  {
+   "Customer ID": "CL-12565",
+   "Profit": 8227727,
+   "Order ID": 12,
+   "Average profit perorder": 46151015,
+   "CLV": 2695799.2414721726
+  },
+  {
+   "Customer ID": "RD-19660",
+   "Profit": 8309399,
+   "Order ID": 5,
+   "Average profit perorder": 22712011,
+   "CLV": 3446512.0852272725
+  },
+  {
+   "Customer ID": "TP-21130",
+   "Profit": 8496653,
+   "Order ID": 9,
+   "Average profit perorder": 45982521,
+   "CLV": 3151705.6351626017
+  },
+  {
+   "Customer ID": "AT-10735",
+   "Profit": 8575723,
+   "Order ID": 10,
+   "Average profit perorder": 64881704,
+   "CLV": 2595471.7205638476
+  },
+  {
+   "Customer ID": "BD-11500",
+   "Profit": 8658216,
+   "Order ID": 6,
+   "Average profit perorder": 59142894,
+   "CLV": 2267036.470588235
+  },
+  {
+   "Customer ID": "SC-20725",
+   "Profit": 8866165,
+   "Order ID": 11,
+   "Average profit perorder": 59869679,
+   "CLV": 2889419.84375
+  },
+  {
+   "Customer ID": "NC-18535",
+   "Profit": 9005815,
+   "Order ID": 6,
+   "Average profit perorder": 16990225,
+   "CLV": 2627595.903277378
+  },
+  {
+   "Customer ID": "TC-20980",
+   "Profit": 9104992,
+   "Order ID": 5,
+   "Average profit perorder": 44454989,
+   "CLV": 4425195.845539281
+  },
+  {
+   "Customer ID": "KL-16645",
+   "Profit": 9110117,
+   "Order ID": 12,
+   "Average profit perorder": 50691255,
+   "CLV": 2752642.9677152317
+  },
+  {
+   "Customer ID": "BF-11170",
+   "Profit": 9202133,
+   "Order ID": 11,
+   "Average profit perorder": 29328353,
+   "CLV": 2502815.6073025335
+  },
+  {
+   "Customer ID": "JD-16150",
+   "Profit": 9418226,
+   "Order ID": 8,
+   "Average profit perorder": 47712814,
+   "CLV": 3125138.627272727
+  },
+  {
+   "Customer ID": "IM-15055",
+   "Profit": 9732429,
+   "Order ID": 3,
+   "Average profit perorder": 48679785,
+   "CLV": 3452222.1428571427
+  },
+  {
+   "Customer ID": "CB-12535",
+   "Profit": 9842435,
+   "Order ID": 8,
+   "Average profit perorder": 73974371,
+   "CLV": 4005004.2084726864
+  },
+  {
+   "Customer ID": "AH-10210",
+   "Profit": 10080878,
+   "Order ID": 9,
+   "Average profit perorder": 37423777,
+   "CLV": 3279430.008912656
+  },
+  {
+   "Customer ID": "HW-14935",
+   "Profit": 10123771,
+   "Order ID": 8,
+   "Average profit perorder": 59455512,
+   "CLV": 5211814.407616361
+  },
+  {
+   "Customer ID": "RS-19765",
+   "Profit": 10136866,
+   "Order ID": 8,
+   "Average profit perorder": 56478614,
+   "CLV": 2786111.513554217
+  },
+  {
+   "Customer ID": "CC-12370",
+   "Profit": 10366036,
+   "Order ID": 5,
+   "Average profit perorder": 51052788,
+   "CLV": 6955152.830882354
+  },
+  {
+   "Customer ID": "SC-20095",
+   "Profit": 10595237,
+   "Order ID": 9,
+   "Average profit perorder": 26966126,
+   "CLV": 3617644.064546305
+  },
+  {
+   "Customer ID": "VD-21670",
+   "Profit": 10611249,
+   "Order ID": 6,
+   "Average profit perorder": 71767371,
+   "CLV": 5832990.790662651
+  },
+  {
+   "Customer ID": "SV-20365",
+   "Profit": 10843803,
+   "Order ID": 9,
+   "Average profit perorder": 79548679,
+   "CLV": 2934016.37879911
+  },
+  {
+   "Customer ID": "MW-18220",
+   "Profit": 10893586,
+   "Order ID": 7,
+   "Average profit perorder": 79925575,
+   "CLV": 3294249.287489644
+  },
+  {
+   "Customer ID": "BE-11335",
+   "Profit": 10923202,
+   "Order ID": 5,
+   "Average profit perorder": 68901199,
+   "CLV": 6678339.581239531
+  },
+  {
+   "Customer ID": "JD-15895",
+   "Profit": 10957320,
+   "Order ID": 11,
+   "Average profit perorder": 72083161,
+   "CLV": 4072730.9572301423
+  },
+  {
+   "Customer ID": "GH-14425",
+   "Profit": 11001665,
+   "Order ID": 4,
+   "Average profit perorder": 34884139,
+   "CLV": 3230577.413515688
+  },
+  {
+   "Customer ID": "DR-12880",
+   "Profit": 11121149,
+   "Order ID": 9,
+   "Average profit perorder": 68358120,
+   "CLV": 4920265.921212122
+  },
+  {
+   "Customer ID": "NW-18400",
+   "Profit": 11483543,
+   "Order ID": 7,
+   "Average profit perorder": 86707414,
+   "CLV": 3752455.859444942
+  },
+  {
+   "Customer ID": "KF-16285",
+   "Profit": 11906968,
+   "Order ID": 7,
+   "Average profit perorder": 60102574,
+   "CLV": 3968989.3333333335
+  },
+  {
+   "Customer ID": "FC-14245",
+   "Profit": 11981213,
+   "Order ID": 7,
+   "Average profit perorder": 71456023,
+   "CLV": 5073251.444315545
+  },
+  {
+   "Customer ID": "RM-19675",
+   "Profit": 12052777,
+   "Order ID": 5,
+   "Average profit perorder": 68584966,
+   "CLV": 3869185.228671944
+  },
+  {
+   "Customer ID": "GK-14620",
+   "Profit": 12091285,
+   "Order ID": 8,
+   "Average profit perorder": 39100597,
+   "CLV": 3762420.311167945
+  },
+  {
+   "Customer ID": "YC-21895",
+   "Profit": 12279050,
+   "Order ID": 5,
+   "Average profit perorder": 68202054,
+   "CLV": 3945293.3538732394
+  },
+  {
+   "Customer ID": "DW-13480",
+   "Profit": 12692739,
+   "Order ID": 5,
+   "Average profit perorder": 70828171,
+   "CLV": 4242536.387362638
+  },
+  {
+   "Customer ID": "KH-16690",
+   "Profit": 12946323,
+   "Order ID": 7,
+   "Average profit perorder": 75682263,
+   "CLV": 3426691.729514141
+  },
+  {
+   "Customer ID": "AC-10450",
+   "Profit": 13535277,
+   "Order ID": 7,
+   "Average profit perorder": 44701241,
+   "CLV": 4310973.913612565
+  },
+  {
+   "Customer ID": "RW-19540",
+   "Profit": 13723106,
+   "Order ID": 7,
+   "Average profit perorder": 89859534,
+   "CLV": 5317339.373673037
+  },
+  {
+   "Customer ID": "ME-17320",
+   "Profit": 13786544,
+   "Order ID": 9,
+   "Average profit perorder": 102440547,
+   "CLV": 3561279.943382873
+  },
+  {
+   "Customer ID": "PP-18955",
+   "Profit": 14237350,
+   "Order ID": 9,
+   "Average profit perorder": 89789642,
+   "CLV": 4615126.776198934
+  },
+  {
+   "Customer ID": "DM-13345",
+   "Profit": 14914572,
+   "Order ID": 7,
+   "Average profit perorder": 46118130,
+   "CLV": 4809027.190812721
+  },
+  {
+   "Customer ID": "MW-18235",
+   "Profit": 14924844,
+   "Order ID": 2,
+   "Average profit perorder": 95834016,
+   "CLV": 4269253.9655172415
+  },
+  {
+   "Customer ID": "DM-13015",
+   "Profit": 14934169,
+   "Order ID": 7,
+   "Average profit perorder": 55956429,
+   "CLV": 4752372.872711421
+  },
+  {
+   "Customer ID": "CM-12655",
+   "Profit": 15190521,
+   "Order ID": 6,
+   "Average profit perorder": 111750425,
+   "CLV": 5594894.212916247
+  },
+  {
+   "Customer ID": "JM-15865",
+   "Profit": 16598040,
+   "Order ID": 7,
+   "Average profit perorder": 108874326,
+   "CLV": 5887545.772594752
+  },
+  {
+   "Customer ID": "YS-21880",
+   "Profit": 16758633,
+   "Order ID": 8,
+   "Average profit perorder": 128493677,
+   "CLV": 5690140.506976744
+  },
+  {
+   "Customer ID": "PK-19075",
+   "Profit": 17032948,
+   "Order ID": 12,
+   "Average profit perorder": 100110631,
+   "CLV": 5467920.861917326
+  },
+  {
+   "Customer ID": "FH-14365",
+   "Profit": 17872540,
+   "Order ID": 8,
+   "Average profit perorder": 114230650,
+   "CLV": 5609180.653482374
+  },
+  {
+   "Customer ID": "BM-11650",
+   "Profit": 19511775,
+   "Order ID": 11,
+   "Average profit perorder": 91177002,
+   "CLV": 5752663.873182553
+  },
+  {
+   "Customer ID": "AB-10060",
+   "Profit": 19764208,
+   "Order ID": 8,
+   "Average profit perorder": 87620133,
+   "CLV": 9236793.751600511
+  },
+  {
+   "Customer ID": "GT-14710",
+   "Profit": 21126021,
+   "Order ID": 11,
+   "Average profit perorder": 98339421,
+   "CLV": 6014818.771450859
+  },
+  {
+   "Customer ID": "TS-21370",
+   "Profit": 21283624,
+   "Order ID": 6,
+   "Average profit perorder": 89352168,
+   "CLV": 6911497.117437722
+  },
+  {
+   "Customer ID": "BS-11365",
+   "Profit": 24274451,
+   "Order ID": 4,
+   "Average profit perorder": 167798683,
+   "CLV": 11373779.993581515
+  },
+  {
+   "Customer ID": "KD-16270",
+   "Profit": 25425457,
+   "Order ID": 5,
+   "Average profit perorder": 166035844,
+   "CLV": 14018567.68126888
+  },
+  {
+   "Customer ID": "TB-21400",
+   "Profit": 26315800,
+   "Order ID": 7,
+   "Average profit perorder": 107285936,
+   "CLV": 7758697.092084007
+  },
+  {
+   "Customer ID": "DR-12940",
+   "Profit": 30668621,
+   "Order ID": 8,
+   "Average profit perorder": 273103881,
+   "CLV": 8454718.02492447
+  },
+  {
+   "Customer ID": "HL-15040",
+   "Profit": 54289832,
+   "Order ID": 6,
+   "Average profit perorder": 170866110,
+   "CLV": 14174383.891273247
+  },
+  {
+   "Customer ID": "RB-19360",
+   "Profit": 69156273,
+   "Order ID": 6,
+   "Average profit perorder": 279380853,
+   "CLV": 46486260.856353596
+  }
+ ]
