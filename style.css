@@ -340,6 +340,14 @@ footer {
         width: 90%;
         overflow: auto;
     }
+    .box-1 {
+        width: 90%;
+        overflow: auto;
+    }
+    .box-1-1 {
+        width: 90%;
+        overflow: auto;
+    }
 }
 @media (max-width: 768px) {
     .tulisan-dashboard{
@@ -350,6 +358,14 @@ footer {
     }
     .container{
         display: inline;
+    }
+    .box-1 {
+        width: 90%;
+        overflow: auto;
+    }
+    .box-1-1 {
+        width: 90%;
+        overflow: auto;
     }
     .box-4-1 {
         width: 90%;
