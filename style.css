@@ -226,7 +226,7 @@ section,
 
 .box-1-1 {
     height: 100%;
-    width:50%;
+    width:40%;
     padding: 20px;
     background-color: #e3fef7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -242,7 +242,7 @@ section,
 
 
 .box-2 {
-    height: 80vh;
+    height: 30%;
     width: 90%;
     padding: 20px;
     padding-bottom: 10rem;
@@ -262,7 +262,7 @@ section,
 }
 
 .box-3 {
-    height: 80vh;
+    height: 100%;
     width: 90%;
     padding: 20px;
     padding-bottom: 10rem;

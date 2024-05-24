@@ -1,223 +1,244 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const charts = {};
-    let chartData = {};
+document.addEventListener('DOMContentLoaded', function () {
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            const customerSegmentData = data.customerSegmentData;
+            const discountSalesData = data.discountSalesData;
+            const discountProfitData = data.discountProfitData;
+            const avgDiscountPerYearData = data.avgDiscountPerYearData;
+            const profitMarginData = data.profitMarginData;
 
-    function createChart(ctx, type, data, options) {
-        return new Chart(ctx, { type, data, options });
-    }
+            const ctxCustomerSegment = document.getElementById('customerSegmentChart').getContext('2d');
+            const ctxDiscount = document.getElementById('discountChart').getContext('2d');
+            const ctxSales = document.getElementById('salesChart').getContext('2d');
+            const ctxDiscountProfit = document.getElementById('discountProfitChart').getContext('2d');
+            const ctxProfitQuantity = document.getElementById('profitQuantityChart').getContext('2d');
+            const ctxAvgDiscountPerYear = document.getElementById('avgDiscountPerYearChart').getContext('2d');
+            const ctxProfitMargin = document.getElementById('profitMarginChart').getContext('2d');
 
-    function getChartDataForYear(chartType, year) {
-        return chartData[year][chartType];
-    }
+            let customerSegmentChart;
+            let discountChart;
+            let salesChart;
+            let discountProfitChart;
+            let profitQuantityChart;
+            let avgDiscountPerYearChart;
+            let profitMarginChart;
 
-    function updateChartData(chartId, year) {
-        const chartMap = {
-            'daily-sales-year': 'dailySales',
-            'statistics-year': 'statistics',
-            'total-revenue-year': 'totalRevenue',
-            'avg-sales-year': 'avgSales',
-            'avg-discount-year': 'avgDiscount',
-            'total-sales-year': 'totalSales'
-        };
-
-        const chartType = chartMap[chartId];
-        const data = getChartDataForYear(chartType, year);
-
-        const chart = charts[chartType];
-        chart.data.datasets[0].data = data;
-        chart.update();
-    }
-
-    function initCharts() {
-        const dailySalesCtx = document.getElementById('daily-sales-chart').getContext('2d');
-        const statisticsCtx = document.getElementById('statistics-chart').getContext('2d');
-        const totalRevenueCtx = document.getElementById('total-revenue-chart').getContext('2d');
-        const avgSalesCtx = document.getElementById('avg-sales-chart').getContext('2d');
-        const avgDiscountCtx = document.getElementById('avg-discount-chart').getContext('2d');
-        const totalSalesCtx = document.getElementById('total-sales-chart').getContext('2d');
-
-        charts.dailySales = createChart(dailySalesCtx, 'line', {
-            labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5'],
-            datasets: [{ label: 'Daily Sales', data: getChartDataForYear('dailySales', '2023'), backgroundColor: 'rgba(54, 162, 235, 0.2)', borderColor: 'rgba(54, 162, 235, 1)', borderWidth: 1 }]
-        }, {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                title: {
-                    display: true,
-                    text: 'Daily Sales',
-                    color: 'black', 
-                    font: {
-                        size: 16
+            function createCustomerSegmentChart(data) {
+                if (customerSegmentChart) {
+                    customerSegmentChart.destroy();
+                }
+                customerSegmentChart = new Chart(ctxCustomerSegment, {
+                    type: 'bar',
+                    data: {
+                        labels: data.map(item => item.Segment),
+                        datasets: [{
+                            label: 'Discount',
+                            data: data.map(item => item.Discount),
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
                     }
-                }
-            },
-            interaction: {
-                intersect: false,
-            },
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
+                });
             }
-        });
 
-        charts.statistics = createChart(statisticsCtx, 'bar', {
-            labels: ['Statistic 1', 'Statistic 2', 'Statistic 3', 'Statistic 4', 'Statistic 5'],
-            datasets: [{ label: 'Statistics', data: getChartDataForYear('statistics', '2023'), backgroundColor: 'rgba(255, 99, 132, 0.2)', borderColor: 'rgba(255, 99, 132, 1)', borderWidth: 1 }]
-        }, {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                title: {
-                    display: true,
-                    text: 'Statistics',
-                    color: 'black', 
-                    font: {
-                        size: 16
+            function createDiscountChart(data) {
+                if (discountChart) {
+                    discountChart.destroy();
+                }
+                discountChart = new Chart(ctxDiscount, {
+                    type: 'bar',
+                    data: {
+                        labels: data.map(item => item.City),
+                        datasets: [{
+                            label: 'Discount',
+                            data: data.map(item => item.Discount),
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            borderWidth: 1
+                        }]
                     }
-                }
-            },
-            interaction: {
-                intersect: false,
-            },
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
+                });
             }
-        });
 
-        charts.totalRevenue = createChart(totalRevenueCtx, 'pie', {
-            labels: ['Q1', 'Q2', 'Q3'],
-            datasets: [{ label: 'Total Revenue', data: getChartDataForYear('totalRevenue', '2023'), backgroundColor: ['rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)'], borderColor: ['rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)'], borderWidth: 1 }]
-        }, {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                title: {
-                    display: true,
-                    text: 'Total Revenue',
-                    color: 'black', 
-                    font: {
-                        size: 16
+            function createSalesChart(data) {
+                if (salesChart) {
+                    salesChart.destroy();
+                }
+                salesChart = new Chart(ctxSales, {
+                    type: 'bar',
+                    data: {
+                        labels: data.map(item => item.City),
+                        datasets: [{
+                            label: 'Sales',
+                            data: data.map(item => item.Sales),
+                            backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                            borderColor: 'rgba(153, 102, 255, 1)',
+                            borderWidth: 1
+                        }]
                     }
-                }
+                });
             }
-        });
 
-        charts.avgSales = createChart(avgSalesCtx, 'bar', {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-            datasets: [{ label: 'Avg Sales', backgroundColor: '#77B0AA', data: getChartDataForYear('avgSales', '2023') }]
-        }, {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                title: {
-                    display: true,
-                    text: 'AVG SALES',
-                    color: 'black', 
-                    font: {
-                        size: 16
+            function createDiscountProfitChart(data) {
+                if (discountProfitChart) {
+                    discountProfitChart.destroy();
+                }
+                discountProfitChart = new Chart(ctxDiscountProfit, {
+                    type: 'bar',
+                    data: {
+                        labels: data.map(item => item.City),
+                        datasets: [{
+                            label: 'Discount',
+                            data: data.map(item => item.Discount),
+                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1
+                        }]
                     }
-                }
-            },
-            interaction: {
-                intersect: false,
-            },
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
+                });
             }
-        });
 
-        charts.avgDiscount = createChart(avgDiscountCtx, 'pie', {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-            datasets: [{ label: 'Avg Discount', data: getChartDataForYear('avgDiscount', '2023') }]
-        }, {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                title: {
-                    display: true,
-                    text: 'Avg Discount',
-                    color: 'black', 
-                    font: {
-                        size: 16
+            function createProfitQuantityChart(data) {
+                if (profitQuantityChart) {
+                    profitQuantityChart.destroy();
+                }
+                profitQuantityChart = new Chart(ctxProfitQuantity, {
+                    type: 'bar',
+                    data: {
+                        labels: data.map(item => item.City),
+                        datasets: [{
+                            label: 'Profit/Quantity',
+                            data: data.map(item => item['Profit/Quantity']),
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
                     }
-                }
-            },
-            interaction: {
-                intersect: false,
-            },
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
+                });
             }
-        });
 
-        charts.totalSales = createChart(totalSalesCtx, 'bar', {
-            labels: ['Q1', 'Q2', 'Q3'],
-            datasets: [{ label: 'Total Sales', data: getChartDataForYear('totalSales', '2023') }]
-        }, {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                title: {
-                    display: true,
-                    text: 'Total Sales',
-                    color: 'black', 
-                    font: {
-                        size: 16
+            function createAvgDiscountPerYearChart(data) {
+                if (avgDiscountPerYearChart) {
+                    avgDiscountPerYearChart.destroy();
+                }
+                avgDiscountPerYearChart = new Chart(ctxAvgDiscountPerYear, {
+                    type: 'pie',
+                    data: {
+                        labels: data.map(item => item['Order Date (Tahun)']),
+                        datasets: [{
+                            label: 'Average Discount',
+                            data: data.map(item => item.Discount),
+                            // backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                            // borderColor: 'rgba(255, 206, 86, 1)',
+                            borderWidth: 1
+                        }]
                     }
-                }
-            },
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
+                });
             }
-        });
-    }
 
-    function fetchDataAndInitCharts() {
-        fetch('data.json')
-            .then(response => response.json())
-            .then(data => {
-                chartData = data;
-                initCharts();
-            })
-            .catch(error => console.error('Error fetching the data:', error));
-    }
-
-    function validateSearchInput() {
-        const searchBar = document.getElementById('search-bar');
-        const errorMessage = document.createElement('span');
-        errorMessage.classList.add('error-message');
-        searchBar.parentNode.insertBefore(errorMessage, searchBar.nextSibling);
-
-        searchBar.addEventListener('input', function() {
-            const searchTerm = searchBar.value;
-            const regex = /^[a-zA-Z0-9\s]*$/; 
-            if (!regex.test(searchTerm)) {
-                errorMessage.textContent = 'Invalid input. Only letters, numbers, and spaces are allowed.';
-                searchBar.classList.add('invalid');
-            } else {
-                errorMessage.textContent = '';
-                searchBar.classList.remove('invalid');
+            function createProfitMarginChart(data) {
+                if (profitMarginChart) {
+                    profitMarginChart.destroy();
+                }
+                profitMarginChart = new Chart(ctxProfitMargin, {
+                    type: 'bar',
+                    data: {
+                        labels: data.map(item => item['Order Date (Tahun)']),
+                        datasets: [{
+                            label: 'Profit Margin',
+                            data: data.map(item => item.Profit),
+                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1
+                        }]
+                    }
+                });
             }
+
+            function populateFilters() {
+                const yearFilter = document.getElementById('yearFilter');
+                const cityFilter = document.getElementById('cityFilter');
+                const profitCityFilter = document.getElementById('profitCityFilter');
+
+                const years = [...new Set(customerSegmentData.map(item => item['Order Date (Tahun)']))];
+                years.forEach(year => {
+                    const option = document.createElement('option');
+                    option.value = year;
+                    option.textContent = year;
+                    yearFilter.appendChild(option);
+                });
+
+                const cities = [...new Set(discountSalesData.map(item => item.City))];
+                cities.forEach(city => {
+                    const option = document.createElement('option');
+                    option.value = city;
+                    option.textContent = city;
+                    cityFilter.appendChild(option);
+                });
+
+                const profitCities = [...new Set(discountProfitData.map(item => item.City))];
+                profitCities.forEach(city => {
+                    const option = document.createElement('option');
+                    option.value = city;
+                    option.textContent = city;
+                    profitCityFilter.appendChild(option);
+                });
+            }
+
+            function validateSearchInput() {
+                const searchBar = document.getElementById('search-bar');
+                const errorMessage = document.createElement('span');
+                errorMessage.classList.add('error-message');
+                searchBar.parentNode.insertBefore(errorMessage, searchBar.nextSibling);
+        
+                searchBar.addEventListener('input', function() {
+                    const searchTerm = searchBar.value;
+                    const regex = /^[a-zA-Z0-9\s]*$/; 
+                    if (!regex.test(searchTerm)) {
+                        errorMessage.textContent = 'Invalid input. Only letters, numbers, and spaces are allowed.';
+                        searchBar.classList.add('invalid');
+                    } else {
+                        errorMessage.textContent = '';
+                        searchBar.classList.remove('invalid');
+                    }
+                });
+            }
+        
+            validateSearchInput();
+
+            populateFilters();
+            createCustomerSegmentChart(customerSegmentData);
+            createDiscountChart(discountSalesData);
+            createSalesChart(discountSalesData);
+            createDiscountProfitChart(discountProfitData);
+            createProfitQuantityChart(discountProfitData);
+            createAvgDiscountPerYearChart(avgDiscountPerYearData);
+            createProfitMarginChart(profitMarginData);
+
+            document.getElementById('yearFilter').addEventListener('change', function () {
+                const selectedYear = this.value;
+                const filteredData = selectedYear === 'all' ? customerSegmentData : customerSegmentData.filter(item => item['Order Date (Tahun)'] === selectedYear);
+                createCustomerSegmentChart(filteredData);
+                const filteredAvgDiscountData = selectedYear === 'all' ? avgDiscountPerYearData : avgDiscountPerYearData.filter(item => item['Order Date (Tahun)'] === selectedYear);
+                createAvgDiscountPerYearChart(filteredAvgDiscountData);
+                const filteredProfitMarginData = selectedYear === 'all' ? profitMarginData : profitMarginData.filter(item => item['Order Date (Tahun)'] === selectedYear);
+                createProfitMarginChart(filteredProfitMarginData);
+            });
+
+            document.getElementById('cityFilter').addEventListener('change', function () {
+                const selectedCity = this.value;
+                const filteredData = selectedCity === 'all' ? discountSalesData : discountSalesData.filter(item => item.City === selectedCity);
+                createDiscountChart(filteredData);
+                createSalesChart(filteredData);
+            });
+
+            document.getElementById('profitCityFilter').addEventListener('change', function () {
+                const selectedCity = this.value;
+                const filteredData = selectedCity === 'all' ? discountProfitData : discountProfitData.filter(item => item.City === selectedCity);
+                createDiscountProfitChart(filteredData);
+                createProfitQuantityChart(filteredData);
+            });
         });
-    }
-
-    validateSearchInput();
-
-    fetchDataAndInitCharts();
-
-    document.querySelectorAll('.year-filter').forEach(filter => {
-        filter.addEventListener('change', function() {
-            updateChartData(this.id, this.value);
-        });
-    });
 });

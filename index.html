@@ -37,22 +37,22 @@
                         <span class="material-symbols-sharp">grid_view</span>
                         <h3>Dasboard</h3>
                       </a>
-                      <a href="#avg-sales">
+                      <a href="#cus-segment">
                         <span class="material-symbols-sharp">person_outline</span>
-                        <h3>Avg Sales</h3>
+                        <h3>Customer Segments&Discounts</h3>
                       </a>
-                      <a href="#avg-discount">
+                      <a href="#discount-sales">
                         <span class="material-symbols-sharp">insights</span>
-                        <h3>Avg Discount</h3>
+                        <h3>Perbandingan DiscountSales</h3>
                       </a>
-                      <a href="#total-sales">
+                      <a href="#dis-profit">
                         <span class="material-symbols-sharp">mail_outline</span>
-                        <h3>TotalSales</h3>
+                        <h3>Discounts and Profit/Discount</h3>
                         <span class="msg_count">15</span>
                       </a>
-                      <a href="#daily-sales">
+                      <a href="#profit-margin-chart">
                         <span class="material-symbols-sharp">receipt_long</span>
-                        <h3>Daily Sales</h3>
+                        <h3>Profit Margin</h3>
                       </a>
                       <a href="#statistics">
                         <span class="material-symbols-sharp">report_gmailerrorred</span>
@@ -99,68 +99,45 @@
                         </thead>
                     </table>
                </div>
+                <div class="box-1-1">
+                    <h2>AVG Discount per Year</h2>
+                    <canvas id="avgDiscountPerYearChart" width="400" height="200"></canvas>
+               </div>
             </section>
             <section class="baris-2">
-                <div class="box-2" id="avg-sales">
-                    <h2>AVG SALES</h2>
-                    <select id="avg-sales-year" class="year-filter">
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023" selected>2023</option>
+                <div class="box-2" id="cus-segment">
+                    <h1>Customer Segments and Discounts</h1>
+                    <select id="yearFilter">
+                        <option value="all">All Years</option>
+    
                     </select>
-                    <canvas id="avg-sales-chart"></canvas>
-                    <p>95.0 k</p>
+                    <canvas id="customerSegmentChart"></canvas>
                 </div>
-                <div class="box-2" id="avg-discount">
-                    <h2>AVG DISCOUNT</h2>
-                    <select id="avg-discount-year" class="year-filter">
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023" selected>2023</option>
+                <div class="box-2" id="discount-sales">
+                    <h1>Perbandingan Discount dan Sales</h1>
+                    <select id="cityFilter">
+                        <option value="all">All Cities</option>
                     </select>
-                    <canvas id="avg-discount-chart"></canvas>
-                    <p>2</p>
+                    <div >
+                        <canvas id="discountChart" ></canvas>
+                        <canvas id="salesChart" ></canvas>
+                    </div> 
                 </div>
-                <div class="box-2" id="total-sales">
-                    <h2>Total Sales</h2>
-                    <select id="total-sales-year" class="year-filter">
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023" selected>2023</option>
+                <div class="box-2" id="dis-profit">
+                    <h1>Discounts and Profit/Discount by City</h1>
+                    <select id="profitCityFilter">
+                        <option value="all">All Cities</option>
                     </select>
-                    <canvas id="total-sales-chart"></canvas>
-                    <p>891.1 m</p>
+                    <div style="display: flex; flex-wrap: wrap;">
+                        <canvas id="discountProfitChart"></canvas>
+                        <canvas id="profitQuantityChart"></canvas>
+                    </div>
                 </div>
             </section>
             <section class="baris-3">
-                <div class="box-3" id="daily-sales">
-                    <h2>Daily Sales</h2>
-                    <select id="daily-sales-year" class="year-filter">
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023" selected>2023</option>
-                    </select>
-                    <canvas id="daily-sales-chart"></canvas>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                </div>
-                <div class="box-3" id="statistics">
-                    <h2>Statistics</h2>
-                    <select id="statistics-year" class="year-filter">
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023" selected>2023</option>
-                    </select>
-                    <canvas id="statistics-chart"></canvas>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                </div>
-                <div class="box-3" id="total-revenue">
-                    <h2>Total Revenue</h2>
-                    <select id="total-revenue-year" class="year-filter">
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023" selected>2023</option>
-                    </select>
-                    <canvas id="total-revenue-chart"></canvas>
+                <div class="box-3" id="profit-margin-chart">
+                    <h2>Profit Margin Chart</h2>
+                    <canvas id="profitMarginChart"></canvas>
                 </div>
             </section>
             <section class="baris-4">
@@ -180,7 +157,7 @@
                     </table>
                 </div>
                 <div class="box-4-1">
-                    <h1>CLV</h1>
+                    <h2>CLV</h2>
                     <table id="CLV" class="display" style="width:100%">
                         <thead>
                             <tr>
