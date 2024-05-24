@@ -355,7 +355,21 @@ footer {
         width: 90%;
         overflow: auto;
     }
-    
+    #sidebar{
+        width: 150px;
+    }
+    #sidebar-content {
+        width: 120px;
+    }
+    #sidebar-handle {
+        display: none;
+    }
+    .menu-sidebar h3{
+        display: none;
+    }
+    .menu-sidebar a{
+        margin-left: 20px;
+    }
 }
 @media (max-width: 992px) {
     .tulisan-dashboard{
