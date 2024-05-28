@@ -297,6 +297,15 @@ section,
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.box-1:hover,
+.box-1-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover,
+.box-4-1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 .year-filter {
     margin-bottom: 10px;
     display: block;
