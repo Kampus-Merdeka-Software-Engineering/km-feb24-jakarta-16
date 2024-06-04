@@ -2,97 +2,97 @@
     {
      "Order Date (Tahun)": "2017",
      "Category": "Technology",
-     "Profit": 322641416,
+     "Profit": 46880.25859999999,
      "Quantity": 2163,
-     "Sales": 84784815,
-     "profit Margin": 3.8054151088257964
+     "Sales": 229336.34399999992,
+     "profit Margin": 0.20441704869944208
     },
     {
      "Order Date (Tahun)": "2017",
      "Category": "Office Supplies",
-     "Profit": 255509522,
+     "Profit": 37847.51720000003,
      "Quantity": 7450,
-     "Sales": 75462542,
-     "profit Margin": 3.3859119402577242
+     "Sales": 226740.1220000003,
+     "profit Margin": 0.16692024713649922
     },
     {
      "Order Date (Tahun)": "2016",
      "Category": "Technology",
-     "Profit": 232813793,
+     "Profit": 36760.732399999964,
      "Quantity": 1501,
-     "Sales": 62252869,
-     "profit Margin": 3.7398082488374955
+     "Sales": 186515.32900000006,
+     "profit Margin": 0.1970922851064963
     },
     {
      "Order Date (Tahun)": "2016",
      "Category": "Office Supplies",
-     "Profit": 203048909,
+     "Profit": 29657.28319999996,
      "Quantity": 5741,
-     "Sales": 53755692,
-     "profit Margin": 3.7772541185033948
-    },
-    {
-     "Order Date (Tahun)": "2014",
-     "Category": "Technology",
-     "Profit": 162567678,
-     "Quantity": 1205,
-     "Sales": 58809900,
-     "profit Margin": 2.7642910122275333
+     "Sales": 155800.6800000002,
+     "profit Margin": 0.19035400358971427
     },
     {
      "Order Date (Tahun)": "2015",
      "Category": "Technology",
-     "Profit": 159059409,
+     "Profit": 29323.524299999997,
      "Quantity": 1336,
-     "Sales": 44102697,
-     "profit Margin": 3.6065687547407816
+     "Sales": 139334.50500000003,
+     "profit Margin": 0.21045414630065962
     },
     {
      "Order Date (Tahun)": "2015",
      "Category": "Office Supplies",
-     "Profit": 147175262,
+     "Profit": 27172.45519999999,
      "Quantity": 4555,
-     "Sales": 47414913,
-     "profit Margin": 3.1039867562342676
+     "Sales": 130408.11599999995,
+     "profit Margin": 0.20836475545739808
     },
     {
      "Order Date (Tahun)": "2014",
      "Category": "Office Supplies",
-     "Profit": 137956485,
+     "Profit": 21299.62439999999,
      "Quantity": 4394,
-     "Sales": 45644131,
-     "profit Margin": 3.0224364442385814
+     "Sales": 134227.71099999998,
+     "profit Margin": 0.15868276558780023
+    },
+    {
+     "Order Date (Tahun)": "2014",
+     "Category": "Technology",
+     "Profit": 19412.9247,
+     "Quantity": 1205,
+     "Sales": 124640.20199999995,
+     "profit Margin": 0.15575171083243278
     },
     {
      "Order Date (Tahun)": "2016",
      "Category": "Furniture",
-     "Profit": 63472549,
+     "Profit": 10895.597499999994,
      "Quantity": 1902,
-     "Sales": 108451715,
-     "profit Margin": 0.5852609062014372
+     "Sales": 159334.70990000005,
+     "profit Margin": 0.06838182030041147
     },
     {
      "Order Date (Tahun)": "2014",
      "Category": "Furniture",
-     "Profit": 39245172,
+     "Profit": 6963.8298000000095,
      "Quantity": 1385,
-     "Sales": 68608950,
-     "profit Margin": 0.5720124269501282
+     "Sales": 126745.25279999997,
+     "profit Margin": 0.0549435158016428
     },
     {
      "Order Date (Tahun)": "2017",
      "Category": "Furniture",
-     "Profit": 27828184,
+     "Profit": 6474.639999999999,
      "Quantity": 2186,
-     "Sales": 125795494,
-     "profit Margin": 0.22121765347175312
+     "Sales": 184385.51470000003,
+     "profit Margin": 0.03511468897399237
     },
     {
      "Order Date (Tahun)": "2015",
      "Category": "Furniture",
-     "Profit": 20278168,
+     "Profit": 5824.391200000005,
      "Quantity": 1566,
-     "Sales": 115984090,
-     "profit Margin": 0.1748357727340017
+     "Sales": 138467.90170000002,
+     "profit Margin": 0.042063114472687964
     }
    ]

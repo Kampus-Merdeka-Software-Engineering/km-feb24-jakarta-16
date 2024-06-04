@@ -2,77 +2,46 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
-            const customerSegmentData = data.customerSegmentData;
             const discountSalesData = data.discountSalesData;
             const discountProfitData = data.discountProfitData;
             const avgDiscountPerYearData = data.avgDiscountPerYearData;
             const profitMarginData = data.profitMarginData;
+            const totalCustomerSegmentData = data.totalCustomerSegmentData;
 
-            const ctxCustomerSegment = document.getElementById('customerSegmentChart').getContext('2d');
-            const ctxDiscount = document.getElementById('discountChart').getContext('2d');
-            const ctxSales = document.getElementById('salesChart').getContext('2d');
-            const ctxDiscountProfit = document.getElementById('discountProfitChart').getContext('2d');
-            const ctxProfitQuantity = document.getElementById('profitQuantityChart').getContext('2d');
+            const ctxDiscountSales = document.getElementById('discountSalesChart').getContext('2d');
+            const ctxDiscountProfitQuantity = document.getElementById('discountProfitQuantityChart').getContext('2d');
             const ctxAvgDiscountPerYear = document.getElementById('avgDiscountPerYearChart').getContext('2d');
             const ctxProfitMargin = document.getElementById('profitMarginChart').getContext('2d');
+            const ctxTotalCustomerSegment = document.getElementById('totalCustomerSegmentChart').getContext('2d');
 
-            let customerSegmentChart;
-            let discountChart;
-            let salesChart;
-            let discountProfitChart;
-            let profitQuantityChart;
+            let discountSalesChart;
+            let discountProfitQuantityChart;
             let avgDiscountPerYearChart;
             let profitMarginChart;
+            let totalCustomerSegmentChart;
 
-            function createCustomerSegmentChart(data) {
-                if (customerSegmentChart) {
-                    customerSegmentChart.destroy();
+            function createDiscountSalesChart(data) {
+                const cities = data.map(item => item.City);
+                const discounts = data.map(item => item.Discount);
+                const sales = data.map(item => item.Sales);
+
+                if (discountSalesChart) {
+                    discountSalesChart.destroy();
                 }
-                customerSegmentChart = new Chart(ctxCustomerSegment, {
+
+                discountSalesChart = new Chart(ctxDiscountSales, {
                     type: 'bar',
                     data: {
-                        labels: data.map(item => item.Segment),
+                        labels: cities,
                         datasets: [{
                             label: 'Discount',
-                            data: data.map(item => item.Discount),
-                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                            borderColor: 'rgba(75, 192, 192, 1)',
-                            borderWidth: 1
-                        }]
-                    }
-                });
-            }
-
-            function createDiscountChart(data) {
-                if (discountChart) {
-                    discountChart.destroy();
-                }
-                discountChart = new Chart(ctxDiscount, {
-                    type: 'bar',
-                    data: {
-                        labels: data.map(item => item.City),
-                        datasets: [{
-                            label: 'Discount',
-                            data: data.map(item => item.Discount),
+                            data: discounts,
                             backgroundColor: 'rgba(255, 99, 132, 0.2)',
                             borderColor: 'rgba(255, 99, 132, 1)',
                             borderWidth: 1
-                        }]
-                    }
-                });
-            }
-
-            function createSalesChart(data) {
-                if (salesChart) {
-                    salesChart.destroy();
-                }
-                salesChart = new Chart(ctxSales, {
-                    type: 'bar',
-                    data: {
-                        labels: data.map(item => item.City),
-                        datasets: [{
+                        }, {
                             label: 'Sales',
-                            data: data.map(item => item.Sales),
+                            data: sales,
                             backgroundColor: 'rgba(153, 102, 255, 0.2)',
                             borderColor: 'rgba(153, 102, 255, 1)',
                             borderWidth: 1
@@ -81,36 +50,28 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             }
 
-            function createDiscountProfitChart(data) {
-                if (discountProfitChart) {
-                    discountProfitChart.destroy();
+            function createDiscountProfitQuantityChart(data) {
+                const cities = data.map(item => item.City);
+                const discounts = data.map(item => item.Discount);
+                const profitQuantities = data.map(item => item['Profit/Quantity']);
+
+                if (discountProfitQuantityChart) {
+                    discountProfitQuantityChart.destroy();
                 }
-                discountProfitChart = new Chart(ctxDiscountProfit, {
+
+                discountProfitQuantityChart = new Chart(ctxDiscountProfitQuantity, {
                     type: 'bar',
                     data: {
-                        labels: data.map(item => item.City),
+                        labels: cities,
                         datasets: [{
                             label: 'Discount',
-                            data: data.map(item => item.Discount),
+                            data: discounts,
                             backgroundColor: 'rgba(54, 162, 235, 0.2)',
                             borderColor: 'rgba(54, 162, 235, 1)',
                             borderWidth: 1
-                        }]
-                    }
-                });
-            }
-
-            function createProfitQuantityChart(data) {
-                if (profitQuantityChart) {
-                    profitQuantityChart.destroy();
-                }
-                profitQuantityChart = new Chart(ctxProfitQuantity, {
-                    type: 'bar',
-                    data: {
-                        labels: data.map(item => item.City),
-                        datasets: [{
+                        }, {
                             label: 'Profit/Quantity',
-                            data: data.map(item => item['Profit/Quantity']),
+                            data: profitQuantities,
                             backgroundColor: 'rgba(75, 192, 192, 0.2)',
                             borderColor: 'rgba(75, 192, 192, 1)',
                             borderWidth: 1
@@ -130,8 +91,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         datasets: [{
                             label: 'Average Discount',
                             data: data.map(item => item.Discount),
-                            // backgroundColor: 'rgba(255, 206, 86, 0.2)',
-                            // borderColor: 'rgba(255, 206, 86, 1)',
                             borderWidth: 1
                         }]
                     }
@@ -139,39 +98,80 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             function createProfitMarginChart(data) {
+                const categories = [...new Set(data.map(item => item.Category))];
+                const years = [...new Set(data.map(item => item['Order Date (Tahun)']))];
+
+                const datasets = years.map(year => {
+                    return {
+                        label: year,
+                        data: categories.map(category => {
+                            const item = data.find(d => d.Category === category && d['Order Date (Tahun)'] === year);
+                            return item ? item['Kolom Baru'] : 0;
+                        }),
+                        borderWidth: 1
+                    };
+                });
+
                 if (profitMarginChart) {
                     profitMarginChart.destroy();
                 }
+
                 profitMarginChart = new Chart(ctxProfitMargin, {
                     type: 'bar',
                     data: {
-                        labels: data.map(item => item['Order Date (Tahun)']),
-                        datasets: [{
-                            label: 'Profit Margin',
-                            data: data.map(item => item.Profit),
-                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                            borderColor: 'rgba(54, 162, 235, 1)',
-                            borderWidth: 1
-                        }]
+                        labels: categories,
+                        datasets: datasets.map((dataset, index) => ({
+                            ...dataset,
+                        }))
                     }
                 });
             }
 
+            function createTotalCustomerSegmentChart(data) {
+                const segments = ['Consumer', 'Corporate', 'Home Office'];
+                const years = ['2014', '2015', '2016', '2017'];
+
+                const aggregatedData = years.map(year => {
+                    return segments.map(segment => {
+                        const item = data.find(d => d.Tahun === year && d.Segment === segment);
+                        return item ? item['Customer ID'] : 0;
+                    });
+                });
+
+                const datasets = segments.map((segment, index) => {
+                    return {
+                        label: segment,
+                        data: aggregatedData.map(data => data[index]),
+                        borderWidth: 1
+                    };
+                });
+
+                if (totalCustomerSegmentChart) {
+                    totalCustomerSegmentChart.destroy();
+                }
+
+                totalCustomerSegmentChart = new Chart(ctxTotalCustomerSegment, {
+                    type: 'bar',
+                    data: {
+                        labels: years,
+                        datasets: datasets
+                    }
+                });
+            }
+
+            function getTopSixCities(data) {
+                const sortedData = data.slice().sort((a, b) => b.Discount - a.Discount);
+                return sortedData.slice(0, 6);
+            }
+
             function populateFilters() {
-                const yearFilter = document.getElementById('yearFilter');
                 const cityFilter = document.getElementById('cityFilter');
                 const profitCityFilter = document.getElementById('profitCityFilter');
 
-                const years = [...new Set(customerSegmentData.map(item => item['Order Date (Tahun)']))];
-                years.forEach(year => {
-                    const option = document.createElement('option');
-                    option.value = year;
-                    option.textContent = year;
-                    yearFilter.appendChild(option);
-                });
+                const allCities = [...new Set(discountSalesData.map(item => item.City))];
+                const topSixCities = getTopSixCities(discountSalesData);
 
-                const cities = [...new Set(discountSalesData.map(item => item.City))];
-                cities.forEach(city => {
+                allCities.forEach(city => {
                     const option = document.createElement('option');
                     option.value = city;
                     option.textContent = city;
@@ -185,6 +185,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     option.textContent = city;
                     profitCityFilter.appendChild(option);
                 });
+
+                const initialDiscountSalesData = topSixCities;
+                createDiscountSalesChart(initialDiscountSalesData);
+                const initialDiscountProfitData = getTopSixCities(discountProfitData);
+                createDiscountProfitQuantityChart(initialDiscountProfitData);
             }
 
             function validateSearchInput() {
@@ -209,36 +214,20 @@ document.addEventListener('DOMContentLoaded', function () {
             validateSearchInput();
 
             populateFilters();
-            createCustomerSegmentChart(customerSegmentData);
-            createDiscountChart(discountSalesData);
-            createSalesChart(discountSalesData);
-            createDiscountProfitChart(discountProfitData);
-            createProfitQuantityChart(discountProfitData);
             createAvgDiscountPerYearChart(avgDiscountPerYearData);
             createProfitMarginChart(profitMarginData);
-
-            document.getElementById('yearFilter').addEventListener('change', function () {
-                const selectedYear = this.value;
-                const filteredData = selectedYear === 'all' ? customerSegmentData : customerSegmentData.filter(item => item['Order Date (Tahun)'] === selectedYear);
-                createCustomerSegmentChart(filteredData);
-                const filteredAvgDiscountData = selectedYear === 'all' ? avgDiscountPerYearData : avgDiscountPerYearData.filter(item => item['Order Date (Tahun)'] === selectedYear);
-                createAvgDiscountPerYearChart(filteredAvgDiscountData);
-                const filteredProfitMarginData = selectedYear === 'all' ? profitMarginData : profitMarginData.filter(item => item['Order Date (Tahun)'] === selectedYear);
-                createProfitMarginChart(filteredProfitMarginData);
-            });
+            createTotalCustomerSegmentChart(totalCustomerSegmentData);
 
             document.getElementById('cityFilter').addEventListener('change', function () {
                 const selectedCity = this.value;
-                const filteredData = selectedCity === 'all' ? discountSalesData : discountSalesData.filter(item => item.City === selectedCity);
-                createDiscountChart(filteredData);
-                createSalesChart(filteredData);
+                const filteredData = selectedCity === 'all' ? getTopSixCities(discountSalesData) : discountSalesData.filter(item => item.City === selectedCity);
+                createDiscountSalesChart(filteredData);
             });
 
             document.getElementById('profitCityFilter').addEventListener('change', function () {
                 const selectedCity = this.value;
-                const filteredData = selectedCity === 'all' ? discountProfitData : discountProfitData.filter(item => item.City === selectedCity);
-                createDiscountProfitChart(filteredData);
-                createProfitQuantityChart(filteredData);
+                const filteredData = selectedCity === 'all' ? getTopSixCities(discountProfitData) : discountProfitData.filter(item => item.City === selectedCity);
+                createDiscountProfitQuantityChart(filteredData);
             });
         });
 });

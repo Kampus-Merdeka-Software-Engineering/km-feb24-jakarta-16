@@ -164,8 +164,14 @@ main {
     margin-left: 220px;
 }
 
-.tulisan-dashboard {
+.sub-judul {
     margin-top: -30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+}
+.sub-judul-1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -182,15 +188,15 @@ section,
     gap: 20px;
     justify-content: center;
     margin-bottom: 20px;
+    height: 100%;
 }
 
 .box-1 {
-    height: 100%;
     width: 20%;
     text-align: center;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
     border-radius: 1rem;
 }
 
@@ -200,16 +206,15 @@ section,
     gap: 20px;
     justify-content: center;
     margin-bottom: 20px;
+    height: 100%;
 }
 
 .box-1-1 {
-    height: 100%;
     width: 40%;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
 }
-
 section,
 .baris-2 {
     display: flex;
@@ -219,16 +224,16 @@ section,
 }
 
 .box-2 {
-    height: 30%;
+    height: 100%;
     width: 90%;
     padding: 20px;
-    padding-bottom: 10rem;
-    text-align: center;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden; 
+    border: 1px solid #ddd;
+    overflow: auto;
+    text-align: center;
 }
+
+
 
 section,
 .baris-3 {
@@ -238,12 +243,13 @@ section,
 }
 
 .box-3 {
+    text-align: center;
     height: 100%;
     width: 90%;
     padding: 20px;
     padding-bottom: 10rem;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
     overflow: hidden; 
 }
 
@@ -256,20 +262,22 @@ section,
 }
 
 .box-4 {
+    text-align: center;
     height: 100%;
     width: 90%;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
     overflow: auto;
 }
 
 .box-4-1 {
+    text-align: center;
     height: 100%;
     width: 90%;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
 }
 
 .box-1:hover,
@@ -298,6 +306,8 @@ section,
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #495E57;
     color: white;
     text-align: center;
@@ -307,10 +317,17 @@ footer {
     transition: width 0.3s; 
     margin-left: 200px;
     z-index: 1000;
+    padding: 2em;
 }
 
+.footer-section {
+    flex: 1;
+    padding: 1em;
+}
+
+
 @media (max-width: 576px) {
-    .tulisan-dashboard {
+    .tulisan-dashboard, .sub-judul, .sub-judul-1 {
         text-align: center;
     }
 
@@ -346,16 +363,31 @@ footer {
         display: block;
     }
 
+
     footer {
+        display: flex;
+        justify-content: space-around;
         bottom: 0;
         left: 0;
         margin-left: 0; 
         padding: 10px; 
-    }
+      }
+      
+      .footer__headline {
+        font-weight: bold;
+        font-family: 'Helvetica';
+      }
+      
+      .footer__list {
+        font-family: 'Helvetica';
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
 }
 
 @media (max-width: 768px) {
-    .tulisan-dashboard {
+    .tulisan-dashboard, .sub-judul, .sub-judul-1 {
         text-align: center;
     }
 
@@ -400,7 +432,7 @@ footer {
 }
 
 @media (max-width: 992px) {
-    .tulisan-dashboard {
+    .tulisan-dashboard, .sub-judul, .sub-judul-1 {
         text-align: center;
     }
 

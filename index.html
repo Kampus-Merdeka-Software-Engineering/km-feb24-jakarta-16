@@ -37,9 +37,10 @@
                         <span class="material-symbols-sharp">grid_view</span>
                         <h4>Dasboard</h4>
                       </a>
-                      <a href="#cus-segment">
+                      <a href="#dis-profit/quantity-sales">
                         <span class="material-symbols-sharp">person_outline</span>
-                        <h4>Cus Segments & Discounts</h4>
+                        <h4>Discount profit/quantity &
+                            sales</h4>
                       </a>
                       <a href="#discount-sales">
                         <span class="material-symbols-sharp">insights</span>
@@ -72,68 +73,61 @@
             <div id="sidebar-handle"></div>
         </aside>
         <main>
-            <h2 class="tulisan-dashboard">Dashboard</h2>
+            <h2 class="sub-judul">Dashboard</h2>
             <section class="baris-1">
                 <div class="box-1">
+                    <h2>TOTAL SALES</h2>
+                    <p>1.935.936</p>
+               </div>
+                <div class="box-1">
+                    <h2>AVG Discount</h2>
+                    <p>14%</p>
+               </div>
+                <div class="box-1">
                     <h2>AVG SALES</h2>
-                    <p>95.000</p>
+                    <p>206</p>
                </div>
                 <div class="box-1">
-                    <h2>AVG DISCOUNT</h2>
-                    <p>2</p>
+                    <h2>MOST CUSTOMER</h2>
+                    <p>793</p>
                </div>
                 <div class="box-1">
-                    <h2>Total Sales</h2>
-                    <p>891.100.000 </p>
+                    <h2>Date_diff</h2>
+                    <p>1.457 </p>
                </div>
             </section>
             <section class="baris-1-1">
                 <div class="box-1-1">
-                    <h2>Total Customer</h2>
-                    <table id="totalcus" class="display" style="width:100%">
-                        <thead>
-                            <tr>
-                                <th>Tahun</th>
-                                <th>Total Customer</th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <h2>Total Customer/Segment</h2>
+                    <canvas id="totalCustomerSegmentChart"></canvas>
                </div>
                 <div class="box-1-1">
                     <h2>AVG Discount per Year</h2>
                     <canvas id="avgDiscountPerYearChart" width="400" height="200"></canvas>
                </div>
             </section>
+            <h2 class="sub-judul-1" id="dis-profit/quantity-sales">COMPARISON OF DISCOUNTS AND PROFIT/QUANTITY AND SALES</h2>
             <section class="baris-2">
-                <div class="box-2" id="cus-segment">
-                    <h2>Customer Segments and Discounts</h2>
-                    <select id="yearFilter">
-                        <option value="all">All Years</option>
-    
-                    </select>
-                    <canvas id="customerSegmentChart"></canvas>
-                </div>
                 <div class="box-2" id="discount-sales">
-                    <h2>Perbandingan Discount dan Sales</h2>
+                    <h2>Discount and Sales by City</h2>
                     <select id="cityFilter">
-                        <option value="all">All Cities</option>
+                        <option value="all">highest discount</option>
                     </select>
                     <div >
-                        <canvas id="discountChart" ></canvas>
-                        <canvas id="salesChart" ></canvas>
+                        <canvas id="discountSalesChart" ></canvas>
                     </div> 
                 </div>
                 <div class="box-2" id="dis-profit">
                     <h2>Discounts and Profit/Discount by City</h2>
                     <select id="profitCityFilter">
-                        <option value="all">All Cities</option>
+                        <option value="all">highest discount</option>
                     </select>
-                    <div style="display: flex; flex-wrap: wrap;">
-                        <canvas id="discountProfitChart"></canvas>
-                        <canvas id="profitQuantityChart"></canvas>
+                    <div>
+                        <canvas id="discountProfitQuantityChart"></canvas>
                     </div>
                 </div>
             </section>
+            <h2 class="sub-judul-1">PROFIT MARGIN (CATEGORY)</h2>
             <section class="baris-3">
                 <div class="box-3" id="profit-margin-chart">
                     <h2>Profit Margin Chart</h2>
@@ -174,10 +168,14 @@
             </section>
         </main>
     </div>
-<footer>
+<footer> 
+    <div class="footer-section">
     <p>&#169; 2024, Superstore Jakarta Team 16</p>
-</footer>
-
+    <div class="footer-section">
+        <h3>About Us</h3>
+        <p>Superstore</p>
+    </div>
+  </footer>
 <script>
  document.addEventListener('DOMContentLoaded', function() {
     const sidebar = document.getElementById('sidebar');
@@ -229,20 +227,6 @@
 });
 </script>
 
-<script>
-    $(document).ready(function() {
-        $('#totalcus').DataTable({
-            "ajax": {
-                "url": "totalcustomer.json",
-                "dataSrc": "" 
-            },
-            "columns": [
-                { "data": "Tahun" },
-                { "data": "Total Customer" }
-            ]
-        });
-    });
-</script>
 <script>
     $(document).ready(function() {
         $('#profit-margin').DataTable({
