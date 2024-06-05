@@ -435,9 +435,9 @@ footer {
         flex-direction:column;
         bottom: 0;
         left: 0;
-        margin-left: 0; 
+        margin-left: 150px; 
         padding: 10px; 
-        width: calc(100% - 0px); 
+        width: calc(100% - 150px); 
       }
 }
 
