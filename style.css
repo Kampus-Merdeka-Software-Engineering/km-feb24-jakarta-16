@@ -366,11 +366,12 @@ footer {
 
     footer {
         display: flex;
-        justify-content: space-around;
+        flex-direction:column;
         bottom: 0;
         left: 0;
         margin-left: 0; 
         padding: 10px; 
+        width: calc(100% - 0px); 
       }
       
       .footer__headline {
@@ -429,6 +430,15 @@ footer {
     .menu-sidebar a {
         margin-left: 20px;
     }
+    footer {
+        display: flex;
+        flex-direction:column;
+        bottom: 0;
+        left: 0;
+        margin-left: 0; 
+        padding: 10px; 
+        width: calc(100% - 0px); 
+      }
 }
 
 @media (max-width: 992px) {
