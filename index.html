@@ -20,25 +20,20 @@
     <header>
         <nav>
             <a class="logo">Super<span>store</span></a>
-            <input class="search" type="text" placeholder="Search.." id="search-bar">
             <div class="nav-links" id="nav-links">
                 <a href="#">Dasboard</a>
-                  <a href="#dis-profit/quantity-sales">Discount profit/quantity & sales</a>
                   <a href="#discount-sales">DiscountSales</a>
-                  <a href="#dis-profit">Discounts and Profit / Discount</a>
-                  <a href="#profit-margin-chart">Profit Margin</a>
+                  <a href="#dis-profit">Discounts and Profit / Quantity</a>
+                  <a href="#profit-margin-chart">Profit Margin Chart</a>
                   <a href="#profit-margin">Profit Margin Table</a>
-                  <a href="#CLV">CLV Table</a>
-                  <a href="#">logout</a>
+                  <a href="#CLV">Customer Lifetime Value</a>
             </div>
             <div class="hamburger" id="hamburger">
                 &#9776;
             </div>
             <img src="./Assets/user.png" class="user-logo">
             <div class="user-profile-menu" id="user-profile-menu">
-                <a href="#">Profile</a>
-                <a href="#">Settings</a>
-                <a href="#">Logout</a>
+                <a href="login.html">Logout</a>
             </div>
         </nav>
     </header>
@@ -48,36 +43,27 @@
                 <ul class="menu-sidebar">
                     <a href="#">
                         <span class="material-symbols-sharp">grid_view</span>
-                        <h4>Dasboard</h4>
-                      </a>
-                      <a href="#dis-profit/quantity-sales">
-                        <span class="material-symbols-sharp">person_outline</span>
-                        <h4>Discount profit/quantity &
-                            sales</h4>
+                        <h5>Dasboard</h5>
                       </a>
                       <a href="#discount-sales">
-                        <span class="material-symbols-sharp">insights</span>
-                        <h4>DiscountSales</h4>
+                        <span class="material-symbols-sharp">show_chart</span>
+                        <h5>Discount Sales</h5>
                       </a>
                       <a href="#dis-profit">
-                        <span class="material-symbols-sharp">mail_outline</span>
-                        <h4>Discounts and Profit / Discount</h4>
+                        <span class="material-symbols-sharp">percent</span>
+                        <h5>Discounts and Profit / Quantity</h5>
                       </a>
                       <a href="#profit-margin-chart">
-                        <span class="material-symbols-sharp">receipt_long</span>
-                        <h4>Profit Margin</h4>
+                        <span class="material-symbols-sharp">monitoring</span>
+                        <h5>Profit Margin Chart</h5>
                       </a>
                       <a href="#profit-margin">
-                        <span class="material-symbols-sharp">report_gmailerrorred</span>
-                        <h4>Profit Margin Table</h4>
+                        <span class="material-symbols-sharp">attach_money</span>
+                        <h5>Profit Margin Table</h5>
                       </a>
                       <a href="#CLV">
-                        <span class="material-symbols-sharp">settings</span>
-                        <h4>CLV Table</h4>
-                      </a>
-                      <a href="#">
-                        <span class="material-symbols-sharp">logout</span>
-                        <h4>logout</h4>
+                        <span class="material-symbols-sharp">supervised_user_circle</span>
+                        <h5>Customer Lifetime Value</h5>
                       </a>
                     </div>
                 </ul>
@@ -148,7 +134,7 @@
             </section>
             <section class="baris-4">
                 <div class="box-4">
-                    <h2>Profit Margin</h2>
+                    <h2>Profit Margin Table</h2>
                     <table id="profit-margin" class="display" style="width:100%">
                         <thead>
                             <tr>
@@ -163,7 +149,7 @@
                     </table>
                 </div>
                 <div class="box-4-1">
-                    <h2>CLV</h2>
+                    <h2>Customer Lifetime Value</h2>
                     <table id="CLV" class="display" style="width:100%">
                         <thead>
                             <tr>
@@ -225,21 +211,6 @@
         if (!userLogo.contains(event.target) && !userProfileMenu.contains(event.target)) {
             userProfileMenu.classList.remove('show');
         }
-    });
-
-    const searchBar = document.getElementById('search-bar');
-    const boxes = document.querySelectorAll('.box-1, .box-1-1, .box-2, .box-3, .box-4, .box-4-1');
-
-    searchBar.addEventListener('input', function() {
-        const searchTerm = searchBar.value.toLowerCase();
-        boxes.forEach(box => {
-            const boxText = box.querySelector('h2').textContent.toLowerCase();
-            if (boxText.includes(searchTerm)) {
-                box.style.display = 'block';
-            } else {
-                box.style.display = 'none';
-            }
-        });
     });
 
     fetchDataAndInitCharts();
