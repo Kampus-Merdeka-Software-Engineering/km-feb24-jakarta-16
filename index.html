@@ -21,6 +21,19 @@
         <nav>
             <a class="logo">Super<span>store</span></a>
             <input class="search" type="text" placeholder="Search.." id="search-bar">
+            <div class="nav-links" id="nav-links">
+                <a href="#">Dasboard</a>
+                  <a href="#dis-profit/quantity-sales">Discount profit/quantity & sales</a>
+                  <a href="#discount-sales">DiscountSales</a>
+                  <a href="#dis-profit">Discounts and Profit / Discount</a>
+                  <a href="#profit-margin-chart">Profit Margin</a>
+                  <a href="#profit-margin">Profit Margin Table</a>
+                  <a href="#CLV">CLV Table</a>
+                  <a href="#">logout</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
             <img src="./Assets/user.png" class="user-logo">
             <div class="user-profile-menu" id="user-profile-menu">
                 <a href="#">Profile</a>
@@ -184,6 +197,12 @@
     const footer = document.querySelector('footer');
     const userLogo = document.querySelector('.user-logo'); 
     const userProfileMenu = document.querySelector('.user-profile-menu'); 
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+       });
 
     sidebarHandle.addEventListener('click', function() {
         sidebar.classList.toggle('collapsed');

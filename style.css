@@ -7,6 +7,7 @@ html, body {
     background-color: #F5F7F8;
     font-family: "Poppins", sans-serif;
     padding-top: 50px;
+    overflow-x: hidden;
 }
 
 nav {
@@ -25,6 +26,35 @@ nav a {
     font-size: 30px;
     color: white;
     margin-right: 30px;
+}
+
+.nav-links.active {
+    display: flex;
+}
+
+.nav-links{
+    display: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 10px 20px;
+    transition: color 0.3s;
+    padding: 5px;
+    text-align: left;
+}
+
+.nav-links a:hover {
+    background-color: #495E57;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #fff;
+    margin-left: -25px;
 }
 
 .logo {
@@ -327,12 +357,37 @@ footer {
 
 
 @media (max-width: 576px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        margin-right: 50px;
+        background-color: rgba(69, 71, 75, 0.75);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 60%;
+        text-align: center;
+        max-width: 90vh;
+    }
+
+    .nav-links a {
+        font-size: 20px;
+    } 
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
     .tulisan-dashboard, .sub-judul, .sub-judul-1 {
         text-align: center;
     }
 
     .search {
-        display: none;
+        width: 70px;
     }
 
     .container {
