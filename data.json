@@ -5319,22 +5319,22 @@
        ],
        "avgDiscountPerYearData": [
         {
-            "Order Date (Tahun)": "2015",
-            "Discount": 1.6311516996448503
+         "Order Date (Tahun)": "2017",
+         "Discount": 0.1459897828863346
         },
         {
-            "Order Date (Tahun)": "2017",
-            "Discount": 1.5759897828863345
+         "Order Date (Tahun)": "2015",
+         "Discount": 0.14485032978183662
         },
         {
-            "Order Date (Tahun)": "2014",
-            "Discount": 1.5283324338909876
+         "Order Date (Tahun)": "2014",
+         "Discount": 0.14326497571505667
         },
         {
-            "Order Date (Tahun)": "2016",
-            "Discount": 1.5208419314898887
+         "Order Date (Tahun)": "2016",
+         "Discount": 0.14231531159719357
         }
-    ],
+       ],
     "profitMarginData": [
             {
              "Category": "Technology",
