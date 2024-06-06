@@ -33,7 +33,7 @@
             </div>
             <img src="./Assets/user.png" class="user-logo">
             <div class="user-profile-menu" id="user-profile-menu">
-                <a href="login.html">Logout</a>
+                <a href="">Logout</a>
             </div>
         </nav>
     </header>
@@ -41,7 +41,7 @@
         <aside id="sidebar">
             <div id="sidebar-content">
                 <ul class="menu-sidebar">
-                    <a href="#">
+                    <a href="#dashboard">
                         <span class="material-symbols-sharp">grid_view</span>
                         <h5>Dasboard</h5>
                       </a>
@@ -71,7 +71,18 @@
             <div id="sidebar-handle"></div>
         </aside>
         <main>
-            <h2 class="sub-judul">Dashboard</h2>
+            <section class="baris-0">
+                <h2 class="sub-judul">Background</h2>
+                <div class="box-0">
+                    <div class="left">
+                        <p>With growing demands and cut-throat competitions in the market, a Superstore Giant is seeking your knowledge in understanding what works best for them. They would like to understand which products, regions, categories and customer segments they should target or avoid. You can even take this a step further and try and build a Regression model to predict Sales or Profit. Go crazy with the dataset, but also make sure to provide some business insights to improve.</p>
+                    </div>
+                    <div class="right">
+                        <img src="Assets/superstore.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <h2 class="sub-judul" id="dashboard">Dashboard</h2>
             <section class="baris-1">
                 <div class="box-1">
                     <h2>TOTAL SALES</h2>
@@ -125,9 +136,9 @@
                     </div>
                 </div>
             </section>
-            <h3 class="sub-judul-1">PROFIT MARGIN (CATEGORY)</h3>
+            <h3 class="sub-judul-1" id="profit-margin-chart">PROFIT MARGIN (CATEGORY)</h3>
             <section class="baris-3">
-                <div class="box-3" id="profit-margin-chart">
+                <div class="box-3">
                     <h2>Profit Margin Chart</h2>
                     <canvas id="profitMarginChart"></canvas>
                 </div>
