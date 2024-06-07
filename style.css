@@ -12,7 +12,7 @@ html, body {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 10px 20px 10px 30px;
     background-color: #495E57;
@@ -54,7 +54,8 @@ nav a {
     font-size: 1.8em;
     cursor: pointer;
     color: #fff;
-    margin-left: -25px;
+    /* margin-left: -25px; */
+    padding-right: 50px;
 }
 
 .logo {
@@ -67,13 +68,14 @@ nav a {
     color: #F4CE14;
 }
 
-.user-logo {
+/* .user-logo {
     width: 35px;
-    padding-right: 40px;
-    cursor: pointer;
-}
+    right: 0;
+    position: inherit;
+    padding-right: 20px;
+} */
 
-.user-profile-menu {
+/* .user-profile-menu {
     display: none;
     position: absolute;
     top: 65px;
@@ -98,7 +100,7 @@ nav a {
 
 .user-profile-menu a:hover {
     background-color: #495E57;
-}
+} */
 
 .container {
     display: flex;
@@ -158,16 +160,13 @@ aside {
     padding-right: 15px;
 }
 
-#sidebar-handle::after {
-    content: "\2261";
+#sidebar-handle {
     color: white;
-    font-size: 50px;
-    position: fixed; 
-    top: 33px; 
-    left: 216px; 
-    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    position: absolute; 
+    margin-left: 12.6rem;
+    left: 0; 
     cursor: pointer;
-    z-index: 1000;
 }
 
 #sidebar.collapsed {
@@ -185,9 +184,9 @@ aside {
     color: white;
     font-size: 34px;
     cursor: pointer;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    bottom: 20px;
+    /* margin-top: 2rem; */
+    padding-right: 3rem;
+    /* bottom: 20px; */
     transition: color 0.3s;
 }
 
@@ -437,9 +436,7 @@ footer {
         position: absolute;
         top: 65px;
         right: 0;
-        /* margin-right: 50px; */
         background-color: rgba(14, 15, 15, 0.75);
-        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
         width: 100%;
         text-align: center;
         max-width: 90vh;
@@ -457,14 +454,18 @@ footer {
         display: block;
     }
 
-    .dark-mode-toggle {
+    .dark-mode-toggle{
+        display: none;
+    }
+    #dark-mode-toggle2 {
+        display: block;
         background-color: transparent;
         border: none;
         color: white;
         font-size: 34px;
         cursor: pointer;
         margin-top: 2rem;
-        margin-right: 8rem;
+        justify-content: center;
         margin-bottom: 20px;
         transition: color 0.3s;
     }
@@ -542,18 +543,6 @@ footer {
 @media (max-width: 768px) and (min-width: 577px) {
     .tulisan-dashboard, .sub-judul, .sub-judul-1 {
         text-align: center;
-    }
-
-    .dark-mode-toggle {
-        background-color: transparent;
-        border: none;
-        color: white;
-        font-size: 34px;
-        cursor: pointer;
-        margin-top: 2rem;
-        margin-left: 3.7rem;
-        margin-bottom: 20px;
-        transition: color 0.3s;
     }
 
     .container {
