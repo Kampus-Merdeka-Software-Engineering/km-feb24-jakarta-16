@@ -188,72 +188,68 @@
     </div>
   </footer>
   <script src="./script.js"></script>
-<script>
- document.addEventListener('DOMContentLoaded', function() {
-    const sidebar = document.getElementById('sidebar');
-    const sidebarHandle = document.getElementById('sidebar-handle');
-    const main = document.querySelector('main');
-    const footer = document.querySelector('footer');
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('nav-links');
-
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
-    const darkModeIcon = document.getElementById('dark-mode-icon');
-    const darkModeToggle2 = document.getElementById('dark-mode-toggle2');
-    const darkModeIcon2 = document.getElementById('dark-mode-icon2');
-    const body = document.body;
-    const nav = document.querySelector('nav');
-    const subJudul = document.querySelector('.sub-judul');
-    const subJudul1 = document.querySelector('.sub-judul-1');
-    const boxes = document.querySelectorAll('.box-1, .box-1-1, .box-2, .box-3, .box-4, .box-4-1');
-
-    darkModeToggle.addEventListener('click', function() {
-        body.classList.toggle('dark-mode');
-        nav.classList.toggle('dark-mode');
-        sidebar.classList.toggle('dark-mode');
-        subJudul.classList.toggle('dark-mode');
-        subJudul1.classList.toggle('dark-mode');
-        footer.classList.toggle('dark-mode');
-        main.classList.toggle('dark-mode');
-
-        boxes.forEach(box => {
-            box.classList.toggle('dark-mode');
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const sidebar = document.getElementById('sidebar');
+        const sidebarHandle = document.getElementById('sidebar-handle');
+        const main = document.querySelector('main');
+        const footer = document.querySelector('footer');
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+    
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        const darkModeIcon = document.getElementById('dark-mode-icon');
+        const darkModeToggle2 = document.getElementById('dark-mode-toggle2');
+        const darkModeIcon2 = document.getElementById('dark-mode-icon2');
+        const body = document.body;
+        const nav = document.querySelector('nav');
+        const subJudul = document.querySelector('.sub-judul');
+        const subJudul1 = document.querySelector('.sub-judul-1');
+        const boxes = document.querySelectorAll('.box-1, .box-1-1, .box-2, .box-3, .box-4, .box-4-1');
+    
+        darkModeToggle.addEventListener('click', function() {
+            body.classList.toggle('dark-mode');
+            nav.classList.toggle('dark-mode');
+            sidebar.classList.toggle('dark-mode');
+            subJudul.classList.toggle('dark-mode');
+            subJudul1.classList.toggle('dark-mode');
+            footer.classList.toggle('dark-mode');
+            main.classList.toggle('dark-mode');
+    
+            boxes.forEach(box => {
+                box.classList.toggle('dark-mode');
+            });
+    
+            if (body.classList.contains('dark-mode')) {
+                darkModeIcon.textContent = 'light_mode';
+                darkModeIcon2.textContent = 'light_mode';
+            } else {
+                darkModeIcon.textContent = 'dark_mode';
+                darkModeIcon2.textContent = 'dark_mode';
+            }
         });
-
-        if (body.classList.contains('dark-mode')) {
-            darkModeIcon.textContent = 'light_mode';
-            darkModeIcon2.textContent = 'light_mode';
-        } else {
-            darkModeIcon.textContent = 'dark_mode';
-            darkModeIcon2.textContent = 'dark_mode';
-        }
-    });
-
-    darkModeToggle2.addEventListener('click', function() {
+    
+        darkModeToggle2.addEventListener('click', function() {
             darkModeToggle.click(); 
         });
-
-    hamburger.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-       });
-
-    sidebarHandle.addEventListener('click', function() {
-        sidebar.classList.toggle('collapsed');
-        if (sidebar.classList.contains('collapsed')) {
-            main.style.marginLeft = '50px'; 
-            footer.style.marginLeft = '-40px';
-            footer.style.width = '100%';
-        } else {
-            main.style.marginLeft = '220px'; 
-            footer.style.marginLeft = '200px';
-            footer.style.width = 'calc(100% - 200px)'; 
-        }
-    });
-});
-</script>
-
-<script>
-    $(document).ready(function() {
+    
+        hamburger.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+    
+        sidebarHandle.addEventListener('click', function() {
+            sidebar.classList.toggle('collapsed');
+            if (sidebar.classList.contains('collapsed')) {
+                main.style.marginLeft = '50px'; 
+                footer.style.marginLeft = '-40px';
+                footer.style.width = '100%';
+            } else {
+                main.style.marginLeft = '220px'; 
+                footer.style.marginLeft = '200px';
+                footer.style.width = 'calc(100% - 200px)'; 
+            }
+        });
+    
         $('#profit-margin').DataTable({
             "ajax": {
                 "url": "./json/profitmargin.json",
@@ -268,25 +264,21 @@
                 { "data": "profit Margin" }
             ]
         });
+    
+        $('#CLV').DataTable({
+            "ajax": {
+                "url": "./json/datatables.json",
+                "dataSrc": "" 
+            },
+            "columns": [
+                { "data": "Customer ID" },
+                { "data": "Profit" },
+                { "data": "Order ID" },
+                { "data": "Avarage profit/order" },
+                { "data": "clv" }
+            ]
+        });
     });
-</script>
-
-<script>
-$(document).ready(function() {
-    $('#CLV').DataTable({
-        "ajax": {
-            "url": "./json/datatables.json",
-            "dataSrc": "" 
-        },
-        "columns": [
-            { "data": "Customer ID" },
-            { "data": "Profit" },
-            { "data": "Order ID" },
-            { "data": "Avarage profit\/order" },
-            { "data": "clv" }
-        ]
-    });
-});
     </script>
 </body>
 </html>
