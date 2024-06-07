@@ -4,7 +4,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #F5F7F8;
+    background-color: #EEEEEE;
     font-family: "Poppins", sans-serif;
     padding-top: 50px;
     overflow-x: hidden;
@@ -15,7 +15,7 @@ nav {
     justify-content:space-between;
     align-items: center;
     padding: 10px 20px 10px 30px;
-    background-color: #495E57;
+    background-color: #334257;
     position: fixed; 
     top: 0; 
     width: 100%;
@@ -112,7 +112,7 @@ aside {
 
 #sidebar {
     margin-top: -36px;
-    background-color: #45474B;
+    background-color: #476072;
     width: 230px;
     color: white;
     position: fixed;
@@ -241,13 +241,19 @@ main {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    text-align: center;
     color: #000;
+}
+
+#dashboard{
+    margin-top: 30px;
 }
 
 .sub-judul-1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    text-align: center;
     color: #000;
 }
 
@@ -410,7 +416,7 @@ section,
 footer {
     display: flex;
     justify-content: space-between;
-    background-color: #495E57;
+    background-color: #334257;
     color: white;
     text-align: center;
     padding: 20px;
