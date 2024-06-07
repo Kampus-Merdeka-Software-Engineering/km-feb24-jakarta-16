@@ -184,9 +184,7 @@ aside {
     color: white;
     font-size: 34px;
     cursor: pointer;
-    /* margin-top: 2rem; */
     padding-right: 3rem;
-    /* bottom: 20px; */
     transition: color 0.3s;
 }
 
@@ -195,7 +193,7 @@ aside {
 }
 
 body.dark-mode {
-    background-color: #121212;
+    background-color: #0f0f0f;
     color: white;
 }
 
