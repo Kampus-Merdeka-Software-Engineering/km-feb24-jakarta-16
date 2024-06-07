@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./Assets/style/style.css">
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="icon" type="image/x-icon" href="./Assets/cart.png">
+    <link rel="icon" type="image/x-icon" href="./Assets/img/cart.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="//cdn.datatables.net/2.0.7/css/dataTables.dataTables.min.css">
@@ -80,7 +80,7 @@
                         <p>With growing demands and cut-throat competitions in the market, a Superstore Giant is seeking your knowledge in understanding what works best for them. They would like to understand which products, regions, categories and customer segments they should target or avoid. You can even take this a step further and try and build a Regression model to predict Sales or Profit. Go crazy with the dataset, but also make sure to provide some business insights to improve.</p>
                     </div>
                     <div class="right">
-                        <img src="Assets/superstore.png" alt="">
+                        <img src="Assets//img/superstore.png" alt="">
                     </div>
                 </div>
             </section>
@@ -187,6 +187,7 @@
         <p>Superstore</p>
     </div>
   </footer>
+  <script src="./script.js"></script>
 <script>
  document.addEventListener('DOMContentLoaded', function() {
     const sidebar = document.getElementById('sidebar');
@@ -248,7 +249,6 @@
             footer.style.width = 'calc(100% - 200px)'; 
         }
     });
-    fetchDataAndInitCharts();
 });
 </script>
 
@@ -256,7 +256,7 @@
     $(document).ready(function() {
         $('#profit-margin').DataTable({
             "ajax": {
-                "url": "profitmargin.json",
+                "url": "./json/profitmargin.json",
                 "dataSrc": "" 
             },
             "columns": [
@@ -275,7 +275,7 @@
 $(document).ready(function() {
     $('#CLV').DataTable({
         "ajax": {
-            "url": "datatables.json",
+            "url": "./json/datatables.json",
             "dataSrc": "" 
         },
         "columns": [
