@@ -27,6 +27,9 @@
                   <a href="#profit-margin-chart">Profit Margin Chart</a>
                   <a href="#profit-margin">Profit Margin Table</a>
                   <a href="#CLV">Customer Lifetime Value</a>
+                  <button id="dark-mode-toggle2" class="dark-mode-toggle">
+                    <span class="material-symbols-sharp" id="dark-mode-icon2">dark_mode</span>
+                </button>
             </div>
             <div class="hamburger" id="hamburger">
                 &#9776;
@@ -67,6 +70,9 @@
                       </a>
                     </div>
                 </ul>
+                <button id="dark-mode-toggle" class="dark-mode-toggle">
+                    <span class="material-symbols-sharp" id="dark-mode-icon">dark_mode</span>
+                </button>
             </div>
             <div id="sidebar-handle"></div>
         </aside>
@@ -195,6 +201,42 @@
     const userProfileMenu = document.querySelector('.user-profile-menu'); 
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.getElementById('nav-links');
+
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const darkModeIcon = document.getElementById('dark-mode-icon');
+    const darkModeToggle2 = document.getElementById('dark-mode-toggle2');
+    const darkModeIcon2 = document.getElementById('dark-mode-icon2');
+    const body = document.body;
+    const nav = document.querySelector('nav');
+    const subJudul = document.querySelector('.sub-judul');
+    const subJudul1 = document.querySelector('.sub-judul-1');
+    const boxes = document.querySelectorAll('.box-1, .box-1-1, .box-2, .box-3, .box-4, .box-4-1');
+
+    darkModeToggle.addEventListener('click', function() {
+        body.classList.toggle('dark-mode');
+        nav.classList.toggle('dark-mode');
+        sidebar.classList.toggle('dark-mode');
+        subJudul.classList.toggle('dark-mode');
+        subJudul1.classList.toggle('dark-mode');
+        footer.classList.toggle('dark-mode');
+        main.classList.toggle('dark-mode');
+
+        boxes.forEach(box => {
+            box.classList.toggle('dark-mode');
+        });
+
+        if (body.classList.contains('dark-mode')) {
+            darkModeIcon.textContent = 'light_mode';
+            darkModeIcon2.textContent = 'light_mode';
+        } else {
+            darkModeIcon.textContent = 'dark_mode';
+            darkModeIcon2.textContent = 'dark_mode';
+        }
+    });
+
+    darkModeToggle2.addEventListener('click', function() {
+            darkModeToggle.click(); 
+        });
 
     hamburger.addEventListener('click', function() {
         navLinks.classList.toggle('active');
